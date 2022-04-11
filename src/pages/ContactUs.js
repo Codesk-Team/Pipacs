@@ -17,7 +17,7 @@ const ContactUs = () => {
               <div class="row">
                 <div class="col-md-12">
                   <div class="page-item-title">
-                    <h1 class="text-center texttransform-none">Contact us</h1>
+                    <h1 class="text-center texttransform-none">Kapcsolat</h1>
                   </div>
                 </div>
               </div>
@@ -38,9 +38,10 @@ const ContactUs = () => {
                     <div class="vc_column-inner vc_custom_1490279597723">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-center text-black wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-50018052">
-                          <p class="mgt-header-block-subtitle">Contact</p>
+                          <p class="mgt-header-block-subtitle">Kapcsolat</p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
-                            What can we help you with
+                            {/* What can we help you with */}
+                            Miben tudunk segíteni?
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -48,11 +49,11 @@ const ContactUs = () => {
                           <div class="wpb_wrapper">
                             <p style={{ textAlign: "center" }}>
                               <span style={{ color: "#999999" }}>
-                                Please don&#8217;t hesitate to get in touch with
-                                any questions or enquiries. We will always aim
-                                to reply as quickly as we can however if your
-                                enquiry is urgent please call us on 034 5345
-                                7700
+                                Ha megpihennél a csodás ételek és borok után, a
+                                Pipacs Étterem egyedi, klimatizált szobáiban
+                                erre is van lehetőség. A másnap reggelt pedig
+                                kezdd a séfünk által összeállított mennyei a’la
+                                carte reggelivel!
                               </span>
                             </p>
                           </div>
@@ -72,29 +73,47 @@ const ContactUs = () => {
                       <div class="wpb_wrapper">
                         <div class="wpb_text_column wpb_content_element text-size-medium">
                           <div class="wpb_wrapper">
-                            <h3 style={{ textAlign: "left" }}>Find us</h3>
+                            <h3 style={{ textAlign: "left" }}>
+                              Találj meg minket!
+                            </h3>
+                            {/* <h3 style={{ textAlign: "left" }}>Find us</h3> */}
                             <p style={{ textAlign: "left" }}>
                               <span style={{ color: "#999999" }}>
-                                The Loft, Narborough Wood Park
+                                3300 Eger
                               </span>
                               <br />
                               <span style={{ color: "#999999" }}>
-                                Desford Road
+                                Almár telep
                               </span>
                               <br />
                               <span style={{ color: "#999999" }}>
-                                Enderby, Leicester LE19 4XT
+                                24313/4 HRSZ
                               </span>
                             </p>
                           </div>
                         </div>
                         <div class="mgt-button-wrapper mgt-button-wrapper-align-left mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                          <a
+                          {/* <a
                             class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-left mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                             href="#"
                           >
                             Find us on map
-                          </a>
+                          </a> */}
+                          <div className="mapouter">
+                            <div className="gmap_canvas">
+                              <iframe
+                                title="pipacsgooglemaps"
+                                width="100%"
+                                height="400px"
+                                id="gmap_canvas"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2671.951373401758!2d20.354913615642747!3d47.9566643792095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47408f52725913ab%3A0x96511dd26ad2f1c4!2sPipacs%20Panzi%C3%B3%20Eger-Alm%C3%A1r!5e0!3m2!1shu!2shu!4v1649653572813!5m2!1shu!2shu"
+                                frameBorder="0"
+                                scrolling="no"
+                                marginHeight="0"
+                                marginWidth="0"
+                              ></iframe>
+                            </div>
+                          </div>
                         </div>
                         <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey vc_custom_1502030988502 vc_custom_1502030988502">
                           <span class="vc_sep_holder vc_sep_holder_l">
@@ -106,21 +125,66 @@ const ContactUs = () => {
                         </div>
                         <div class="wpb_text_column wpb_content_element">
                           <div class="wpb_wrapper">
-                            <h3 style={{ textAlign: "left" }}>Opening Hours</h3>
+                            <h3 style={{ textAlign: "left" }}>
+                              Étterem nyitvatartás
+                            </h3>
                             <p style={{ textAlign: "left" }}>
-                              Monday          11:30 am &#8211; 10:00 pm
+                              Hétfő         Zárva
                               <br />
-                              Tuesday          11:30 am &#8211; 10:00 pm
+                              Kedd          Zárva
                               <br />
-                              Wednesday    11:30 am &#8211; 10:00 pm
+                              Szerda       Zárva
                               <br />
-                              Thursday        11:30 am &#8211; 10:00 pm
+                              Csütörtök      9:00 &#8211; 20:00
                               <br />
-                              Friday             10:00 am &#8211; 11:00 pm
+                              Péntek            9:00 &#8211; 20:00
                               <br />
-                              Saturday        10:00 am &#8211; 11:00 pm
+                              Szombat        9:00 &#8211; 20:00
                               <br />
-                              Sunday           10:00 am &#8211; 11:00 pm
+                              Vasárnap        9:00 &#8211; 18:00
+                              {/* Sunday           10:00 am &#8211; 11:00 pm */}
+                            </p>
+                            Asztalfoglalás:{" "}
+                            <a href="+36-30-117-7949" class="__cf_email__">
+                              +36-30-117-7949
+                            </a>
+                            <br />
+                            Séf:{" "}
+                            <a href="+36-30-984-0739" class="__cf_email__">
+                              +36-30-984-0739
+                            </a>
+                            <br />
+                            E-mail::{" "}
+                            <a href="sef@egerpipacs.hu " class="__cf_email__">
+                              sef@egerpipacs.hu
+                            </a>
+                          </div>
+                        </div>
+                        <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
+                          <span class="vc_sep_holder vc_sep_holder_l">
+                            <span class="vc_sep_line"></span>
+                          </span>
+                          <span class="vc_sep_holder vc_sep_holder_r">
+                            <span class="vc_sep_line"></span>
+                          </span>
+                        </div>
+                        <div class="wpb_text_column wpb_content_element">
+                          <div class="wpb_wrapper">
+                            <h3>Panzió</h3>
+                            <p>
+                              Szobafoglalás: +36-30-984-0837
+                              <br />
+                              E-mail:{" "}
+                              <a href="info@egerpipacs.hu" class="__cf_email__">
+                                info@egerpipacs.hu
+                              </a>
+                              <br />
+                              <a
+                                href="foglalas@egerpipacs.hu"
+                                class="__cf_email__"
+                              >
+                                foglalas@egerpipacs.hu
+                              </a>
                             </p>
                           </div>
                         </div>
@@ -134,13 +198,17 @@ const ContactUs = () => {
                         </div>
                         <div class="wpb_text_column wpb_content_element">
                           <div class="wpb_wrapper">
-                            <h3>Reservations</h3>
+                            <h3>Közösségi média</h3>
                             <p>
-                              234232.2905 or Book a table
+                              <a href="https://www.facebook.com/pipacsetteremeger/" class="__cf_email__">
+                                Facebook
+                              </a>
                               <br />
-                              For more information
-                              <a href="@" class="__cf_email__">
-                                test@gmail.com
+                              <a
+                                href="https://www.instagram.com/pipacsetteremespanzio/"
+                                class="__cf_email__"
+                              >
+                                Instagram
                               </a>
                             </p>
                           </div>
@@ -154,7 +222,7 @@ const ContactUs = () => {
                         <div class="wpb_text_column wpb_content_element text-size-medium">
                           <div class="wpb_wrapper">
                             <h3 style={{ textAlign: "left" }}>
-                              Send us a message
+                              Írj nekünk üzenetet!
                             </h3>
                             <p style={{ textAlign: "left" }}>
                               <span style={{ color: "#999999" }}>
@@ -196,7 +264,7 @@ const ContactUs = () => {
                                       class="input1"
                                       aria-required="true"
                                       aria-invalid="false"
-                                      placeholder="Name*"
+                                      placeholder="Név*"
                                     ></input>
                                   </span>
                                 </p>
@@ -227,7 +295,7 @@ const ContactUs = () => {
                                       rows="10"
                                       class="input1"
                                       aria-invalid="false"
-                                      placeholder="Message*"
+                                      placeholder="Üzenet*"
                                     ></textarea>
                                   </span>
                                 </p>
@@ -237,7 +305,7 @@ const ContactUs = () => {
                                 <div class="quform-submit">
                                   <div class="quform-submit-inner">
                                     <button type="submit" class="submit-button">
-                                      <span>Send</span>
+                                      <span>Küldés</span>
                                     </button>
                                   </div>
                                   <div class="quform-loading-wrap">
@@ -252,8 +320,11 @@ const ContactUs = () => {
                     </div>
                   </div>
                 </div>
-                <div class="vc_row wpb_row vc_row-fluid vc_custom_1502044403439">
-                  <div class="wpb_column vc_column_container vc_col-sm-4">
+                <div
+                  class="vc_row wpb_row vc_row-fluid vc_custom_1502044403439"
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
+                  {/* <div class="wpb_column vc_column_container vc_col-sm-4">
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
                         <div class="mgt-promo-block-container wpb_content_element">
@@ -286,7 +357,7 @@ const ContactUs = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <div class="wpb_column vc_column_container vc_col-sm-4">
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
