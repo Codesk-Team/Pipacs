@@ -7292,6 +7292,7 @@ body.transparent-header .portfolio-item-details.portfolio-layout-1.portfolio-tit
     right: 0;
     top: -4px;
     z-index: 15;
+    margin-left: 5px
 }
 .mgt-item-price .mgt-item-price-description {
     margin-top: 10px;

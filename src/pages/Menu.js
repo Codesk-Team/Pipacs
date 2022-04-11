@@ -16,9 +16,7 @@ const Menu = () => {
               <div class="row">
                 <div class="col-md-12">
                   <div class="page-item-title">
-                    <h1 class="text-center texttransform-none">
-                      The Menu Classic
-                    </h1>
+                    <h1 class="text-center texttransform-none">Étlapunk</h1>
                   </div>
                 </div>
               </div>
@@ -34,9 +32,9 @@ const Menu = () => {
                     <div class="vc_column-inner vc_custom_1501950320442">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-76637847">
-                          <p class="mgt-header-block-subtitle">Eat with us</p>
+                          <p class="mgt-header-block-subtitle">ide alcim</p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
-                            Barrel Restaurant Menus
+                            Ide cim
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -44,12 +42,7 @@ const Menu = () => {
                           <div class="wpb_wrapper">
                             <p style={{ textAlign: "center" }}>
                               <span style={{ color: "#999999" }}>
-                                Barrel Restaurant is a casual destination for
-                                brisk breakfasts and weekend brunches, post-shop
-                                pit stops and working lunches, dinner dates and
-                                after work cocktails. Take a look inside the
-                                menus and whet your appetite for European dishes
-                                with Asian influences.
+                                Ide 3 mondat
                               </span>
                             </p>
                           </div>
@@ -81,7 +74,7 @@ const Menu = () => {
                                     data-vc-container=".vc_tta"
                                   >
                                     <span class="vc_tta-title-text">
-                                      À la carte
+                                      Főmenü
                                     </span>
                                   </a>
                                 </li>
@@ -92,28 +85,8 @@ const Menu = () => {
                                     data-vc-container=".vc_tta"
                                   >
                                     <span class="vc_tta-title-text">
-                                      Brunch
+                                      Szezonális menü (Bárányos április)
                                     </span>
-                                  </a>
-                                </li>
-                                <li class="vc_tta-tab" data-vc-tab>
-                                  <a
-                                    href="#1501952680555-ce8a1600-f75a"
-                                    data-vc-tabs
-                                    data-vc-container=".vc_tta"
-                                  >
-                                    <span class="vc_tta-title-text">
-                                      Dinner
-                                    </span>
-                                  </a>
-                                </li>
-                                <li class="vc_tta-tab" data-vc-tab>
-                                  <a
-                                    href="#1501952696858-2df39e6a-92f7"
-                                    data-vc-tabs
-                                    data-vc-container=".vc_tta"
-                                  >
-                                    <span class="vc_tta-title-text">Wine</span>
                                   </a>
                                 </li>
                               </ul>
@@ -133,7 +106,7 @@ const Menu = () => {
                                         data-vc-container=".vc_tta-container"
                                       >
                                         <span class="vc_tta-title-text">
-                                          À la carte
+                                          Főmenü
                                         </span>
                                       </a>
                                     </h4>
@@ -141,7 +114,7 @@ const Menu = () => {
                                   <div class="vc_tta-panel-body">
                                     <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-none mgt-header-block-42722978">
                                       <h2 class="mgt-header-block-title text-font-weight-default">
-                                        A la Carte Menu
+                                        Főmenü
                                       </h2>
                                       <div class="mgt-header-line mgt-header-line-margin-small"></div>
                                     </div>
@@ -150,8 +123,30 @@ const Menu = () => {
                                         <p style={{ textAlign: "center" }}>
                                           <span style={{ color: "#999999" }}>
                                             <em>
-                                              Price includes appetizer and main
-                                              course
+                                              Felhívjuk kedves vendégeink
+                                              figyelmét, hogyha van zarojel
+                                              akkor az a feladag (MEGFOGALMAZNI
+                                              VHOGY)
+                                            </em>
+                                          </span>
+                                        </p>
+                                        <p style={{ textAlign: "center" }}>
+                                          <span style={{ color: "#999999" }}>
+                                            <em>
+                                              Feltüntetett árainkra +10%
+                                              szervízdíjat számolunk fel, melyet
+                                              számlája végösszege tartalmaz.
+                                            </em>
+                                          </span>
+                                        </p>
+                                        <p style={{ textAlign: "center" }}>
+                                          <span style={{ color: "#999999" }}>
+                                            <em>
+                                              Az étlapon jelölve találják az
+                                              egyes ételek allergén tartalmát! A
+                                              további allergén információkkal
+                                              kapcsolatos tájékoztatásban kérje
+                                              Kollegáink segítségét! Köszönjük!
                                             </em>
                                           </span>
                                         </p>
@@ -163,10 +158,10 @@ const Menu = () => {
                                           <div class="wpb_wrapper">
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-60691344">
                                               <p class="mgt-header-block-subtitle">
-                                                Summer Menu
+                                                Főmenü
                                               </p>
                                               <h2 class="mgt-header-block-title text-font-weight-default">
-                                                Starters
+                                                Hideg előételek
                                               </h2>
                                             </div>
                                             <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft">
@@ -182,15 +177,17 @@ const Menu = () => {
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
-                                                    HOUSE MADE BEEF BRISKET
-                                                    POUTINE<sup>new</sup>
+                                                    Mangalica és vízibivaly
+                                                    ízelítő házi zöldség
+                                                    krémekkel, kovászos
+                                                    kenyérrel
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $23
+                                                  2700,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Horseradish gravy; pickles
+                                                  Allergének: 1,7
                                                 </p>
                                               </div>
                                             </div>
@@ -199,32 +196,14 @@ const Menu = () => {
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
-                                                    CAESAR SALAD &amp; POPCORN
-                                                    CHICKEN<sup>special</sup>
+                                                    Grill sajt padlizsánkrémmel
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $24
+                                                  1580,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Classic dressing, bacon,
-                                                  croutons, egg yolk; parmesan
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>SALMON TARTARE</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $26
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Fennel, citrus &amp; herb
-                                                  yogourt. Served with fries
-                                                  and/or salad
+                                                  Allergén: 7
                                                 </p>
                                               </div>
                                             </div>
@@ -233,25 +212,20 @@ const Menu = () => {
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
-                                                    SEARED HALLOUMI CHEESE
+                                                    Zöld saláta tökmagolajjal
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $22
+                                                  1320,-Ft
                                                 </div>
-                                                <p class="mgt-item-price-description">
-                                                  Celeriac, veggies, herb pesto,
-                                                  black olive &amp; sunflower
-                                                  seeds
-                                                </p>
                                               </div>
                                             </div>
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-9635760">
                                               <p class="mgt-header-block-subtitle">
-                                                Summer Menu
+                                                Főmenü
                                               </p>
                                               <h2 class="mgt-header-block-title text-font-weight-default">
-                                                Dessert
+                                                Levesek
                                               </h2>
                                             </div>
                                             <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
@@ -266,14 +240,17 @@ const Menu = () => {
                                               <div class="mgt-item-price-details">
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
-                                                  <h4>POUDING CHÔMEUR</h4>
+                                                  <h4>
+                                                    Tanyasi tyúkhúsleves
+                                                    zöldségekkel és
+                                                    csigatésztával
+                                                  </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $35
+                                                  2040,-Ft (1460,-Ft)
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Canadian Whisky syrup, Earl
-                                                  Grey tea infused custard
+                                                  Allergének: 1,3,9
                                                 </p>
                                               </div>
                                             </div>
@@ -282,15 +259,15 @@ const Menu = () => {
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
-                                                    CLASSIC CHEESECAKE
-                                                    <sup>new</sup>
+                                                    Tárkonyos báránygombóc leves
+                                                    friss tejföllel
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $15
+                                                  2475,-Ft (1740,-Ft)
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Fruit garnish
+                                                  Allergének: 3,7,9
                                                 </p>
                                               </div>
                                             </div>
@@ -298,15 +275,212 @@ const Menu = () => {
                                               <div class="mgt-item-price-details">
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
-                                                  <h4>70% CHOCOLATE BROWNIE</h4>
+                                                  <h4>
+                                                    Vízibivaly gulyásleves
+                                                    gyökérzöldségekkel
+                                                  </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $16
+                                                  2620,-Ft (1820,-Ft)
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Cherry compote, espresso sauce
-                                                  &amp; chocolate gelato
+                                                  Allergének: 9
                                                 </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-9635760">
+                                              <p class="mgt-header-block-subtitle">
+                                                Főmenü
+                                              </p>
+                                              <h2 class="mgt-header-block-title text-font-weight-default">
+                                                Házi különlegességek, helyi ízek
+                                              </h2>
+                                            </div>
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
+                                              <span class="vc_sep_holder vc_sep_holder_l">
+                                                <span class="vc_sep_line"></span>
+                                              </span>
+                                              <span class="vc_sep_holder vc_sep_holder_r">
+                                                <span class="vc_sep_line"></span>
+                                              </span>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>
+                                                    Vargányás pacal habos
+                                                    burgonyapürével
+                                                  </h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  3340,-Ft (2360,-Ft)
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  Allergének: 7,9
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>
+                                                    Keleméri birkapörkölt
+                                                    sztrapacskával <br />{" "}
+                                                    kézműves savanyúsággal
+                                                  </h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  3880,-Ft (2740,-Ft)
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  Allergének: 1,3,7
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>
+                                                    Juhtúrós sztrapacska
+                                                    mangalica tepertővel
+                                                  </h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  2160,-Ft (1740, -Ft)
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  Allergének: 1,3,7
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-9635760">
+                                              <p class="mgt-header-block-subtitle">
+                                                Főmenü
+                                              </p>
+                                              <h2 class="mgt-header-block-title text-font-weight-default">
+                                                Kis lurkóknak
+                                              </h2>
+                                            </div>
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
+                                              <span class="vc_sep_holder vc_sep_holder_l">
+                                                <span class="vc_sep_line"></span>
+                                              </span>
+                                              <span class="vc_sep_holder vc_sep_holder_r">
+                                                <span class="vc_sep_line"></span>
+                                              </span>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>
+                                                    Húsleves zöldségekkel és
+                                                    tésztával
+                                                  </h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  820,-Ft
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  Allergének: 1,3,9
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>
+                                                    Napi zöldség vagy
+                                                    gyümölcsleves
+                                                  </h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  820,-Ft
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  Allergének: 7
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>
+                                                    Rántott vagy roston
+                                                    csirkemell burgonyapürével
+                                                  </h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  1820,-Ft
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  Allergének: 1,3,7
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-9635760">
+                                              <p class="mgt-header-block-subtitle">
+                                                Főmenü
+                                              </p>
+                                              <h2 class="mgt-header-block-title text-font-weight-default">
+                                                Savanyúságok
+                                              </h2>
+                                            </div>
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
+                                              <span class="vc_sep_holder vc_sep_holder_l">
+                                                <span class="vc_sep_line"></span>
+                                              </span>
+                                              <span class="vc_sep_holder vc_sep_holder_r">
+                                                <span class="vc_sep_line"></span>
+                                              </span>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>Csemege uborka</h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  520,-Ft
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>Almapaprika</h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  510,-Ft
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>Uborkasaláta</h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  520,-Ft
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>Chilis káposztasaláta</h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  490,-Ft
+                                                </div>
                                               </div>
                                             </div>
                                           </div>
@@ -317,10 +491,10 @@ const Menu = () => {
                                           <div class="wpb_wrapper">
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-44557323">
                                               <p class="mgt-header-block-subtitle">
-                                                Summer Menu
+                                                Főmenü
                                               </p>
                                               <h2 class="mgt-header-block-title text-font-weight-default">
-                                                Main
+                                                Főételek
                                               </h2>
                                             </div>
                                             <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight">
@@ -335,15 +509,17 @@ const Menu = () => {
                                               <div class="mgt-item-price-details">
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
-                                                  <h4>BEEF CHEESEBURGER</h4>
+                                                  <h4>
+                                                    Egészben sült szilvásváradi
+                                                    pisztráng friss
+                                                    fűszernövényekkel
+                                                  </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $22
+                                                  3590,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Île-aux-Grues aged cheddar,
-                                                  smoked mustard &amp;
-                                                  caramelized onions
+                                                  Allergének: 1,3,4,7
                                                 </p>
                                               </div>
                                             </div>
@@ -352,17 +528,17 @@ const Menu = () => {
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
-                                                    LIGHTLY SEARED TUNA SALAD
-                                                    <sup>season</sup>
+                                                    Rántott csirkecomb vajban
+                                                    sütve vagy grill csirkecomb
+                                                    keleméri csirkéből
+                                                    Farmunkról
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $27
+                                                  2720,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Miso dressing, baby spinach,
-                                                  quinoa, crisp vegetables &amp;
-                                                  bagel chips
+                                                  Allergének: 1,3,7
                                                 </p>
                                               </div>
                                             </div>
@@ -371,17 +547,120 @@ const Menu = () => {
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
-                                                    LIGHTLY SEARED TUNA SALAD
-                                                    <sup>season</sup>
+                                                    Zsályás pirított csirkemell
+                                                    saját pecsenyelevével
+                                                    tálalva keleméri csirkéből
+                                                    Farmunkról
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $27
+                                                  3220,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Miso dressing, baby spinach,
-                                                  quinoa, crisp vegetables &amp;
-                                                  bagel chips
+                                                  Allergének: 7,9,12
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>Cigánypecsenye</h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  3920,-Ft
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>
+                                                    Szarvasgerinc borókás
+                                                    bikavér szósszal
+                                                  </h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  5120,-Ft
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  Allergén: 9, 12
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>Grillezett tehénsajt</h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  2740,-Ft
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  Allergén:7
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>Rántott sertés karaj</h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  3460,-Ft
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  Allergének: 1,3,9,12
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-9635760">
+                                              <p class="mgt-header-block-subtitle">
+                                                Főmenü
+                                              </p>
+                                              <h2 class="mgt-header-block-title text-font-weight-default">
+                                                Napi köretek
+                                              </h2>
+                                            </div>
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
+                                              <span class="vc_sep_holder vc_sep_holder_l">
+                                                <span class="vc_sep_line"></span>
+                                              </span>
+                                              <span class="vc_sep_holder vc_sep_holder_r">
+                                                <span class="vc_sep_line"></span>
+                                              </span>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>Vajas burgonyapüré</h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  940,-Ft (660,-Ft)
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  Allergén: 7
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>
+                                                    Házi steak burgonya friss
+                                                    fűszernövényekkel
+                                                  </h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  960,-Ft (675,-Ft)
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  Allergének: 7
                                                 </p>
                                               </div>
                                             </div>
@@ -390,16 +669,86 @@ const Menu = () => {
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
-                                                    DUCK CONFIT SHEPERD&#039;S
-                                                    PIE
+                                                    Kakukkfüves szezonális
+                                                    zöldségek
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $26
+                                                  820,-Ft (575,-Ft)
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>Jázmin rizs</h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  510,-Ft (360,-Ft)
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>Kovászos kenyér</h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  380,-Ft
+                                                </div>
+                                              </div>
+                                              <p class="mgt-item-price-description">
+                                                Allergének: 1
+                                              </p>
+                                            </div>
+                                            <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-9635760">
+                                              <p class="mgt-header-block-subtitle">
+                                                Főmenü
+                                              </p>
+                                              <h2 class="mgt-header-block-title text-font-weight-default">
+                                                Desszertek
+                                              </h2>
+                                            </div>
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
+                                              <span class="vc_sep_holder vc_sep_holder_l">
+                                                <span class="vc_sep_line"></span>
+                                              </span>
+                                              <span class="vc_sep_holder vc_sep_holder_r">
+                                                <span class="vc_sep_line"></span>
+                                              </span>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>
+                                                    Erdei gyümölcsökkel töltött
+                                                    gratinírozott palacsinta
+                                                  </h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  1540,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Braised cabbage &amp; corn
-                                                  with house made fruit ketchup
+                                                  Allergén: 1,3,7,12
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>
+                                                    Túrógombóc házi tejföllel
+                                                  </h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  1620,-Ft (1195,-Ft)
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  Allergén: 1,3,7,8,5
                                                 </p>
                                               </div>
                                             </div>
@@ -407,15 +756,16 @@ const Menu = () => {
                                               <div class="mgt-item-price-details">
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
-                                                  <h4>NORDIC SHRIMP ROLL</h4>
+                                                  <h4>
+                                                    Tárkonykrém erdei gyümölcs
+                                                    kompóttal
+                                                  </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $25
+                                                  1220,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Balsam fir &amp; sumac mayo,
-                                                  celery &amp; baby kale. Served
-                                                  with fries &amp; coleslaw
+                                                  Allergének: 3,7
                                                 </p>
                                               </div>
                                             </div>
@@ -423,46 +773,16 @@ const Menu = () => {
                                               <div class="mgt-item-price-details">
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
-                                                  <h4>BEEF FLANK STEAK</h4>
+                                                  <h4>
+                                                    Pipacs csoki trió, ropogós
+                                                    tuile-lal
+                                                  </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $25
+                                                  1540,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Grilled veggies &amp; spiced
-                                                  demi-glace sauce. Served with
-                                                  fries
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>BEEF TARTARE</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Almost classic. Served with
-                                                  fries and/or salad
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>NORDIC SHRIMP ROLL</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Balsam fir &amp; sumac mayo,
-                                                  celery &amp; baby kale. Served
-                                                  with fries &amp; coleslaw
+                                                  Allergén:1,3,7,8,5
                                                 </p>
                                               </div>
                                             </div>
@@ -472,6 +792,7 @@ const Menu = () => {
                                     </div>
                                   </div>
                                 </div>
+
                                 <div
                                   class="vc_tta-panel"
                                   id="1501952660577-bab994a5-2ce0"
@@ -485,7 +806,7 @@ const Menu = () => {
                                         data-vc-container=".vc_tta-container"
                                       >
                                         <span class="vc_tta-title-text">
-                                          Brunch
+                                          Bárányos április
                                         </span>
                                       </a>
                                     </h4>
@@ -493,7 +814,7 @@ const Menu = () => {
                                   <div class="vc_tta-panel-body">
                                     <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-none mgt-header-block-66790373">
                                       <h2 class="mgt-header-block-title text-font-weight-default">
-                                        Brunch Menu
+                                        Bárányos április
                                       </h2>
                                       <div class="mgt-header-line mgt-header-line-margin-small"></div>
                                     </div>
@@ -502,8 +823,30 @@ const Menu = () => {
                                         <p style={{ textAlign: "center" }}>
                                           <span style={{ color: "#999999" }}>
                                             <em>
-                                              Price includes appetizer and main
-                                              course
+                                              Felhívjuk kedves vendégeink
+                                              figyelmét, hogyha van zarojel
+                                              akkor az a feladag (MEGFOGALMAZNI
+                                              VHOGY)
+                                            </em>
+                                          </span>
+                                        </p>
+                                        <p style={{ textAlign: "center" }}>
+                                          <span style={{ color: "#999999" }}>
+                                            <em>
+                                              Feltüntetett árainkra +10%
+                                              szervízdíjat számolunk fel, melyet
+                                              számlája végösszege tartalmaz.
+                                            </em>
+                                          </span>
+                                        </p>
+                                        <p style={{ textAlign: "center" }}>
+                                          <span style={{ color: "#999999" }}>
+                                            <em>
+                                              Az étlapon jelölve találják az
+                                              egyes ételek allergén tartalmát! A
+                                              további allergén információkkal
+                                              kapcsolatos tájékoztatásban kérje
+                                              Kollegáink segítségét! Köszönjük!
                                             </em>
                                           </span>
                                         </p>
@@ -515,10 +858,10 @@ const Menu = () => {
                                           <div class="wpb_wrapper">
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-28213419">
                                               <p class="mgt-header-block-subtitle">
-                                                Summer Menu
+                                                Szezonális menü
                                               </p>
                                               <h2 class="mgt-header-block-title text-font-weight-default">
-                                                Starters
+                                                Levesek
                                               </h2>
                                             </div>
                                             <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft">
@@ -534,76 +877,24 @@ const Menu = () => {
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
-                                                    HOUSE MADE BEEF BRISKET
-                                                    POUTINE<sup>new</sup>
+                                                    Savanyú báránybelsőségleves
+                                                    burgonyagombóccal
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $23
+                                                  2480 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Horseradish gravy; pickles
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-orange clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    CAESAR SALAD &amp; POPCORN
-                                                    CHICKEN<sup>special</sup>
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $24
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Classic dressing, bacon,
-                                                  croutons, egg yolk; parmesan
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>SALMON TARTARE</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $26
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Fennel, citrus &amp; herb
-                                                  yogourt. Served with fries
-                                                  and/or salad
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    SEARED HALLOUMI CHEESE
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $22
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Celeriac, veggies, herb pesto,
-                                                  black olive &amp; sunflower
-                                                  seeds
+                                                  Allergének: 1,3,7,12
                                                 </p>
                                               </div>
                                             </div>
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-16188151">
                                               <p class="mgt-header-block-subtitle">
-                                                Summer Menu
+                                                Szezonális menü
                                               </p>
                                               <h2 class="mgt-header-block-title text-font-weight-default">
-                                                Dessert
+                                                Desszertek
                                               </h2>
                                             </div>
                                             <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
@@ -618,46 +909,13 @@ const Menu = () => {
                                               <div class="mgt-item-price-details">
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
-                                                  <h4>POUDING CHÔMEUR</h4>
+                                                  <h4>Tavaszi virágkrém</h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $35
+                                                  1280 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Canadian Whisky syrup, Earl
-                                                  Grey tea infused custard
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    CLASSIC CHEESECAKE
-                                                    <sup>new</sup>
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $15
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Fruit garnish
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>70% CHOCOLATE BROWNIE</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $16
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Cherry compote, espresso sauce
-                                                  &amp; chocolate gelato
+                                                  Allergének: 3,7
                                                 </p>
                                               </div>
                                             </div>
@@ -669,10 +927,10 @@ const Menu = () => {
                                           <div class="wpb_wrapper">
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-82732155">
                                               <p class="mgt-header-block-subtitle">
-                                                Summer Menu
+                                                Szezonális menü
                                               </p>
                                               <h2 class="mgt-header-block-title text-font-weight-default">
-                                                Main
+                                                Főételek
                                               </h2>
                                             </div>
                                             <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight">
@@ -687,15 +945,18 @@ const Menu = () => {
                                               <div class="mgt-item-price-details">
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
-                                                  <h4>BEEF CHEESEBURGER</h4>
+                                                  <h4>
+                                                    Préselt rozmaringos
+                                                    báránysült és báránygerinc{" "}
+                                                    <br /> lilakáposztával mini
+                                                    burgonyafánkkal
+                                                  </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $22
+                                                  4560 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Île-aux-Grues aged cheddar,
-                                                  smoked mustard &amp;
-                                                  caramelized onions
+                                                  Allergének: 1,3,7,12
                                                 </p>
                                               </div>
                                             </div>
@@ -703,18 +964,13 @@ const Menu = () => {
                                               <div class="mgt-item-price-details">
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    LIGHTLY SEARED TUNA SALAD
-                                                    <sup>season</sup>
-                                                  </h4>
+                                                  <h4>Tavaszi bárányragu</h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $27
+                                                  4280 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Miso dressing, baby spinach,
-                                                  quinoa, crisp vegetables &amp;
-                                                  bagel chips
+                                                  Allergének: 7,9,12
                                                 </p>
                                               </div>
                                             </div>
@@ -722,803 +978,13 @@ const Menu = () => {
                                               <div class="mgt-item-price-details">
                                                 <div class="mgt-item-price-line"></div>
                                                 <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    LIGHTLY SEARED TUNA SALAD
-                                                    <sup>season</sup>
-                                                  </h4>
+                                                  <h4>Bárány burger</h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  $27
+                                                  3560 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  Miso dressing, baby spinach,
-                                                  quinoa, crisp vegetables &amp;
-                                                  bagel chips
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    DUCK CONFIT SHEPERD&#039;S
-                                                    PIE
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $26
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Braised cabbage &amp; corn
-                                                  with house made fruit ketchup
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>NORDIC SHRIMP ROLL</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Balsam fir &amp; sumac mayo,
-                                                  celery &amp; baby kale. Served
-                                                  with fries &amp; coleslaw
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>BEEF FLANK STEAK</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Grilled veggies &amp; spiced
-                                                  demi-glace sauce. Served with
-                                                  fries
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>BEEF TARTARE</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Almost classic. Served with
-                                                  fries and/or salad
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>NORDIC SHRIMP ROLL</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Balsam fir &amp; sumac mayo,
-                                                  celery &amp; baby kale. Served
-                                                  with fries &amp; coleslaw
-                                                </p>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  class="vc_tta-panel"
-                                  id="1501952680555-ce8a1600-f75a"
-                                  data-vc-content=".vc_tta-panel-body"
-                                >
-                                  <div class="vc_tta-panel-heading">
-                                    <h4 class="vc_tta-panel-title">
-                                      <a
-                                        href="#1501952680555-ce8a1600-f75a"
-                                        data-vc-accordion
-                                        data-vc-container=".vc_tta-container"
-                                      >
-                                        <span class="vc_tta-title-text">
-                                          Dinner
-                                        </span>
-                                      </a>
-                                    </h4>
-                                  </div>
-                                  <div class="vc_tta-panel-body">
-                                    <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-none mgt-header-block-39655991">
-                                      <h2 class="mgt-header-block-title text-font-weight-default">
-                                        Dinner Menu
-                                      </h2>
-                                      <div class="mgt-header-line mgt-header-line-margin-small"></div>
-                                    </div>
-                                    <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1501952538196 text-size-medium">
-                                      <div class="wpb_wrapper">
-                                        <p style={{ textAlign: "center" }}>
-                                          <span style={{ color: "#999999" }}>
-                                            <em>
-                                              Price includes appetizer and main
-                                              course
-                                            </em>
-                                          </span>
-                                        </p>
-                                      </div>
-                                    </div>
-                                    <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1501952123390">
-                                      <div class="wpb_column vc_column_container vc_col-sm-6">
-                                        <div class="vc_column-inner">
-                                          <div class="wpb_wrapper">
-                                            <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-62013862">
-                                              <p class="mgt-header-block-subtitle">
-                                                Summer Menu
-                                              </p>
-                                              <h2 class="mgt-header-block-title text-font-weight-default">
-                                                Starters
-                                              </h2>
-                                            </div>
-                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft">
-                                              <span class="vc_sep_holder vc_sep_holder_l">
-                                                <span class="vc_sep_line"></span>
-                                              </span>
-                                              <span class="vc_sep_holder vc_sep_holder_r">
-                                                <span class="vc_sep_line"></span>
-                                              </span>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    HOUSE MADE BEEF BRISKET
-                                                    POUTINE<sup>new</sup>
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $23
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Horseradish gravy; pickles
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-orange clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    CAESAR SALAD &amp; POPCORN
-                                                    CHICKEN<sup>special</sup>
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $24
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Classic dressing, bacon,
-                                                  croutons, egg yolk; parmesan
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>SALMON TARTARE</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $26
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Fennel, citrus &amp; herb
-                                                  yogourt. Served with fries
-                                                  and/or salad
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    SEARED HALLOUMI CHEESE
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $22
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Celeriac, veggies, herb pesto,
-                                                  black olive &amp; sunflower
-                                                  seeds
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-66941250">
-                                              <p class="mgt-header-block-subtitle">
-                                                Summer Menu
-                                              </p>
-                                              <h2 class="mgt-header-block-title text-font-weight-default">
-                                                Dessert
-                                              </h2>
-                                            </div>
-                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <span class="vc_sep_holder vc_sep_holder_l">
-                                                <span class="vc_sep_line"></span>
-                                              </span>
-                                              <span class="vc_sep_holder vc_sep_holder_r">
-                                                <span class="vc_sep_line"></span>
-                                              </span>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>POUDING CHÔMEUR</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $35
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Canadian Whisky syrup, Earl
-                                                  Grey tea infused custard
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    CLASSIC CHEESECAKE
-                                                    <sup>new</sup>
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $15
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Fruit garnish
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>70% CHOCOLATE BROWNIE</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $16
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Cherry compote, espresso sauce
-                                                  &amp; chocolate gelato
-                                                </p>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <div class="wpb_column vc_column_container vc_col-sm-6">
-                                        <div class="vc_column-inner">
-                                          <div class="wpb_wrapper">
-                                            <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-32907746">
-                                              <p class="mgt-header-block-subtitle">
-                                                Summer Menu
-                                              </p>
-                                              <h2 class="mgt-header-block-title text-font-weight-default">
-                                                Main
-                                              </h2>
-                                            </div>
-                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight">
-                                              <span class="vc_sep_holder vc_sep_holder_l">
-                                                <span class="vc_sep_line"></span>
-                                              </span>
-                                              <span class="vc_sep_holder vc_sep_holder_r">
-                                                <span class="vc_sep_line"></span>
-                                              </span>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>BEEF CHEESEBURGER</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $22
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Île-aux-Grues aged cheddar,
-                                                  smoked mustard &amp;
-                                                  caramelized onions
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    LIGHTLY SEARED TUNA SALAD
-                                                    <sup>season</sup>
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $27
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Miso dressing, baby spinach,
-                                                  quinoa, crisp vegetables &amp;
-                                                  bagel chips
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    LIGHTLY SEARED TUNA SALAD
-                                                    <sup>season</sup>
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $27
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Miso dressing, baby spinach,
-                                                  quinoa, crisp vegetables &amp;
-                                                  bagel chips
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    DUCK CONFIT SHEPERD&#039;S
-                                                    PIE
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $26
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Braised cabbage &amp; corn
-                                                  with house made fruit ketchup
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>NORDIC SHRIMP ROLL</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Balsam fir &amp; sumac mayo,
-                                                  celery &amp; baby kale. Served
-                                                  with fries &amp; coleslaw
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>BEEF FLANK STEAK</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Grilled veggies &amp; spiced
-                                                  demi-glace sauce. Served with
-                                                  fries
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>BEEF TARTARE</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Almost classic. Served with
-                                                  fries and/or salad
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>NORDIC SHRIMP ROLL</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Balsam fir &amp; sumac mayo,
-                                                  celery &amp; baby kale. Served
-                                                  with fries &amp; coleslaw
-                                                </p>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  class="vc_tta-panel"
-                                  id="1501952696858-2df39e6a-92f7"
-                                  data-vc-content=".vc_tta-panel-body"
-                                >
-                                  <div class="vc_tta-panel-heading">
-                                    <h4 class="vc_tta-panel-title">
-                                      <a
-                                        href="#1501952696858-2df39e6a-92f7"
-                                        data-vc-accordion
-                                        data-vc-container=".vc_tta-container"
-                                      >
-                                        <span class="vc_tta-title-text">
-                                          Wine
-                                        </span>
-                                      </a>
-                                    </h4>
-                                  </div>
-                                  <div class="vc_tta-panel-body">
-                                    <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-none mgt-header-block-77285320">
-                                      <h2 class="mgt-header-block-title text-font-weight-default">
-                                        Wine List
-                                      </h2>
-                                      <div class="mgt-header-line mgt-header-line-margin-small"></div>
-                                    </div>
-                                    <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1501952538196 text-size-medium">
-                                      <div class="wpb_wrapper">
-                                        <p style={{ textAlign: "center" }}>
-                                          <span style={{ color: "#999999" }}>
-                                            <em>
-                                              Price includes appetizer and main
-                                              course
-                                            </em>
-                                          </span>
-                                        </p>
-                                      </div>
-                                    </div>
-                                    <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1501952123390">
-                                      <div class="wpb_column vc_column_container vc_col-sm-6">
-                                        <div class="vc_column-inner">
-                                          <div class="wpb_wrapper">
-                                            <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-32013943">
-                                              <p class="mgt-header-block-subtitle">
-                                                Summer Menu
-                                              </p>
-                                              <h2 class="mgt-header-block-title text-font-weight-default">
-                                                Starters
-                                              </h2>
-                                            </div>
-                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft">
-                                              <span class="vc_sep_holder vc_sep_holder_l">
-                                                <span class="vc_sep_line"></span>
-                                              </span>
-                                              <span class="vc_sep_holder vc_sep_holder_r">
-                                                <span class="vc_sep_line"></span>
-                                              </span>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    HOUSE MADE BEEF BRISKET
-                                                    POUTINE<sup>new</sup>
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $23
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Horseradish gravy; pickles
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-orange clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    CAESAR SALAD &amp; POPCORN
-                                                    CHICKEN<sup>special</sup>
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $24
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Classic dressing, bacon,
-                                                  croutons, egg yolk; parmesan
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>SALMON TARTARE</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $26
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Fennel, citrus &amp; herb
-                                                  yogourt. Served with fries
-                                                  and/or salad
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    SEARED HALLOUMI CHEESE
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $22
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Celeriac, veggies, herb pesto,
-                                                  black olive &amp; sunflower
-                                                  seeds
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-61183479">
-                                              <p class="mgt-header-block-subtitle">
-                                                Summer Menu
-                                              </p>
-                                              <h2 class="mgt-header-block-title text-font-weight-default">
-                                                Dessert
-                                              </h2>
-                                            </div>
-                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
-                                              <span class="vc_sep_holder vc_sep_holder_l">
-                                                <span class="vc_sep_line"></span>
-                                              </span>
-                                              <span class="vc_sep_holder vc_sep_holder_r">
-                                                <span class="vc_sep_line"></span>
-                                              </span>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>POUDING CHÔMEUR</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $35
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Canadian Whisky syrup, Earl
-                                                  Grey tea infused custard
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    CLASSIC CHEESECAKE
-                                                    <sup>new</sup>
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $15
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Fruit garnish
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>70% CHOCOLATE BROWNIE</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $16
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Cherry compote, espresso sauce
-                                                  &amp; chocolate gelato
-                                                </p>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <div class="wpb_column vc_column_container vc_col-sm-6">
-                                        <div class="vc_column-inner">
-                                          <div class="wpb_wrapper">
-                                            <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-71816515">
-                                              <p class="mgt-header-block-subtitle">
-                                                Summer Menu
-                                              </p>
-                                              <h2 class="mgt-header-block-title text-font-weight-default">
-                                                Main
-                                              </h2>
-                                            </div>
-                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight">
-                                              <span class="vc_sep_holder vc_sep_holder_l">
-                                                <span class="vc_sep_line"></span>
-                                              </span>
-                                              <span class="vc_sep_holder vc_sep_holder_r">
-                                                <span class="vc_sep_line"></span>
-                                              </span>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>BEEF CHEESEBURGER</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $22
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Île-aux-Grues aged cheddar,
-                                                  smoked mustard &amp;
-                                                  caramelized onions
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    LIGHTLY SEARED TUNA SALAD
-                                                    <sup>season</sup>
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $27
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Miso dressing, baby spinach,
-                                                  quinoa, crisp vegetables &amp;
-                                                  bagel chips
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    LIGHTLY SEARED TUNA SALAD
-                                                    <sup>season</sup>
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $27
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Miso dressing, baby spinach,
-                                                  quinoa, crisp vegetables &amp;
-                                                  bagel chips
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    DUCK CONFIT SHEPERD&#039;S
-                                                    PIE
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $26
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Braised cabbage &amp; corn
-                                                  with house made fruit ketchup
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>NORDIC SHRIMP ROLL</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Balsam fir &amp; sumac mayo,
-                                                  celery &amp; baby kale. Served
-                                                  with fries &amp; coleslaw
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>BEEF FLANK STEAK</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Grilled veggies &amp; spiced
-                                                  demi-glace sauce. Served with
-                                                  fries
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>BEEF TARTARE</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Almost classic. Served with
-                                                  fries and/or salad
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>NORDIC SHRIMP ROLL</h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  $25
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  Balsam fir &amp; sumac mayo,
-                                                  celery &amp; baby kale. Served
-                                                  with fries &amp; coleslaw
+                                                  Allergének: 1,7,10
                                                 </p>
                                               </div>
                                             </div>
@@ -1834,7 +1300,7 @@ const Menu = () => {
                     </div>
                   </div>
                 </div>
-                <div class="vc_row-full-width vc_clearfix"></div>
+                {/* <div class="vc_row-full-width vc_clearfix"></div>
                 <div
                   data-vc-full-width="true"
                   data-vc-full-width-init="false"
@@ -1888,7 +1354,7 @@ const Menu = () => {
                     </div>
                   </div>
                 </div>
-                <div class="vc_row-full-width vc_clearfix"></div>
+                <div class="vc_row-full-width vc_clearfix"></div> */}
               </article>
             </div>
           </div>
