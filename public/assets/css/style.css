@@ -6282,8 +6282,8 @@ body #content .wpb_text_column .mgt-button:last-child {
 .portfolio-list.portfolio-grid-layout-4 .portfolio-item-block .info {
     left: -200%;
 }
-.portfolio-item-block:hover .info,
-.portfolio-list.portfolio-grid-layout-4 .portfolio-item-block:hover .info {
+.portfolio-item-block .info,
+.portfolio-list.portfolio-grid-layout-4 .portfolio-item-block .info {
     left: 0;
 }
 .portfolio-list.portfolio-grid-layout-5 .portfolio-item-block.text-center .info,
