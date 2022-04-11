@@ -61,14 +61,13 @@ const Rooms = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div class="vc_row wpb_row vc_row-fluid vc_custom_1502044524324 vc_row-no-padding"> */}
                 <div class="vc_row wpb_row vc_row-fluid vc_custom_1502044524324 vc_row-no-padding">
                   <div class="wpb_column vc_column_container vc_col-sm-12">
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
                         <div class="mgt-portfolio-grid wpb_content_element">
                           <div
-                            class="portfolio-list portfolio-columns-4 portfolio-grid-layout-4 portfolio-with-spaces clearfix"
+                            class="portfolio-list portfolio-columns-2 portfolio-grid-layout-2 portfolio-with-spaces clearfix"
                             id="portfolio-list-19092996"
                           >
                             <div class="portfolio-item-block text-left desert events meat">
@@ -110,7 +109,7 @@ const Rooms = () => {
                                     class="portfolio-item-image"
                                     style={{
                                       backgroundImage:
-                                        "url(upload/mussels-blacktable-1024x1024.jpg)",
+                                        "url(assets/img/rooms_sarga_napraforgo_main.jpg)",
                                     }}
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
@@ -144,7 +143,7 @@ const Rooms = () => {
                                     class="portfolio-item-image"
                                     style={{
                                       backgroundImage:
-                                        "url(upload/mussels-blacktable-1024x1024.jpg)",
+                                        "url(assets/img/rooms_sarga_napraforgo_main.jpg)",
                                     }}
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
@@ -174,7 +173,7 @@ const Rooms = () => {
                                     class="portfolio-item-image"
                                     style={{
                                       backgroundImage:
-                                        "url(upload/mussels-blacktable-1024x1024.jpg)",
+                                        "url(assets/img/rooms_sarga_napraforgo_main.jpg)",
                                     }}
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
