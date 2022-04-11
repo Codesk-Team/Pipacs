@@ -46,18 +46,10 @@ const Header = () => {
                           <span>Rólunk</span>
                         </a>
                       </li>
-                      <li class="menu-item menu-item-has-children">
-                        <a href="#">
+                      <li class="menu-item">
+                        <a href="about-us">
                           <span>Étlap</span>
                         </a>
-                        <ul class="sub-menu megamenu-column-1 level-0">
-                          <li class="menu-item">
-                            <a href="the-menu.html">Étlap</a>
-                          </li>
-                          <li class="menu-item">
-                            <a href="the-menu-classic.html">Szezonális Étlap</a>
-                          </li>
-                        </ul>
                       </li>
                       <li class="menu-item">
                         <a href="contact-us-restaurant.html">

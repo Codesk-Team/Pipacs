@@ -49,7 +49,7 @@ const Home = () => {
                                   data-easein="default"
                                   data-easeout="default"
                                   data-masterspeed="default"
-                                  data-thumb="upload/mussels-blacktable-100x50.jpg"
+                                  data-thumb="assets/img/home_pipacs_main1.jpg"
                                   data-rotate="0"
                                   data-saveperformance="off"
                                   data-title="Welcome"
@@ -67,7 +67,7 @@ const Home = () => {
                                 >
                                   {/* <!-- MAIN IMAGE --> */}
                                   <img
-                                    src="upload/mussels-blacktable.jpg"
+                                    src="assets/img/home_pipacs_main1.jpg"
                                     alt=""
                                     title="mussels-blacktable"
                                     width="1600"
@@ -141,8 +141,7 @@ const Home = () => {
                                       fontFamily: "Sorts Mill Goudy",
                                     }}
                                   >
-                                    A taste of local ingredients & seasonal
-                                    flavours
+                                    A Pipacs Étterem & Panzió
                                   </h1>
 
                                   {/* <!-- LAYER NR. 3 --> */}
@@ -178,7 +177,7 @@ const Home = () => {
                                       fontFamily: "Cabin",
                                     }}
                                   >
-                                    WE ARE READY
+                                    Weboldalán
                                   </div>
 
                                   {/* <!-- LAYER NR. 4 --> */}
@@ -224,7 +223,7 @@ const Home = () => {
                                       textDecoration: "none",
                                     }}
                                   >
-                                    Chef's Menu
+                                    Rólunk
                                   </a>
 
                                   {/* <!-- LAYER NR. 5 --> */}
@@ -262,7 +261,7 @@ const Home = () => {
                                       fontFamily: "Alex Brush",
                                     }}
                                   >
-                                    Restaurant
+                                    Üdvözöljük
                                   </h1>
                                 </li>
                                 {/* <!-- SLIDE  --> */}
@@ -275,7 +274,7 @@ const Home = () => {
                                   data-easein="default"
                                   data-easeout="default"
                                   data-masterspeed="default"
-                                  data-thumb="upload/barmen-coctail-100x50.jpg"
+                                  data-thumb="assets/img/home_pipacs_main2.jpg"
                                   data-rotate="0"
                                   data-saveperformance="off"
                                   data-title="Menu"
@@ -293,7 +292,7 @@ const Home = () => {
                                 >
                                   {/* <!-- MAIN IMAGE --> */}
                                   <img
-                                    src="upload/barmen-coctail.jpg"
+                                    src="assets/img/home_pipacs_main2.jpg"
                                     alt=""
                                     title="barmen-coctail"
                                     width="1600"
@@ -369,7 +368,7 @@ const Home = () => {
                                       fontFamily: "Sorts Mill Goudy",
                                     }}
                                   >
-                                    Step into Barrel and Feel at Home
+                                    A Pipacs Étterem & Panzió
                                   </h1>
 
                                   {/* <!-- LAYER NR. 8 --> */}
@@ -396,7 +395,7 @@ const Home = () => {
                                     data-paddingleft="[0,0,0,0]"
                                     // style="z-index: 7; white-space: nowrap; font-size: 16px; line-height: 27px; font-weight: 400; color: #9b9b9b; letter-spacing: 3px; font-family: Cabin;"
                                   >
-                                    A CULINARY PHILOSOPHY
+                                    Weboldalán
                                   </div>
 
                                   {/* <!-- LAYER NR. 9 --> */}
@@ -422,27 +421,27 @@ const Home = () => {
                                     data-paddingright="[50,50,50,50]"
                                     data-paddingbottom="[20,20,20,20]"
                                     data-paddingleft="[50,50,50,50]"
-                                    // style="
-                                    //                                 z-index: 8;
-                                    //                                 white-space: nowrap;
-                                    //                                 font-size: 18px;
-                                    //                                 line-height: 17px;
-                                    //                                 font-weight: 400;
-                                    //                                 color: #ffffff;
-                                    //                                 font-family: Cabin;
-                                    //                                 background-color: rgb(198, 159, 124);
-                                    //                                 border-color: rgba(0, 0, 0, 1);
-                                    //                                 border-radius: 30px 30px 30px 30px;
-                                    //                                 outline: none;
-                                    //                                 box-shadow: none;
-                                    //                                 box-sizing: border-box;
-                                    //                                 -moz-box-sizing: border-box;
-                                    //                                 -webkit-box-sizing: border-box;
-                                    //                                 cursor: pointer;
-                                    //                                 text-decoration: none;
-                                    //                             "
+                                    style={{
+                                      zIndex: "8",
+                                      whiteSpace: "nowrap",
+                                      fontSize: "18px",
+                                      lineHeight: "17px",
+                                      fontWeight: "400",
+                                      color: "#ffffff",
+                                      fontFamily: "Cabin",
+                                      backgroundColor: "rgb(198, 159, 124)",
+                                      borderColor: "rgba(0, 0, 0, 1)",
+                                      borderRadius: "30px 30px 30px 30px",
+                                      outline: "none",
+                                      boxShadow: "none",
+                                      boxSizing: "border-box",
+                                      // -moz-box-sizing: border-box;
+                                      // -webkit-box-sizing: border-box;
+                                      cursor: "pointer",
+                                      textDecoration: "none",
+                                    }}
                                   >
-                                    Reservation
+                                    Szobák
                                   </a>
 
                                   {/* <!-- LAYER NR. 10 --> */}
@@ -478,7 +477,7 @@ const Home = () => {
                                       fontFamily: "Alex Brush",
                                     }}
                                   >
-                                    Handcrafted
+                                    Üdvözöljük
                                   </h1>
                                 </li>
                               </ul>
@@ -503,23 +502,24 @@ const Home = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-66293803"
-                              data-style="background-color: #ffffff;background-image: url(upload/food-plate.jpg);background-repeat: no-repeat;height: 420px;"
+                              data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_food7.jpg);background-repeat: no-repeat;height: 420px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside vc_custom_1502111254458">
                                   <h5 style={{ textAlign: "center" }}>
-                                    Hungry?
+                                    ide alcim
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
-                                    Book A<br />
-                                    Table
+                                    ide
+                                    <br />
+                                    vmi
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
                                       class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                                       href="reservation.html"
                                     >
-                                      Eat with us
+                                      Étlap
                                     </a>
                                   </div>
                                 </div>
@@ -537,22 +537,24 @@ const Home = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-65740325"
-                              data-style="background-color: #ffffff;background-image: url(upload/wine-glasses.jpg);background-repeat: no-repeat;height: 420px;"
+                              data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_bed2.jpg);background-repeat: no-repeat;height: 420px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside vc_custom_1502119337451">
-                                  <h5 style={{ textAlign: "center" }}>Menus</h5>
+                                  <h5 style={{ textAlign: "center" }}>
+                                    ide alcim
+                                  </h5>
                                   <h2 style={{ textAlign: "center" }}>
-                                    Start your
+                                    ide
                                     <br />
-                                    experience today
+                                    vmi
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
                                       class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                                       href="about-us-restaurant.html"
                                     >
-                                      Menus
+                                      Szobák
                                     </a>
                                   </div>
                                 </div>
@@ -573,9 +575,9 @@ const Home = () => {
                     <div class="vc_column-inner vc_custom_1502119248785">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-2224038">
-                          <p class="mgt-header-block-subtitle">Gallery</p>
+                          <p class="mgt-header-block-subtitle">Pipacs</p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
-                            Fresh and local perfect food for you
+                            A termőföldünkről egyenesen a konyhánkba
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -583,10 +585,12 @@ const Home = () => {
                           <div class="wpb_wrapper">
                             <p>
                               <span style={{ color: "#999999" }}>
-                                This kitchen is a brewery of life – whether it’s
-                                the kids baking parties or their parents
-                                elaborate soirees, there’s always something
-                                cooking in here.
+                                2021 júniusában nyitottuk meg éttermünket azzal
+                                a céllal, hogy a saját termelésű alapanyagaink
+                                közvetlenül, ne kizárólagosan csak a fine dining
+                                éttermeken keresztül jussanak el hozzátok. A
+                                birtokunkról érkezik a Keleméri bárány, a szabad
+                                tartású csirke és a vadon termő gyümölcsök is.
                               </span>
                             </p>
                           </div>
@@ -596,7 +600,7 @@ const Home = () => {
                             class="btn hvr-push mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-left mgt-display-inline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                             href="about-us-restaurant.html"
                           >
-                            About us
+                            Rólunk
                           </a>
                         </div>
                       </div>
@@ -609,7 +613,7 @@ const Home = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block animated white-text cover-image no-darken mgt-promo-block-69094683"
-                              data-style="background-color: #ffffff;background-image: url(upload/pumpkin-soup.jpg);background-repeat: no-repeat;height: 495px;"
+                              data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_food4.jpg);background-repeat: no-repeat;height: 495px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside vc_custom_1502111459689 mgt-promo-block-content-inside-show-on-hover">
@@ -646,7 +650,7 @@ const Home = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-shadow mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block black-text cover-image no-darken mgt-promo-block-59326650"
-                              data-style="background-color: #f5f5f5;background-image: url(upload/restaurant-table.jpg);background-repeat: no-repeat;height: 145px;"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_food5.jpg);background-repeat: no-repeat;height: 145px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside"></div>
@@ -661,7 +665,7 @@ const Home = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-shadow mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block black-text cover-image no-darken mgt-promo-block-11490570"
-                              data-style="background-color: #f5f5f5;background-image: url(upload/brooke-lark.jpg);background-repeat: no-repeat;height: 145px;"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_food6.jpg);background-repeat: no-repeat;height: 145px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside"></div>
@@ -676,7 +680,7 @@ const Home = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-shadow mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block black-text cover-image no-darken mgt-promo-block-73119794"
-                              data-style="background-color: #f5f5f5;background-image: url(upload/glass-orange-coctail.jpg);background-repeat: no-repeat;height: 145px;"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_bed1.jpg);background-repeat: no-repeat;height: 145px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside"></div>
@@ -689,7 +693,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div class="vc_row-full-width vc_clearfix"></div>
-                <div
+                {/* <div
                   data-vc-full-width="true"
                   data-vc-full-width-init="false"
                   data-vc-stretch-content="true"
@@ -729,7 +733,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div class="vc_row-full-width vc_clearfix"></div>
+                <div class="vc_row-full-width vc_clearfix"></div> */}
                 <div
                   data-vc-full-width="true"
                   data-vc-full-width-init="false"
@@ -739,9 +743,9 @@ const Home = () => {
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-65407710">
-                          <p class="mgt-header-block-subtitle">Menus</p>
+                          <p class="mgt-header-block-subtitle">Étlap</p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
-                            This month specials
+                            Főmenü
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -754,83 +758,62 @@ const Home = () => {
                   <div class="wpb_column vc_column_container vc_col-sm-6">
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
-                        <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp mgt-item-price-with-image">
-                          <div class="mgt-item-price-image">
-                            <img
-                              src="upload/brooke-lark-1024x1024.jpg"
-                              alt="HOUSE MADE BEEF BRISKET POUTINE"
-                            />
-                          </div>
+                        <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
                               <h4>
-                                HOUSE MADE BEEF BRISKET POUTINE<sup>NEW</sup>
+                                Mangalica és vízi bivaly ízelítő <br /> házi
+                                zöldség krémekkel és kovászos kenyérrel
                               </h4>
                             </div>
-                            <div class="mgt-item-price-value">$23</div>
+                            <div class="mgt-item-price-value">2700 Ft</div>
                             <p class="mgt-item-price-description">
-                              Horseradish gravy; pickles
+                              Allergének: 1,7
                             </p>
                           </div>
                         </div>
-                        <div class="mgt-item-price mgt-item-price-badge-color-orange clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp mgt-item-price-with-image">
-                          <div class="mgt-item-price-image">
-                            <img
-                              src="upload/salad-wine-1024x1024.jpg"
-                              alt="CAESAR SALAD &amp; POPCORN CHICKEN"
-                            />
-                          </div>
+                        <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
                               <h4>
-                                CAESAR SALAD &amp; POPCORN CHICKEN
-                                <sup>SPECIAL</sup>
+                                Tanyasi tyúkhúsleves zöldségekkel és
+                                csigatésztával
                               </h4>
                             </div>
-                            <div class="mgt-item-price-value">$24</div>
+                            <div class="mgt-item-price-value">2040 Ft</div>
                             <p class="mgt-item-price-description">
-                              Classic dressing, bacon, croutons, egg yolk;
-                              parmesan
+                              Allergének: 1,3,9
                             </p>
                           </div>
                         </div>
-                        <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp mgt-item-price-with-image">
-                          <div class="mgt-item-price-image">
-                            <img
-                              src="upload/barmen-coctail-1024x1024.jpg"
-                              alt="SALMON TARTARE"
-                            />
-                          </div>
+                        <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
-                              <h4>SALMON TARTARE</h4>
+                              <h4>
+                                Tárkonyos báránygombóc leves friss tejföllel
+                              </h4>
                             </div>
-                            <div class="mgt-item-price-value">$26</div>
+                            <div class="mgt-item-price-value">2475 Ft</div>
                             <p class="mgt-item-price-description">
-                              Fennel, citrus &amp; herb yogourt. Served with
-                              fries and/or salad
+                              Allergének: 3,7,9
                             </p>
                           </div>
                         </div>
-                        <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp mgt-item-price-with-image">
-                          <div class="mgt-item-price-image">
-                            <img
-                              src="upload/pumpkin-soup-1024x1024.jpg"
-                              alt="SEARED HALLOUMI CHEESE"
-                            />
-                          </div>
+                        <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
-                              <h4>SEARED HALLOUMI CHEESE</h4>
+                              <h4>
+                                Egészben sült szilvásváradi pisztráng friss
+                                fűszernövényekkel
+                              </h4>
                             </div>
-                            <div class="mgt-item-price-value">$22</div>
+                            <div class="mgt-item-price-value">3590 Ft</div>
                             <p class="mgt-item-price-description">
-                              Celeriac, veggies, herb pesto, black olive &amp;
-                              sunflower seeds
+                              Allergének: 1,3,4,7
                             </p>
                           </div>
                         </div>
@@ -840,81 +823,54 @@ const Home = () => {
                   <div class="wpb_column vc_column_container vc_col-sm-6">
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
-                        <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig mgt-item-price-with-image">
-                          <div class="mgt-item-price-image">
-                            <img
-                              src="upload/salad-1024x1024.jpg"
-                              alt="BEEF CHEESEBURGER"
-                            />
-                          </div>
+                        <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
-                              <h4>BEEF CHEESEBURGER</h4>
+                              <h4>Cigánypecsenye</h4>
                             </div>
-                            <div class="mgt-item-price-value">$22</div>
-                            <p class="mgt-item-price-description">
-                              Île-aux-Grues aged cheddar, smoked mustard &amp;
-                              caramelized onions
-                            </p>
+                            <div class="mgt-item-price-value">3920 Ft</div>
                           </div>
                         </div>
-                        <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig mgt-item-price-with-image">
-                          <div class="mgt-item-price-image">
-                            <img
-                              src="upload/restaurant-table-1024x1024.jpg"
-                              alt="LIGHTLY SEARED TUNA SALAD"
-                            />
-                          </div>
+                        <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
                               <h4>
-                                LIGHTLY SEARED TUNA SALAD<sup>season</sup>
+                                Keleméri birkapörkölt sztrapacskával kézműves
+                                savanyúsággal
                               </h4>
                             </div>
-                            <div class="mgt-item-price-value">$27</div>
+                            <div class="mgt-item-price-value">3880 Ft</div>
                             <p class="mgt-item-price-description">
-                              Miso dressing, baby spinach, quinoa, crisp
-                              vegetables &amp; bagel chips
+                              Allergének: 1,3,7
                             </p>
                           </div>
                         </div>
-                        <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig mgt-item-price-with-image">
-                          <div class="mgt-item-price-image">
-                            <img
-                              src="upload/glass-orange-coctail-1-1024x1024.jpg"
-                              alt="DUCK CONFIT SHEPERD&#039;S PIE"
-                            />
-                          </div>
+                        <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
-                              <h4>DUCK CONFIT SHEPERD&#039;S PIE</h4>
+                              <h4>Túrógombóc házi tejföllel</h4>
                             </div>
-                            <div class="mgt-item-price-value">$26</div>
+                            <div class="mgt-item-price-value">1620 Ft</div>
                             <p class="mgt-item-price-description">
-                              Braised cabbage &amp; corn with house made fruit
-                              ketchup
+                              Allergének: 1,3,7,8,5
                             </p>
                           </div>
                         </div>
-                        <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig mgt-item-price-with-image">
-                          <div class="mgt-item-price-image">
-                            <img
-                              src="upload/food-plate-1024x1024.jpg"
-                              alt="NORDIC SHRIMP ROLL"
-                            />
-                          </div>
+                        <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
-                              <h4>NORDIC SHRIMP ROLL</h4>
+                              <h4>
+                                Erdei gyümölcsökkel töltött gratinírozott
+                                palacsinta
+                              </h4>
                             </div>
-                            <div class="mgt-item-price-value">$25</div>
+                            <div class="mgt-item-price-value">1540 Ft</div>
                             <p class="mgt-item-price-description">
-                              Balsam fir &amp; sumac mayo, celery &amp; baby
-                              kale. Served with fries &amp; coleslaw
+                              Allergének: 1,3,7,12
                             </p>
                           </div>
                         </div>
@@ -931,14 +887,14 @@ const Home = () => {
                             class="btn hvr-push mgt-button-icon- mgt-button mgt-style-bordered mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                             href="the-menu.html"
                           >
-                            View The Full Menu
+                            Teljes étlap
                           </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div
+                {/* <div
                   data-vc-full-width="true"
                   data-vc-full-width-init="false"
                   data-vc-stretch-content="true"
@@ -986,7 +942,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div class="vc_row-full-width vc_clearfix"></div>
+                <div class="vc_row-full-width vc_clearfix"></div> */}
                 <div
                   data-vc-full-width="true"
                   data-vc-full-width-init="false"
@@ -1287,9 +1243,9 @@ const Home = () => {
                     <div class="vc_column-inner vc_custom_1501770941177">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-46788011">
-                          <p class="mgt-header-block-subtitle">Eat with us</p>
+                          <p class="mgt-header-block-subtitle">Pipacs</p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
-                            Our priority is to offer a warm welcome
+                            Tradicionális magyar ízek
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -1297,10 +1253,18 @@ const Home = () => {
                           <div class="wpb_wrapper">
                             <p>
                               <span style={{ color: "#999999" }}>
-                                This kitchen is a brewery of life – whether it’s
-                                the kids baking parties or their parents
-                                elaborate soirees, there’s always something
-                                cooking in here.
+                                A menü összeállításról Nagy Attila séfünk
+                                gondoskodik, aki tudását korábban a Parádsasvári
+                                Kastély konyháján pallérozta, amit 9 évig
+                                vezetett is.
+                              </span>
+                            </p>
+                            <p>
+                              <span style={{ color: "#999999" }}>
+                                A fogásoknál főként a tradicionális magyar és a
+                                helyi konyha alapízei dominálnak, kicsit
+                                egyszerűen és kicsit kifinomultan is
+                                egyidejűleg.
                               </span>
                             </p>
                           </div>
@@ -1310,7 +1274,7 @@ const Home = () => {
                             class="btn hvr-push mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-left mgt-display-inline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                             href="gallery.html"
                           >
-                            Gallery
+                            Rólunk
                           </a>
                         </div>
                       </div>
@@ -1318,7 +1282,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div class="vc_row-full-width vc_clearfix"></div>
-                <div
+                {/*<div
                   data-vc-full-width="true"
                   data-vc-full-width-init="false"
                   class="vc_row wpb_row vc_row-fluid vc_custom_1501773456482 vc_row-has-fill"
@@ -1371,7 +1335,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div class="vc_row-full-width vc_clearfix"></div>
+                <div class="vc_row-full-width vc_clearfix"></div> */}
               </article>
             </div>
           </div>
