@@ -6033,7 +6033,7 @@ body #content .wpb_text_column .mgt-button:last-child {
 }
 /* 18.11. Portfolio */
 .portfolio-list {
-    overflow: visible;
+    overflow: block;
 }
 .portfolio-list .mix {
     display: none;
@@ -6736,7 +6736,7 @@ body #content .wpb_text_column .mgt-button:last-child {
     padding-bottom: 0;
 }
 .portfolio-list.portfolio-grid-layout-4 {
-    display: none;
+    /* display: none; */
 }
 /* Portfolio item page */
 .portfolio-navigation-prev,
