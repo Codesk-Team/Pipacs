@@ -74,7 +74,7 @@ const Rooms = () => {
                             class="portfolio-list portfolio-columns-2 portfolio-grid-layout-4 portfolio-with-spaces clearfix"
                             id="portfolio-list-19092996"
                           >
-                            <div class="portfolio-item-block text-left red-border">
+                            <div class="portfolio-item-block text-left">
                               <div class="portfolio-item-block-inside">
                                 <a
                                   href="upload/food-plate.jpg"
@@ -96,13 +96,14 @@ const Rooms = () => {
                                     </span> */}
                                     <h4 class="title">Pipacs szoba</h4>
                                     <div class="project-description">
-                                      20.000 Ft / szoba / éj
+                                      20.000 Ft / szoba / éj<br />
+                                      Pótágy: 7.500 Ft
                                     </div>
                                   </div>
                                 </a>
                               </div>
                             </div>
-                            <div class="portfolio-item-block text-left green-border">
+                            <div class="portfolio-item-block text-left">
                               <div class="portfolio-item-block-inside">
                                 <a
                                   href="upload/mussels-blacktable.jpg"
@@ -124,14 +125,15 @@ const Rooms = () => {
                                     </span> */}
                                     <h4 class="title">Kövirózsa szoba</h4>
                                     <div class="project-description">
-                                      22.000 Ft / szoba / éj
+                                      22.000 Ft / szoba / éj<br />
+                                      Pótágy: 7.500 Ft
                                     </div>
                                   </div>
                                 </a>
                               </div>
                             </div>
                             <div
-                              class="portfolio-item-block text-left blue-border"
+                              class="portfolio-item-block text-left"
                               //   data-item="3"
                               //   data-name="Salmon Tartare"
                             >
@@ -154,14 +156,15 @@ const Rooms = () => {
                                     {/* <span class="sub-title">Fish</span> */}
                                     <h4 class="title">Veronika szoba</h4>
                                     <div class="project-description">
-                                      20.000 Ft / szoba / éj
+                                      20.000 Ft / szoba / éj<br />
+                                      Pótágy: 7.500 Ft
                                     </div>
                                   </div>
                                 </a>
                               </div>
                             </div>
                             <div
-                              class="portfolio-item-block text-left yellow-border"
+                              class="portfolio-item-block text-left"
                               //   data-item="3"
                               //   data-name="Salmon Tartare"
                             >
@@ -186,7 +189,8 @@ const Rooms = () => {
                                       Napraforgó családi szoba
                                     </h4>
                                     <div class="project-description">
-                                      39.000 Ft / szoba / éj
+                                      39.000 Ft / szoba / éj<br />
+                                      Pótágy: 7.500 Ft
                                     </div>
                                   </div>
                                 </a>
@@ -402,14 +406,7 @@ const Rooms = () => {
             <div class="wpb_wrapper">
               <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft text-size-medium">
                 <div class="wpb_wrapper rooms-details">
-                  <p>Árak:<br />
-                  2 ágyas standard (Pipacs, Veronika): 20.000 Ft / szoba / éj<br />
-                  2 ágyas erkélyes (Kövirózsa): 22.000 Ft / szoba / éj<br />
-                  Családi szoba 2+2 ágyas (Napraforgó): 39.000 Ft / szoba / éj<br />
-                    Pótágy: 7.500 Ft
-                  </p>
-
-                    <span>Az ár tartalmazza:</span>
+                  <span>Az ár tartalmazza:</span>
                     <ul>
                       <li>Szállás nemdohányzó, légkondicionált szobában</li>
                       <li>

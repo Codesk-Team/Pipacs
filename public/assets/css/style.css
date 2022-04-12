@@ -8483,21 +8483,6 @@ body.enable-progressbar .header-progressbar-under-bar.bar {
     padding-right: 45px !important;
     padding-left: 45px !important;
 }
-.red-border {
-    border: 5px solid red !important;
-}
-
-.green-border {
-    border: 5px solid green !important;
-}
-
-.blue-border {
-    border: 5px solid blue !important;
-}
-
-.yellow-border {
-    border: 5px solid yellow !important;
-}
-.rooms-details p{
+.rooms-details p {
     padding-bottom: 2rem;
 }
