@@ -53,7 +53,7 @@ const AboutUs = () => {
                       <div class="wpb_wrapper">
                         <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft text-size-medium">
                           <div class="wpb_wrapper">
-                            <p>
+                            <p class="text-justify">
                               <span style={{ color: "#999999" }}>
                                 2021 júniusában nyitottuk meg éttermünket azzal
                                 a céllal, hogy a saját termelésű alapanyagaink
@@ -77,7 +77,7 @@ const AboutUs = () => {
                       <div class="wpb_wrapper">
                         <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight text-size-medium">
                           <div class="wpb_wrapper">
-                            <p>
+                            <p class="text-justify">
                               <span style={{ color: "#999999" }}>
                                 A fogásoknál főként a tradicionális magyar és a
                                 helyi konyha alapízei dominálnak, kicsit
