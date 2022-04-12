@@ -36,7 +36,7 @@ const AboutUs = () => {
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-12030347">
-                          <p class="mgt-header-block-subtitle">Üdvözlünk</p>
+                          <p class="mgt-header-block-subtitle">Rólunk</p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
                             Pipacs Étterem & Panzió
                           </h2>
@@ -96,7 +96,7 @@ const AboutUs = () => {
                     <div class="vc_column-inner vc_custom_1502119511003">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-47652033">
-                          <p class="mgt-header-block-subtitle">Gallery</p>
+                          <p class="mgt-header-block-subtitle">Rólunk</p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
                             See what everyone is talking about
                           </h2>
@@ -242,10 +242,12 @@ const AboutUs = () => {
                             <div class="mgt-promo-block-content va-middle">
                               <div class="mgt-promo-block-content-inside vc_custom_1502117266071">
                                 <h5 style={{ textAlign: "center" }}>
-                                  valami szoveg
+                                  Mennyei ízek
                                 </h5>
                                 <h2 style={{ textAlign: "center" }}>
-                                  Valami <br /> szöveg
+                                  Tekintse meg
+                                  <br />
+                                  étlapunkat!
                                 </h2>
                                 <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                   <a
@@ -275,12 +277,12 @@ const AboutUs = () => {
                             <div class="mgt-promo-block-content va-middle">
                               <div class="mgt-promo-block-content-inside vc_custom_1502119503691">
                                 <h5 style={{ textAlign: "center" }}>
-                                  valami szoveg
+                                  Teljes kikapcsolódás
                                 </h5>
                                 <h2 style={{ textAlign: "center" }}>
-                                  valami
+                                  Tekintse meg
                                   <br />
-                                  szoveg
+                                  szobáinkat!
                                 </h2>
                                 <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                   <a

@@ -9,13 +9,13 @@ const Header = () => {
             <div class="header-left">
               <a class="logo-link" href="/">
                 <img
-                  src="upload/Barrel-restaurant-logo-black.png"
-                  alt="Barrel"
+                  src="assets/img/logo_pipacs.png"
+                  alt="Pipacs"
                   class="regular-logo"
                 />
                 <img
-                  src="upload/Barrel-restaurant-logo-white.png"
-                  alt="Barrel"
+                  src="assets/img/logo_pipacs.png"
+                  alt="Pipacs"
                   class="light-logo"
                 />
               </a>

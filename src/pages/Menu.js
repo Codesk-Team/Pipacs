@@ -9,14 +9,14 @@ const Menu = () => {
       <div class="content-block stick-to-footer">
         <div
           class="container-bg with-bg container-fluid"
-          data-style="background-image: url(upload/restaurant-dinner-black.jpg);"
+          data-style="background-image: url(assets/img/menu_pipacs_main.jpg);"
         >
           <div class="container-bg-overlay">
             <div class="container">
               <div class="row">
                 <div class="col-md-12">
                   <div class="page-item-title">
-                    <h1 class="text-center texttransform-none">Étlapunk</h1>
+                    <h1 class="text-center texttransform-none">Étlap</h1>
                   </div>
                 </div>
               </div>
@@ -32,9 +32,9 @@ const Menu = () => {
                     <div class="vc_column-inner vc_custom_1501950320442">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-76637847">
-                          <p class="mgt-header-block-subtitle">ide alcim</p>
+                          <p class="mgt-header-block-subtitle">Étlap</p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
-                            Ide cim
+                            A termőföldünkről egyenes a konyhánkba!
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -42,7 +42,10 @@ const Menu = () => {
                           <div class="wpb_wrapper">
                             <p style={{ textAlign: "center" }}>
                               <span style={{ color: "#999999" }}>
-                                Ide 3 mondat
+                                Ételeinket hazai, főként saját termelésű
+                                alapanyagokból készítjük. Fogásainknál főként a
+                                tradicionális magyar és a helyi konyha alapízei
+                                dominálnak.
                               </span>
                             </p>
                           </div>

@@ -11,19 +11,16 @@ const Footer = () => {
           <div class="footer-sidebar sidebar container footer-sidebar-col-3">
             <ul id="footer-sidebar" class="clearfix">
               <li id="text-3" class="widget widget_text">
-                <h2 class="widgettitle">Nyitvatartás</h2>
+                <h2 class="widgettitle">Étterem nyitvatartás</h2>
                 <div class="textwidget">
                   <p>Hétfő, Kedd, Szerda: Zárva</p>
                   <p>Csütörtök: 9:00 &#8211; 20:00</p>
                   <p>Péntek: 9:00 &#8211; 20:00</p>
+                  <p>Szombat: 9:00 &#8211; 18:00</p>
+                  <p>Vasárnap: 9:00 &#8211; 18:00</p>
                   <p>
                     <span class="text-color-theme">
-                      Szombat: 9:00 &#8211; 18:00
-                    </span>
-                  </p>
-                  <p>
-                    <span class="text-color-theme">
-                      Vasárnap: 9:00 &#8211; 18:00
+                      A panzió a hét minden napján nyitva tart.
                     </span>
                   </p>
                 </div>

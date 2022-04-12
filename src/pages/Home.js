@@ -507,12 +507,12 @@ const Home = () => {
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside vc_custom_1502111254458">
                                   <h5 style={{ textAlign: "center" }}>
-                                    ide alcim
+                                    Mennyei ízek
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
-                                    ide
+                                    Tekintse meg
                                     <br />
-                                    vmi
+                                    étlapunkat!
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
@@ -542,12 +542,12 @@ const Home = () => {
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside vc_custom_1502119337451">
                                   <h5 style={{ textAlign: "center" }}>
-                                    ide alcim
+                                    Teljes kikapcsolódás
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
-                                    ide
+                                    Tekintse meg
                                     <br />
-                                    vmi
+                                    szobáinkat!
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
@@ -885,7 +885,7 @@ const Home = () => {
                         <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
                           <a
                             class="btn hvr-push mgt-button-icon- mgt-button mgt-style-bordered mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                            href="the-menu.html"
+                            href="menu"
                           >
                             Teljes étlap
                           </a>
@@ -894,12 +894,12 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div
+                <div
                   data-vc-full-width="true"
                   data-vc-full-width-init="false"
                   data-vc-stretch-content="true"
                   data-vc-parallax="1.5"
-                  data-vc-parallax-image="upload/restaurant-dinner-black.jpg"
+                  data-vc-parallax-image="assets/img/home_pipacs_img1.jpg"
                   class="vc_row wpb_row vc_row-fluid vc_custom_1501853930727 vc_row-has-fill vc_row-no-padding vc_general vc_parallax vc_parallax-content-moving"
                 >
                   <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -917,7 +917,7 @@ const Home = () => {
                           }}
                           class="vc_custom_heading"
                         >
-                          Start your experience
+                          Tapasztalja meg Ön is
                         </h2>
                         <h2
                           style={{
@@ -928,21 +928,22 @@ const Home = () => {
                           }}
                           class="vc_custom_heading"
                         >
-                          Always happy to see you
+                          Mindig szívesen látjuk éttermünkben és panziónkban
+                          egyaránt!
                         </h2>
                         <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
                           <a
                             class="btn hvr-push mgt-button-icon- mgt-button mgt-style-solid mgt-size-large mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                            href="contact-us-restaurant.html"
+                            href="contact-us"
                           >
-                            Get direction
+                            Kapcsolat
                           </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="vc_row-full-width vc_clearfix"></div> */}
+                <div class="vc_row-full-width vc_clearfix"></div>
                 <div
                   data-vc-full-width="true"
                   data-vc-full-width-init="false"
@@ -963,17 +964,17 @@ const Home = () => {
                             >
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="upload/salad.jpg"
+                                  href="assets/img/home_pipacs_img2.jpg"
                                   target="_self"
                                   rel="lightbox"
                                 >
                                   <div
                                     class="portfolio-item-image"
-                                    data-style="background-image: url(upload/salad-1600x800.jpg);"
+                                    data-style="background-image: url(assets/img/home_pipacs_img2.jpg);"
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
 
-                                  <div class="info">
+                                  {/* <div class="info">
                                     <span class="sub-title">
                                       Dessert / Events / Fish / Meat
                                     </span>
@@ -981,7 +982,7 @@ const Home = () => {
                                     <div class="project-description">
                                       Seasonal Flavours
                                     </div>
-                                  </div>
+                                  </div> */}
                                 </a>
                               </div>
                             </div>
@@ -992,22 +993,22 @@ const Home = () => {
                             >
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="upload/pumpkin-soup.jpg"
+                                  href="assets/img/home_pipacs_img3.jpg"
                                   target="_self"
                                   rel="lightbox"
                                 >
                                   <div
                                     class="portfolio-item-image"
-                                    data-style="background-image: url(upload/pumpkin-soup-1600x800.jpg);"
+                                    data-style="background-image: url(assets/img/home_pipacs_img3.jpg);"
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
 
-                                  <div class="info">
+                                  {/* <div class="info">
                                     <span class="sub-title">
                                       Dessert / Events / Fish / Meat
                                     </span>
                                     <h4 class="title">Caesar Salad</h4>
-                                  </div>
+                                  </div> */}
                                 </a>
                               </div>
                             </div>
@@ -1018,23 +1019,23 @@ const Home = () => {
                             >
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="upload/brooke-lark.jpg"
+                                  href="assets/img/home_pipacs_img4.jpg"
                                   target="_self"
                                   rel="lightbox"
                                 >
                                   <div
                                     class="portfolio-item-image"
-                                    data-style="background-image: url(upload/brooke-lark-1200x800.jpg);"
+                                    data-style="background-image: url(assets/img/home_pipacs_img4.jpg);"
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
 
-                                  <div class="info">
+                                  {/* <div class="info">
                                     <span class="sub-title">Fish</span>
                                     <h4 class="title">Salmon Tartare</h4>
                                     <div class="project-description">
                                       Chef's Menu
                                     </div>
-                                  </div>
+                                  </div> */}
                                 </a>
                               </div>
                             </div>
@@ -1045,17 +1046,17 @@ const Home = () => {
                             >
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="upload/mussels-blacktable.jpg"
+                                  href="assets/img/home_pipacs_img5.jpg"
                                   target="_self"
                                   rel="lightbox"
                                 >
                                   <div
                                     class="portfolio-item-image"
-                                    data-style="background-image: url(upload/mussels-blacktable-1600x800.jpg);"
+                                    data-style="background-image: url(assets/img/home_pipacs_img5.jpg);"
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
 
-                                  <div class="info">
+                                  {/* <div class="info">
                                     <span class="sub-title">
                                       Dessert / Events / Fish / Meat
                                     </span>
@@ -1065,172 +1066,7 @@ const Home = () => {
                                     <div class="project-description">
                                       Seasonal Flavours
                                     </div>
-                                  </div>
-                                </a>
-                              </div>
-                            </div>
-                            <div
-                              class="portfolio-item-block text-left portfolio-item-animation-1 slide-item events"
-                              data-item="2"
-                              data-name="Beef CheeseBurger"
-                            >
-                              <div class="portfolio-item-block-inside">
-                                <a
-                                  href="upload/barmen-coctail.jpg"
-                                  target="_self"
-                                  rel="lightbox"
-                                >
-                                  <div
-                                    class="portfolio-item-image"
-                                    data-style="background-image: url(upload/barmen-coctail-1600x800.jpg);"
-                                  ></div>
-                                  <div class="portfolio-item-bg"></div>
-
-                                  <div class="info">
-                                    <span class="sub-title">Events</span>
-                                    <h4 class="title">Beef CheeseBurger</h4>
-                                    <div class="project-description">
-                                      Brunch
-                                    </div>
-                                  </div>
-                                </a>
-                              </div>
-                            </div>
-                            <div
-                              class="portfolio-item-block text-left portfolio-item-animation-1 slide-item desert events meat"
-                              data-item="3"
-                              data-name="Tuna Salad"
-                            >
-                              <div class="portfolio-item-block-inside">
-                                <a
-                                  href="upload/food-plate.jpg"
-                                  target="_self"
-                                  rel="lightbox"
-                                >
-                                  <div
-                                    class="portfolio-item-image"
-                                    data-style="background-image: url(upload/food-plate-1600x800.jpg);"
-                                  ></div>
-                                  <div class="portfolio-item-bg"></div>
-
-                                  <div class="info">
-                                    <span class="sub-title">
-                                      Dessert / Events / Meat
-                                    </span>
-                                    <h4 class="title">Tuna Salad</h4>
-                                    <div class="project-description">
-                                      Seasonal Flavours
-                                    </div>
-                                  </div>
-                                </a>
-                              </div>
-                            </div>
-                            <div
-                              class="portfolio-item-block text-left portfolio-item-animation-1 slide-item meat"
-                              data-item="1"
-                              data-name="Duck Confit"
-                            >
-                              <div class="portfolio-item-block-inside">
-                                <a
-                                  href="upload/glass-orange-coctail-1.jpg"
-                                  target="_self"
-                                  rel="lightbox"
-                                >
-                                  <div
-                                    class="portfolio-item-image"
-                                    data-style="background-image: url(upload/glass-orange-coctail-1-1600x800.jpg);"
-                                  ></div>
-                                  <div class="portfolio-item-bg"></div>
-
-                                  <div class="info">
-                                    <span class="sub-title">Meat</span>
-                                    <h4 class="title">Duck Confit</h4>
-                                  </div>
-                                </a>
-                              </div>
-                            </div>
-                            <div
-                              class="portfolio-item-block text-left portfolio-item-animation-1 slide-item events fish meat"
-                              data-item="2"
-                              data-name="Nordic Shrimp Roll"
-                            >
-                              <div class="portfolio-item-block-inside">
-                                <a
-                                  href="upload/salad-wine.jpg"
-                                  target="_self"
-                                  rel="lightbox"
-                                >
-                                  <div
-                                    class="portfolio-item-image"
-                                    data-style="background-image: url(upload/salad-wine-1600x800.jpg);"
-                                  ></div>
-                                  <div class="portfolio-item-bg"></div>
-
-                                  <div class="info">
-                                    <span class="sub-title">
-                                      Events / Fish / Meat
-                                    </span>
-                                    <h4 class="title">Nordic Shrimp Roll</h4>
-                                    <div class="project-description">
-                                      Chef's Menu
-                                    </div>
-                                  </div>
-                                </a>
-                              </div>
-                            </div>
-                            <div
-                              class="portfolio-item-block text-left portfolio-item-animation-1 slide-item desert events fish meat"
-                              data-item="3"
-                              data-name="Classic CheeseCake"
-                            >
-                              <div class="portfolio-item-block-inside">
-                                <a
-                                  href="upload/restaurant-table.jpg"
-                                  target="_self"
-                                  rel="lightbox"
-                                >
-                                  <div
-                                    class="portfolio-item-image"
-                                    data-style="background-image: url(upload/restaurant-table-1600x800.jpg);"
-                                  ></div>
-                                  <div class="portfolio-item-bg"></div>
-
-                                  <div class="info">
-                                    <span class="sub-title">
-                                      Dessert / Events / Fish / Meat
-                                    </span>
-                                    <h4 class="title">Classic CheeseCake</h4>
-                                    <div class="project-description">
-                                      Seasonal Flavours
-                                    </div>
-                                  </div>
-                                </a>
-                              </div>
-                            </div>
-                            <div
-                              class="portfolio-item-block text-left portfolio-item-animation-1 slide-item events"
-                              data-item="1"
-                              data-name="Chocolate Brownie"
-                            >
-                              <div class="portfolio-item-block-inside">
-                                <a
-                                  href="upload/desert-apple.jpg"
-                                  target="_self"
-                                  rel="lightbox"
-                                >
-                                  <div
-                                    class="portfolio-item-image"
-                                    data-style="background-image: url(upload/desert-apple-1600x800.jpg);"
-                                  ></div>
-                                  <div class="portfolio-item-bg"></div>
-
-                                  <div class="info">
-                                    <span class="sub-title">Events</span>
-                                    <h4 class="title">Chocolate Brownie</h4>
-                                    <div class="project-description">
-                                      Seasonal Flavours
-                                    </div>
-                                  </div>
+                                  </div> */}
                                 </a>
                               </div>
                             </div>

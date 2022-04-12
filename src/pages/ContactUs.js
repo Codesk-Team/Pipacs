@@ -10,7 +10,7 @@ const ContactUs = () => {
       <div class="content-block">
         <div
           class="container-bg with-bg container-fluid"
-          data-style="background-image: url(upload/restairant-menus.jpg);"
+          data-style="background-image: url(assets/img/contact_us_pipacs_main.jpg);"
         >
           <div class="container-bg-overlay">
             <div class="container">
@@ -350,12 +350,12 @@ const ContactUs = () => {
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside">
                                   <h5 style={{ textAlign: "center" }}>
-                                    valami szoveg
+                                    Mennyei ízek
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
-                                    valami
+                                    Tekintse meg
                                     <br />
-                                    szoveg
+                                    étlapunkat!
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
@@ -385,12 +385,12 @@ const ContactUs = () => {
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside">
                                   <h5 style={{ textAlign: "center" }}>
-                                    valami szoveg
+                                    Teljes kikapcsolódás
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
-                                    valami
+                                    Tekintse meg
                                     <br />
-                                    szoveg
+                                    szobáinkat!
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a

@@ -9,7 +9,7 @@ const Rooms = () => {
       <div class="content-block">
         <div
           class="container-bg with-bg container-fluid"
-          data-style="background-image: url(upload/pumpkin-soup.jpg);"
+          data-style="background-image: url(assets/img/rooms_pipacs_main.jpg);"
         >
           <div class="container-bg-overlay">
             <div class="container">
@@ -39,7 +39,7 @@ const Rooms = () => {
                         <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-43612531">
                           <p class="mgt-header-block-subtitle">Szobák </p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
-                            Ide cim
+                            A felejthetetlen pihenésért...
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -47,7 +47,8 @@ const Rooms = () => {
                           <div class="wpb_wrapper">
                             <p style={{ textAlign: "center" }}>
                               <span style={{ color: "#999999" }}>
-                                ide 3 mondat
+                                Kedvére válogathat a modern, igényes
+                                kétszemélyes, valamint családi szobáink között.
                               </span>
                             </p>
                           </div>
