@@ -7,7 +7,7 @@ const Header = () => {
         <div class="row">
           <div class="col-md-12">
             <div class="header-left">
-              <a class="logo-link" href="index.html">
+              <a class="logo-link" href="/">
                 <img
                   src="upload/Barrel-restaurant-logo-black.png"
                   alt="Barrel"
@@ -37,7 +37,7 @@ const Header = () => {
                   <div class="navbar-collapse collapse">
                     <ul id="menu-main-menu-restaurant-2" class="nav">
                       <li class="menu-item">
-                        <a href="about-us-restaurant.html">
+                        <a href="/">
                           <span>Főoldal</span>
                         </a>
                       </li>
@@ -47,17 +47,17 @@ const Header = () => {
                         </a>
                       </li>
                       <li class="menu-item">
-                        <a href="about-us">
+                        <a href="menu">
                           <span>Étlap</span>
                         </a>
                       </li>
                       <li class="menu-item">
-                        <a href="contact-us-restaurant.html">
+                        <a href="rooms">
                           <span>Szobák</span>
                         </a>
                       </li>
                       <li class="menu-item">
-                        <a href="contact-us-restaurant.html">
+                        <a href="contact-us">
                           <span>Kapcsolat</span>
                         </a>
                       </li>

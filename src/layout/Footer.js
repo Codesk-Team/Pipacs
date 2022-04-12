@@ -29,23 +29,23 @@ const Footer = () => {
                 </div>
               </li>
               <li id="nav_menu-2" class="widget widget_nav_menu">
-                <h2 class="widgettitle">About us</h2>
+                <h2 class="widgettitle">Navigáció</h2>
                 <div class="menu-footermenu-1-container">
                   <ul id="menu-footermenu-1" class="menu">
                     <li class="menu-item">
-                      <a href="#">Our story</a>
+                      <a href="/">Főoldal</a>
                     </li>
                     <li class="menu-item">
-                      <a href="#">Blog</a>
+                      <a href="about-us">Rólunk</a>
                     </li>
                     <li class="menu-item">
-                      <a href="#">Offers</a>
+                      <a href="menu">Étlap</a>
                     </li>
                     <li class="menu-item">
-                      <a href="#">Weddings</a>
+                      <a href="rooms">Szobák</a>
                     </li>
                     <li class="menu-item">
-                      <a href="#">Gift Vouchers</a>
+                      <a href="contact-us">Kapcsolat</a>
                     </li>
                   </ul>
                 </div>
@@ -63,7 +63,7 @@ const Footer = () => {
                     <br />
                     Email:{" "}
                     <span class="text-color-theme">
-                      <a href="#" class="__cf_email__">
+                      <a href="mailto:sef@egerpipacs.hu" class="__cf_email__">
                         sef@egerpipacs.hu
                       </a>
                     </span>
@@ -73,13 +73,13 @@ const Footer = () => {
                     <br />
                     Email:{" "}
                     <span class="text-color-theme">
-                      <a href="#" class="__cf_email__">
+                      <a href="mailto:info@egerpipacs.hu" class="__cf_email__">
                         info@egerpipacs.hu
                       </a>
                     </span>
                     {", "}
                     <span class="text-color-theme">
-                      <a href="#" class="__cf_email__">
+                      <a href="mailto:info@egerpipacs.hu" class="__cf_email__">
                         info@egerpipacs.hu
                       </a>
                     </span>
@@ -92,6 +92,7 @@ const Footer = () => {
                             href="https://www.facebook.com/pipacsetteremeger/"
                             target="_blank"
                             class="a-facebook"
+                            rel="noreferrer"
                           >
                             <i class="fa fa-facebook"></i>
                           </a>
@@ -101,6 +102,7 @@ const Footer = () => {
                             href="https://www.facebook.com/pipacsetteremeger/"
                             target="_blank"
                             class="a-instagram"
+                            rel="noreferrer"
                           >
                             <i class="fa fa-instagram"></i>
                           </a>

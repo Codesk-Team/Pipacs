@@ -145,17 +145,20 @@ const ContactUs = () => {
                               {/* Sunday           10:00 am &#8211; 11:00 pm */}
                             </p>
                             Asztalfoglalás:{" "}
-                            <a href="+36-30-117-7949" class="__cf_email__">
+                            <a href="tel:+36-30-117-7949" class="__cf_email__">
                               +36-30-117-7949
                             </a>
                             <br />
                             Séf:{" "}
-                            <a href="+36-30-984-0739" class="__cf_email__">
+                            <a href="tel:+36-30-984-0739" class="__cf_email__">
                               +36-30-984-0739
                             </a>
                             <br />
                             E-mail::{" "}
-                            <a href="sef@egerpipacs.hu " class="__cf_email__">
+                            <a
+                              href="mailto:sef@egerpipacs.hu "
+                              class="__cf_email__"
+                            >
                               sef@egerpipacs.hu
                             </a>
                           </div>
@@ -175,12 +178,15 @@ const ContactUs = () => {
                               Szobafoglalás: +36-30-984-0837
                               <br />
                               E-mail:{" "}
-                              <a href="info@egerpipacs.hu" class="__cf_email__">
+                              <a
+                                href="mailto:info@egerpipacs.hu"
+                                class="__cf_email__"
+                              >
                                 info@egerpipacs.hu
                               </a>
                               <br />
                               <a
-                                href="foglalas@egerpipacs.hu"
+                                href="mailto:foglalas@egerpipacs.hu"
                                 class="__cf_email__"
                               >
                                 foglalas@egerpipacs.hu
@@ -200,15 +206,23 @@ const ContactUs = () => {
                           <div class="wpb_wrapper">
                             <h3>Közösségi média</h3>
                             <p>
-                              <a href="https://www.facebook.com/pipacsetteremeger/" class="__cf_email__">
-                                Facebook
+                              <a
+                                href="https://www.facebook.com/pipacsetteremeger/"
+                                class="__cf_email__"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <i class="fa fa-facebook"></i>
                               </a>
-                              <br />
+                            </p>
+                            <p>
                               <a
                                 href="https://www.instagram.com/pipacsetteremespanzio/"
                                 class="__cf_email__"
+                                target="_blank"
+                                rel="noreferrer"
                               >
-                                Instagram
+                                <i class="fa fa-instagram"></i>
                               </a>
                             </p>
                           </div>
@@ -324,40 +338,6 @@ const ContactUs = () => {
                   class="vc_row wpb_row vc_row-fluid vc_custom_1502044403439"
                   style={{ display: "flex", justifyContent: "center" }}
                 >
-                  {/* <div class="wpb_column vc_column_container vc_col-sm-4">
-                    <div class="vc_column-inner">
-                      <div class="wpb_wrapper">
-                        <div class="mgt-promo-block-container wpb_content_element">
-                          <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
-                            <div
-                              class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-82901659"
-                              data-style="background-color: #f5f5f5;background-image: url(upload/mussels-blacktable.jpg);background-repeat: no-repeat;height: 300px;"
-                            >
-                              <div class="mgt-promo-block-content va-middle">
-                                <div class="mgt-promo-block-content-inside">
-                                  <h5 style={{ textAlign: "center" }}>
-                                    Hungry?
-                                  </h5>
-                                  <h2 style={{ textAlign: "center" }}>
-                                    Book A<br />
-                                    Table
-                                  </h2>
-                                  <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
-                                    <a
-                                      class="btn hvr-push mgt-button-icon- mgt-button mgt-style-solid mgt-size-large mgt-align-center mgt-display-newline mgt-text-size-small mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                                      href="reservation.html"
-                                    >
-                                      Book A Table
-                                    </a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
                   <div class="wpb_column vc_column_container vc_col-sm-4">
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
@@ -365,24 +345,24 @@ const ContactUs = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-66330768"
-                              data-style="background-color: #f5f5f5;background-image: url(upload/bar-restaurant.jpg);background-repeat: no-repeat;height: 300px;"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_food7.jpg);background-repeat: no-repeat;height: 300px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside">
                                   <h5 style={{ textAlign: "center" }}>
-                                    History
+                                    valami szoveg
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
-                                    The best traditions
+                                    valami
                                     <br />
-                                    from Barrel
+                                    szoveg
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
                                       class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-large mgt-align-center mgt-display-newline mgt-text-size-small mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                                      href="about-us-restaurant.html"
+                                      href="menu"
                                     >
-                                      About us
+                                      Étlap
                                     </a>
                                   </div>
                                 </div>
@@ -400,22 +380,24 @@ const ContactUs = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-75835486"
-                              data-style="background-color: #f5f5f5;background-image: url(upload/barmen-coctail.jpg);background-repeat: no-repeat;height: 300px;"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_bed2.jpg);background-repeat: no-repeat;height: 300px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside">
-                                  <h5 style={{ textAlign: "center" }}>Menus</h5>
+                                  <h5 style={{ textAlign: "center" }}>
+                                    valami szoveg
+                                  </h5>
                                   <h2 style={{ textAlign: "center" }}>
-                                    Start your
+                                    valami
                                     <br />
-                                    experience today
+                                    szoveg
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
                                       class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-large mgt-align-center mgt-display-newline mgt-text-size-small mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                                      href="the-menu.html"
+                                      href="rooms"
                                     >
-                                      Our Menu
+                                      Szobák
                                     </a>
                                   </div>
                                 </div>

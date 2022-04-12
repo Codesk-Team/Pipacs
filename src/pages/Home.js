@@ -183,7 +183,7 @@ const Home = () => {
                                   {/* <!-- LAYER NR. 4 --> */}
                                   <a
                                     class="tp-caption rev-btn"
-                                    href="the-menu.html"
+                                    href="about-us"
                                     target="_self"
                                     id="slide-7-layer-14"
                                     data-x="['center','center','center','center']"
@@ -401,7 +401,7 @@ const Home = () => {
                                   {/* <!-- LAYER NR. 9 --> */}
                                   <a
                                     class="tp-caption rev-btn"
-                                    href="reservation.html"
+                                    href="rooms"
                                     target="_self"
                                     id="slide-9-layer-14"
                                     data-x="['center','center','center','center']"
@@ -517,7 +517,7 @@ const Home = () => {
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
                                       class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                                      href="reservation.html"
+                                      href="menu"
                                     >
                                       Étlap
                                     </a>
@@ -552,7 +552,7 @@ const Home = () => {
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
                                       class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                                      href="about-us-restaurant.html"
+                                      href="rooms"
                                     >
                                       Szobák
                                     </a>
@@ -827,15 +827,6 @@ const Home = () => {
                           <div class="mgt-item-price-details">
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
-                              <h4>Cigánypecsenye</h4>
-                            </div>
-                            <div class="mgt-item-price-value">3920 Ft</div>
-                          </div>
-                        </div>
-                        <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                          <div class="mgt-item-price-details">
-                            <div class="mgt-item-price-line"></div>
-                            <div class="mgt-item-price-title-holder">
                               <h4>
                                 Keleméri birkapörkölt sztrapacskával kézműves
                                 savanyúsággal
@@ -872,6 +863,15 @@ const Home = () => {
                             <p class="mgt-item-price-description">
                               Allergének: 1,3,7,12
                             </p>
+                          </div>
+                        </div>
+                        <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                          <div class="mgt-item-price-details">
+                            <div class="mgt-item-price-line"></div>
+                            <div class="mgt-item-price-title-holder">
+                              <h4>Cigánypecsenye</h4>
+                            </div>
+                            <div class="mgt-item-price-value">3920 Ft</div>
                           </div>
                         </div>
                       </div>
@@ -1272,7 +1272,7 @@ const Home = () => {
                         <div class="mgt-button-wrapper mgt-button-wrapper-align-left mgt-button-wrapper-display-inline mgt-button-top-margin-false mgt-button-right-margin-false mgt-button-round-edges-full wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <a
                             class="btn hvr-push mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-left mgt-display-inline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                            href="gallery.html"
+                            href="about-us"
                           >
                             Rólunk
                           </a>
@@ -1282,60 +1282,6 @@ const Home = () => {
                   </div>
                 </div>
                 <div class="vc_row-full-width vc_clearfix"></div>
-                {/*<div
-                  data-vc-full-width="true"
-                  data-vc-full-width-init="false"
-                  class="vc_row wpb_row vc_row-fluid vc_custom_1501773456482 vc_row-has-fill"
-                >
-                  <div class="wpb_column vc_column_container vc_col-sm-3">
-                    <div class="vc_column-inner vc_custom_1501770932758">
-                      <div class="wpb_wrapper"></div>
-                    </div>
-                  </div>
-                  <div class="wpb_column vc_column_container vc_col-sm-6">
-                    <div class="vc_column-inner">
-                      <div class="wpb_wrapper">
-                        <div class="mgt-header-block clearfix text-center text-white wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-12522103">
-                          <p class="mgt-header-block-subtitle">
-                            Reserve your table today
-                          </p>
-                          <h2 class="mgt-header-block-title text-font-weight-default">
-                            About Barrel
-                          </h2>
-                          <div class="mgt-header-line mgt-header-line-margin-large"></div>
-                        </div>
-                        <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft text-size-medium">
-                          <div class="wpb_wrapper">
-                            <p style={{ textAlign: "center" }}>
-                              <span style={{ color: "#999999" }}>
-                                This kitchen is a brewery of life – whether it’s
-                                the kids baking parties or their parents
-                                elaborate soirees, there’s always something
-                                cooking in here. Offering stylish and modern
-                                European cuisine served with exquisite attention
-                                to detail and immaculate presentation.
-                              </span>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-false mgt-button-right-margin-false mgt-button-round-edges-full wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                          <a
-                            class="btn hvr-push mgt-button-icon- mgt-button mgt-style-bordered mgt-size-large mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                            href="reservation-opentable.html"
-                          >
-                            Book A Table
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="wpb_column vc_column_container vc_col-sm-3">
-                    <div class="vc_column-inner">
-                      <div class="wpb_wrapper"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="vc_row-full-width vc_clearfix"></div> */}
               </article>
             </div>
           </div>

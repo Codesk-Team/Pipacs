@@ -67,7 +67,7 @@ const Rooms = () => {
                       <div class="wpb_wrapper">
                         <div class="mgt-portfolio-grid wpb_content_element">
                           <div
-                            class="portfolio-list portfolio-columns-2 portfolio-grid-layout-2 portfolio-with-spaces clearfix"
+                            class="portfolio-list portfolio-columns-2 portfolio-grid-layout-4 portfolio-with-spaces clearfix"
                             id="portfolio-list-19092996"
                           >
                             <div class="portfolio-item-block text-left desert events meat">

@@ -250,7 +250,7 @@ const AboutUs = () => {
                                 <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                   <a
                                     class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                                    href="reservation.html"
+                                    href="menu"
                                   >
                                     Étlap
                                   </a>
@@ -280,12 +280,12 @@ const AboutUs = () => {
                                 <h2 style={{ textAlign: "center" }}>
                                   valami
                                   <br />
-                                  today
+                                  szoveg
                                 </h2>
                                 <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                   <a
                                     class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                                    href="the-menu.html"
+                                    href="rooms"
                                   >
                                     Szobák
                                   </a>
