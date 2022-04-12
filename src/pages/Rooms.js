@@ -77,7 +77,7 @@ const Rooms = () => {
                             <div class="portfolio-item-block text-left">
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="upload/food-plate.jpg"
+                                  href="assets/img/pipacs-room.jpg"
                                   target="_self"
                                   rel="lightbox"
                                 >
@@ -106,7 +106,7 @@ const Rooms = () => {
                             <div class="portfolio-item-block text-left">
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="upload/mussels-blacktable.jpg"
+                                  href="assets/img/about_us_pipacs_bed2.jpg"
                                   target="_self"
                                   rel="lightbox"
                                 >
@@ -139,7 +139,7 @@ const Rooms = () => {
                             >
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="upload/brooke-lark.jpg"
+                                  href="assets/img/rooms_pipacs_main.jpg"
                                   target="_self"
                                   rel="lightbox"
                                 >
@@ -170,7 +170,7 @@ const Rooms = () => {
                             >
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="upload/brooke-lark.jpg"
+                                  href="assets/img/rooms_sarga_napraforgo_main.jpg"
                                   target="_self"
                                   rel="lightbox"
                                 >
