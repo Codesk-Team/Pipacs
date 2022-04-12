@@ -74,7 +74,7 @@ const Rooms = () => {
                             class="portfolio-list portfolio-columns-2 portfolio-grid-layout-4 portfolio-with-spaces clearfix"
                             id="portfolio-list-19092996"
                           >
-                            <div class="portfolio-item-block text-left desert events meat">
+                            <div class="portfolio-item-block text-left red-border">
                               <div class="portfolio-item-block-inside">
                                 <a
                                   href="upload/food-plate.jpg"
@@ -85,24 +85,24 @@ const Rooms = () => {
                                     class="portfolio-item-image"
                                     style={{
                                       backgroundImage:
-                                        "url(assets/img/rooms_sarga_napraforgo_main.jpg)",
+                                        "url(assets/img/pipacs-room.jpg)",
                                     }}
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
 
                                   <div class="info">
-                                    <span class="sub-title">
+                                    {/* <span class="sub-title">
                                       Dessert / Events / Meat
-                                    </span>
-                                    <h4 class="title">Tuna Salad</h4>
+                                    </span> */}
+                                    <h4 class="title">Pipacs szoba</h4>
                                     <div class="project-description">
-                                      Seasonal Flavours
+                                      20.000 Ft / szoba / éj
                                     </div>
                                   </div>
                                 </a>
                               </div>
                             </div>
-                            <div class="portfolio-item-block text-left desert events fish meat">
+                            <div class="portfolio-item-block text-left green-border">
                               <div class="portfolio-item-block-inside">
                                 <a
                                   href="upload/mussels-blacktable.jpg"
@@ -113,27 +113,57 @@ const Rooms = () => {
                                     class="portfolio-item-image"
                                     style={{
                                       backgroundImage:
-                                        "url(assets/img/rooms_sarga_napraforgo_main.jpg)",
+                                        "url(assets/img/about_us_pipacs_bed2.jpg)",
                                     }}
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
 
                                   <div class="info">
-                                    <span class="sub-title">
+                                    {/* <span class="sub-title">
                                       Dessert / Events / Fish / Meat
-                                    </span>
+                                    </span> */}
                                     <h4 class="title">
-                                      Seared Halloumi Cheese
+                                    Kövirózsa szoba
                                     </h4>
                                     <div class="project-description">
-                                      Seasonal Flavours
+                                      22.000 Ft / szoba / éj
                                     </div>
                                   </div>
                                 </a>
                               </div>
                             </div>
                             <div
-                              class="portfolio-item-block text-left fish"
+                              class="portfolio-item-block text-left blue-border"
+                              //   data-item="3"
+                              //   data-name="Salmon Tartare"
+                            >
+                              <div class="portfolio-item-block-inside">
+                                <a
+                                  href="upload/brooke-lark.jpg"
+                                  target="_self"
+                                  rel="lightbox"
+                                >
+                                  <div
+                                    class="portfolio-item-image"
+                                    style={{
+                                      backgroundImage:
+                                        "url(assets/img/rooms_pipacs_main.jpg)",
+                                    }}
+                                  ></div>
+                                  <div class="portfolio-item-bg"></div>
+
+                                  <div class="info">
+                                    {/* <span class="sub-title">Fish</span> */}
+                                    <h4 class="title">Veronika szoba</h4>
+                                    <div class="project-description">
+                                      20.000 Ft / szoba / éj
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div
+                              class="portfolio-item-block text-left yellow-border"
                               //   data-item="3"
                               //   data-name="Salmon Tartare"
                             >
@@ -153,40 +183,10 @@ const Rooms = () => {
                                   <div class="portfolio-item-bg"></div>
 
                                   <div class="info">
-                                    <span class="sub-title">Fish</span>
-                                    <h4 class="title">Salmon Tartare</h4>
+                                    {/* <span class="sub-title">Fish</span> */}
+                                    <h4 class="title">Napraforgó családi szoba</h4>
                                     <div class="project-description">
-                                      Chef's Menu
-                                    </div>
-                                  </div>
-                                </a>
-                              </div>
-                            </div>
-                            <div
-                              class="portfolio-item-block text-left fish"
-                              //   data-item="3"
-                              //   data-name="Salmon Tartare"
-                            >
-                              <div class="portfolio-item-block-inside">
-                                <a
-                                  href="upload/brooke-lark.jpg"
-                                  target="_self"
-                                  rel="lightbox"
-                                >
-                                  <div
-                                    class="portfolio-item-image"
-                                    style={{
-                                      backgroundImage:
-                                        "url(assets/img/rooms_sarga_napraforgo_main.jpg)",
-                                    }}
-                                  ></div>
-                                  <div class="portfolio-item-bg"></div>
-
-                                  <div class="info">
-                                    <span class="sub-title">Fish</span>
-                                    <h4 class="title">Salmon Tartare</h4>
-                                    <div class="project-description">
-                                      Chef's Menu
+                                      39.000 Ft / szoba / éj
                                     </div>
                                   </div>
                                 </a>
