@@ -122,9 +122,7 @@ const Rooms = () => {
                                     {/* <span class="sub-title">
                                       Dessert / Events / Fish / Meat
                                     </span> */}
-                                    <h4 class="title">
-                                    Kövirózsa szoba
-                                    </h4>
+                                    <h4 class="title">Kövirózsa szoba</h4>
                                     <div class="project-description">
                                       22.000 Ft / szoba / éj
                                     </div>
@@ -184,7 +182,9 @@ const Rooms = () => {
 
                                   <div class="info">
                                     {/* <span class="sub-title">Fish</span> */}
-                                    <h4 class="title">Napraforgó családi szoba</h4>
+                                    <h4 class="title">
+                                      Napraforgó családi szoba
+                                    </h4>
                                     <div class="project-description">
                                       39.000 Ft / szoba / éj
                                     </div>
@@ -393,6 +393,95 @@ const Rooms = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="vc_row-full-width vc_clearfix"></div>
+      <div class="vc_row wpb_row vc_row-fluid vc_custom_1501856468228">
+        <div class="wpb_column vc_column_container vc_col-sm-12">
+          <div class="vc_column-inner">
+            <div class="wpb_wrapper">
+              <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft text-size-medium">
+                <div class="wpb_wrapper rooms-details">
+                    <span>Az ár tartalmazza:</span>
+                    <ul>
+                      <li>Szállás nemdohányzó, légkondicionált szobában</li>
+                      <li>
+                        Fürdőszobai felszerelés (szappan, tusfürdő, sampon,
+                        zuhanysapka), törölközők
+                      </li>
+                      <li>
+                        Parkolás kamerával megfigyelt, nem őrzött parkolóban
+                      </li>
+                      <li>Wifi</li>
+                    </ul>
+                    <p>
+                    Szobáink reggelivel foglalhatóak, melyet a szobaár nem tartalmaz, ezt a helyszínen lehet szabadon választani a’la carte reggeli étlapunk alapján.
+                    </p>
+
+                    <p>
+                    Félpanziós felár: 2.000 Ft/fő/alkalom
+                    </p>
+
+                    <p>
+                    Gyermek kedvezmény:<br />
+                    Szülőkkel egy szobában pótágyon (max. 2 pótágy/szoba), min. 2 teljes fizető vendég esetén:
+                    </p>
+
+                    <p>
+                    -0-14 éves korig ingyenes.
+                    </p>
+
+                    <p>
+                    Félpanziós étkezésük kedvezményes ára:<br />
+                    0-2 éves korig díjmentes,<br />
+                    2-14 éves korig 2.000 Ft/fő/alkalom.
+                    </p>
+
+                    <p>
+                    Háziállat nem hozható.
+                    </p>
+                    
+                    <p>
+                    További információk:<br />
+                    check in: 15.00-tól<br />
+                    check out: 11.00-ig
+                    </p>
+
+                    <p>
+                    Late check out felára<br />
+                    5.000 Ft/fő<br />
+                    Early check in felár<br />
+                    5.000 Ft/fő
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div class="wpb_column vc_column_container vc_col-sm-6">
+          <div class="vc_column-inner">
+            <div class="wpb_wrapper">
+              <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight text-size-medium">
+                <div class="wpb_wrapper">
+                  <p class="text-justify">
+                    <span>
+                      A fogásoknál főként a tradicionális magyar és a helyi
+                      konyha alapízei dominálnak, kicsit egyszerűen és kicsit
+                      kifinomultan is egyidejűleg. Nemcsak a keleméri birtokról
+                      érkezik termelői alapanyag, hanem a Mátrai
+                      bivalyrezervátumból is, ahonnan Szalai Ferenc személyesen
+                      szállítja ki részünkre bivaly termékeit. A vadhúsok csak
+                      és kizárólag a környék vadjaiból kerülnek a konyhánkba,
+                      ahol Mag László, a Vadker Kft. tulajdonosa személyesen
+                      felel, a legjobb minőségű királyi szarvas bélszín
+                      beszállításáról.
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
       </div>
 
       <Footer />

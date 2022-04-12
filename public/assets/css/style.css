@@ -8498,3 +8498,6 @@ body.enable-progressbar .header-progressbar-under-bar.bar {
 .yellow-border {
     border: 5px solid yellow !important;
 }
+.rooms-details p{
+    padding-bottom: 2rem;
+}
