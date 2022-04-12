@@ -402,6 +402,13 @@ const Rooms = () => {
             <div class="wpb_wrapper">
               <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft text-size-medium">
                 <div class="wpb_wrapper rooms-details">
+                  <p>Árak:<br />
+                  2 ágyas standard (Pipacs, Veronika): 20.000 Ft / szoba / éj<br />
+                  2 ágyas erkélyes (Kövirózsa): 22.000 Ft / szoba / éj<br />
+                  Családi szoba 2+2 ágyas (Napraforgó): 39.000 Ft / szoba / éj<br />
+                    Pótágy: 7.500 Ft
+                  </p>
+
                     <span>Az ár tartalmazza:</span>
                     <ul>
                       <li>Szállás nemdohányzó, légkondicionált szobában</li>
