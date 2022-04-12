@@ -58,7 +58,13 @@ const AboutUs = () => {
                                 2021 júniusában nyitottuk meg éttermünket azzal
                                 a céllal, hogy a saját termelésű alapanyagaink
                                 közvetlenül, ne kizárólagosan csak a fine dining
-                                éttermeken keresztül jussanak el hozzátok.
+                                éttermeken keresztül jussanak el hozzátok. A
+                                birtokról érkezik a Keleméri bárány, a szabad
+                                tartású csirke és a vadon termő gyümölcsök is. A
+                                menü összeállításról Nagy Attila séfünk
+                                gondoskodik, aki tudását korábban a Parádsasvári
+                                Kastély konyháján pallérozta, amit 9 évig
+                                vezetett is.
                               </span>
                             </p>
                           </div>
@@ -73,12 +79,18 @@ const AboutUs = () => {
                           <div class="wpb_wrapper">
                             <p>
                               <span style={{ color: "#999999" }}>
-                                A birtokról érkezik a Keleméri bárány, a szabad
-                                tartású csirke és a vadon termő gyümölcsök is. A
-                                menü összeállításról Nagy Attila séfünk
-                                gondoskodik, aki tudását korábban a Parádsasvári
-                                Kastély konyháján pallérozta, amit 9 évig
-                                vezetett is.
+                                A fogásoknál főként a tradicionális magyar és a
+                                helyi konyha alapízei dominálnak, kicsit
+                                egyszerűen és kicsit kifinomultan is
+                                egyidejűleg. Nemcsak a keleméri birtokról
+                                érkezik termelői alapanyag, hanem a Mátrai
+                                bivalyrezervátumból is, ahonnan Szalai Ferenc
+                                személyesen szállítja ki részünkre bivaly
+                                termékeit. A vadhúsok csak és kizárólag a
+                                környék vadjaiból kerülnek a konyhánkba, ahol
+                                Mag László, a Vadker Kft. tulajdonosa
+                                személyesen felel, a legjobb minőségű királyi
+                                szarvas bélszín beszállításáról.
                               </span>
                             </p>
                           </div>
@@ -98,7 +110,7 @@ const AboutUs = () => {
                         <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-47652033">
                           <p class="mgt-header-block-subtitle">Rólunk</p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
-                            See what everyone is talking about
+                            Különleges gasztro élmény
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -106,23 +118,11 @@ const AboutUs = () => {
                           <div class="wpb_wrapper">
                             <p>
                               <span style={{ color: "#999999" }}>
-                                A fogásoknál főként a tradicionális magyar és a
-                                helyi konyha alapízei dominálnak, kicsit
-                                egyszerűen és kicsit kifinomultan is
-                                egyidejűleg. Nemcsak a keleméri birtokról
-                                érkezik termelői alapanyag, hanem a Mátrai
-                                bivalyrezervátumból is, ahonnan Szalai Ferenc
-                                személyesen szállítja ki részünkre bivaly
-                                termékeit. A vadhúsok csak és kizárólag a
-                                környék vadjaiból kerülnek a konyhánkba, ahol
-                                Mag László, a Vadker Kft. tulajdonosa
-                                személyesen felel, a legjobb minőségű királyi
-                                szarvas bélszín beszállításáról. Séfünk
-                                hitvallása, hogy személyesen készíti el, majd
-                                szolgálja fel a választott fogásokat. Ezáltal
-                                lehetősége nyílik a vendégeknek arra, hogy
-                                séfünktől személyesen is kérdezzenek. Éttermünk
-                                mellett panziónkban is szívesen látjuk
+                                Séfünk hitvallása, hogy személyesen készíti el,
+                                majd szolgálja fel a választott fogásokat.
+                                Ezáltal lehetősége nyílik a vendégeknek arra,
+                                hogy séfünktől személyesen is kérdezzenek.
+                                Éttermünk mellett panziónkban is szívesen látjuk
                                 vendégeinket, ahol a kétágyas szobákon mellett,
                                 a négyágyas családi szobák is a rendelkezésükre
                                 állnak.

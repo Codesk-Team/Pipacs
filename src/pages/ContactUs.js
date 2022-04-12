@@ -74,7 +74,7 @@ const ContactUs = () => {
                         <div class="wpb_text_column wpb_content_element text-size-medium">
                           <div class="wpb_wrapper">
                             <h3 style={{ textAlign: "left" }}>
-                              Találj meg minket!
+                              Találjon meg minket!
                             </h3>
                             {/* <h3 style={{ textAlign: "left" }}>Find us</h3> */}
                             <p style={{ textAlign: "left" }}>
@@ -175,7 +175,13 @@ const ContactUs = () => {
                           <div class="wpb_wrapper">
                             <h3>Panzió</h3>
                             <p>
-                              Szobafoglalás: +36-30-984-0837
+                              Szobafoglalás:{" "}
+                              <a
+                                href="tel:+36-30-984-0837"
+                                class="__cf_email__"
+                              >
+                                +36-30-984-0837
+                              </a>
                               <br />
                               E-mail:{" "}
                               <a
@@ -236,16 +242,16 @@ const ContactUs = () => {
                         <div class="wpb_text_column wpb_content_element text-size-medium">
                           <div class="wpb_wrapper">
                             <h3 style={{ textAlign: "left" }}>
-                              Írj nekünk üzenetet!
+                              Írjon nekünk üzenetet!
                             </h3>
                             <p style={{ textAlign: "left" }}>
                               <span style={{ color: "#999999" }}>
-                                Please use the form below to get in touch.
+                                Kérjük használja az alábbi formot az üzenet
+                                küldésre
                               </span>
                               <br />
                               <span style={{ color: "#999999" }}>
-                                If you need a reply we will get in touch as soon
-                                as possible.
+                                Amint tudunk válaszolunk az Ön üzenetére!
                               </span>
                             </p>
                           </div>
