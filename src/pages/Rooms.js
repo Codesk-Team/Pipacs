@@ -47,8 +47,11 @@ const Rooms = () => {
                           <div class="wpb_wrapper">
                             <p style={{ textAlign: "center" }}>
                               <span style={{ color: "#999999" }}>
-                                Kedvére válogathat a modern, igényes
-                                kétszemélyes, valamint családi szobáink között.
+                                Ha megpihennél a csodás ételek és borok után, a
+                                Pipacs Étterem egyedi, klimatizált szobáiban
+                                erre is van lehetőség. A másnap reggelt pedig
+                                kezdd a séfünk által összeállított mennyei a’la
+                                carte reggelivel!
                               </span>
                             </p>
                           </div>
