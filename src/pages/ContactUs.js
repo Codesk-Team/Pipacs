@@ -231,10 +231,10 @@ const ContactUs = () => {
                   </div>
                   <div class="wpb_text_column wpb_content_element contact-content">
                     <div class="wpb_wrapper">
-                      <h3 style={{ textAlign: "left" }}>
+                      <h3 style={{ textAlign: "center" }}>
                         Étterem nyitvatartás
                       </h3>
-                      <p style={{ textAlign: "left" }}>
+                      <p style={{ textAlign: "center" }}>
                         Hétfő         Zárva
                         <br />
                         Kedd          Zárva
@@ -274,7 +274,7 @@ const ContactUs = () => {
                       <span class="vc_sep_line"></span>
                     </span>
                   </div>
-                  <div class="wpb_text_column wpb_content_element">
+                  <div class="wpb_text_column wpb_content_element contact-content">
                     <div class="wpb_wrapper">
                       <h3>Panzió</h3>
                       <p>
@@ -308,7 +308,7 @@ const ContactUs = () => {
                       <span class="vc_sep_line"></span>
                     </span>
                   </div>
-                  <div class="wpb_text_column wpb_content_element">
+                  <div class="wpb_text_column wpb_content_element contact-content">
                     <div class="wpb_wrapper">
                       <h3>Közösségi média</h3>
                       <p>

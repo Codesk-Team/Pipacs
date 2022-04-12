@@ -8486,3 +8486,6 @@ body.enable-progressbar .header-progressbar-under-bar.bar {
 .rooms-details p {
     padding-bottom: 2rem;
 }
+.contact-content {
+    text-align: center;
+}
