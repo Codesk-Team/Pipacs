@@ -115,124 +115,6 @@ const ContactUs = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey vc_custom_1502030988502 vc_custom_1502030988502">
-                          <span class="vc_sep_holder vc_sep_holder_l">
-                            <span class="vc_sep_line"></span>
-                          </span>
-                          <span class="vc_sep_holder vc_sep_holder_r">
-                            <span class="vc_sep_line"></span>
-                          </span>
-                        </div>
-                        <div class="wpb_text_column wpb_content_element">
-                          <div class="wpb_wrapper">
-                            <h3 style={{ textAlign: "left" }}>
-                              Étterem nyitvatartás
-                            </h3>
-                            <p style={{ textAlign: "left" }}>
-                              Hétfő         Zárva
-                              <br />
-                              Kedd          Zárva
-                              <br />
-                              Szerda       Zárva
-                              <br />
-                              Csütörtök      9:00 &#8211; 20:00
-                              <br />
-                              Péntek            9:00 &#8211; 20:00
-                              <br />
-                              Szombat        9:00 &#8211; 20:00
-                              <br />
-                              Vasárnap        9:00 &#8211; 18:00
-                              {/* Sunday           10:00 am &#8211; 11:00 pm */}
-                            </p>
-                            Asztalfoglalás:{" "}
-                            <a href="tel:+36-30-117-7949" class="__cf_email__">
-                              +36-30-117-7949
-                            </a>
-                            <br />
-                            Séf:{" "}
-                            <a href="tel:+36-30-984-0739" class="__cf_email__">
-                              +36-30-984-0739
-                            </a>
-                            <br />
-                            E-mail::{" "}
-                            <a
-                              href="mailto:sef@egerpipacs.hu "
-                              class="__cf_email__"
-                            >
-                              sef@egerpipacs.hu
-                            </a>
-                          </div>
-                        </div>
-                        <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
-                          <span class="vc_sep_holder vc_sep_holder_l">
-                            <span class="vc_sep_line"></span>
-                          </span>
-                          <span class="vc_sep_holder vc_sep_holder_r">
-                            <span class="vc_sep_line"></span>
-                          </span>
-                        </div>
-                        <div class="wpb_text_column wpb_content_element">
-                          <div class="wpb_wrapper">
-                            <h3>Panzió</h3>
-                            <p>
-                              Szobafoglalás:{" "}
-                              <a
-                                href="tel:+36-30-984-0837"
-                                class="__cf_email__"
-                              >
-                                +36-30-984-0837
-                              </a>
-                              <br />
-                              E-mail:{" "}
-                              <a
-                                href="mailto:info@egerpipacs.hu"
-                                class="__cf_email__"
-                              >
-                                info@egerpipacs.hu
-                              </a>
-                              <br />
-                              <a
-                                href="mailto:foglalas@egerpipacs.hu"
-                                class="__cf_email__"
-                              >
-                                foglalas@egerpipacs.hu
-                              </a>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
-                          <span class="vc_sep_holder vc_sep_holder_l">
-                            <span class="vc_sep_line"></span>
-                          </span>
-                          <span class="vc_sep_holder vc_sep_holder_r">
-                            <span class="vc_sep_line"></span>
-                          </span>
-                        </div>
-                        <div class="wpb_text_column wpb_content_element">
-                          <div class="wpb_wrapper">
-                            <h3>Közösségi média</h3>
-                            <p>
-                              <a
-                                href="https://www.facebook.com/pipacsetteremeger/"
-                                class="__cf_email__"
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                <i class="fa fa-facebook"></i>
-                              </a>
-                            </p>
-                            <p>
-                              <a
-                                href="https://www.instagram.com/pipacsetteremespanzio/"
-                                class="__cf_email__"
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                <i class="fa fa-instagram"></i>
-                              </a>
-                            </p>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -337,6 +219,118 @@ const ContactUs = () => {
                           </form>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                  <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey vc_custom_1502030988502 vc_custom_1502030988502">
+                    <span class="vc_sep_holder vc_sep_holder_l">
+                      <span class="vc_sep_line"></span>
+                    </span>
+                    <span class="vc_sep_holder vc_sep_holder_r">
+                      <span class="vc_sep_line"></span>
+                    </span>
+                  </div>
+                  <div class="wpb_text_column wpb_content_element contact-content">
+                    <div class="wpb_wrapper">
+                      <h3 style={{ textAlign: "center" }}>
+                        Étterem nyitvatartás
+                      </h3>
+                      <p style={{ textAlign: "center" }}>
+                        Hétfő         Zárva
+                        <br />
+                        Kedd          Zárva
+                        <br />
+                        Szerda       Zárva
+                        <br />
+                        Csütörtök      9:00 &#8211; 20:00
+                        <br />
+                        Péntek            9:00 &#8211; 20:00
+                        <br />
+                        Szombat        9:00 &#8211; 20:00
+                        <br />
+                        Vasárnap        9:00 &#8211; 18:00
+                        {/* Sunday           10:00 am &#8211; 11:00 pm */}
+                      </p>
+                      Asztalfoglalás:{" "}
+                      <a href="tel:+36-30-117-7949" class="__cf_email__">
+                        +36-30-117-7949
+                      </a>
+                      <br />
+                      Séf:{" "}
+                      <a href="tel:+36-30-984-0739" class="__cf_email__">
+                        +36-30-984-0739
+                      </a>
+                      <br />
+                      E-mail::{" "}
+                      <a href="mailto:sef@egerpipacs.hu " class="__cf_email__">
+                        sef@egerpipacs.hu
+                      </a>
+                    </div>
+                  </div>
+                  <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
+                    <span class="vc_sep_holder vc_sep_holder_l">
+                      <span class="vc_sep_line"></span>
+                    </span>
+                    <span class="vc_sep_holder vc_sep_holder_r">
+                      <span class="vc_sep_line"></span>
+                    </span>
+                  </div>
+                  <div class="wpb_text_column wpb_content_element contact-content">
+                    <div class="wpb_wrapper">
+                      <h3>Panzió</h3>
+                      <p>
+                        Szobafoglalás:{" "}
+                        <a href="tel:+36-30-984-0837" class="__cf_email__">
+                          +36-30-984-0837
+                        </a>
+                        <br />
+                        E-mail:{" "}
+                        <a
+                          href="mailto:info@egerpipacs.hu"
+                          class="__cf_email__"
+                        >
+                          info@egerpipacs.hu
+                        </a>
+                        <br />
+                        <a
+                          href="mailto:foglalas@egerpipacs.hu"
+                          class="__cf_email__"
+                        >
+                          foglalas@egerpipacs.hu
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
+                    <span class="vc_sep_holder vc_sep_holder_l">
+                      <span class="vc_sep_line"></span>
+                    </span>
+                    <span class="vc_sep_holder vc_sep_holder_r">
+                      <span class="vc_sep_line"></span>
+                    </span>
+                  </div>
+                  <div class="wpb_text_column wpb_content_element contact-content">
+                    <div class="wpb_wrapper">
+                      <h3>Közösségi média</h3>
+                      <p>
+                        <a
+                          href="https://www.facebook.com/pipacsetteremeger/"
+                          class="__cf_email__"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </p>
+                      <p>
+                        <a
+                          href="https://www.instagram.com/pipacsetteremespanzio/"
+                          class="__cf_email__"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>

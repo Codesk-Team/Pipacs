@@ -8483,3 +8483,9 @@ body.enable-progressbar .header-progressbar-under-bar.bar {
     padding-right: 45px !important;
     padding-left: 45px !important;
 }
+.rooms-details p {
+    padding-bottom: 2rem;
+}
+.contact-content {
+    text-align: center;
+}
