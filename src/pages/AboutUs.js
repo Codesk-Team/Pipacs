@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div class="content-block stick-to-footer">
         <div
           class="container-bg with-bg container-fluid"
-          data-style="background-image: url(assets/img/about_us_main.jpg);"
+          data-style="background-image: url(assets/img/about_us_main.webp);"
         >
           <div class="container-bg-overlay">
             <div class="container">
@@ -148,7 +148,7 @@ const AboutUs = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block animated white-text cover-image no-darken mgt-promo-block-70634358"
-                              data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_food4.jpg);background-repeat: no-repeat;height: 495px;"
+                              data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_food4.webp);background-repeat: no-repeat;height: 495px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside vc_custom_1502117226355 mgt-promo-block-content-inside-show-on-hover">
@@ -185,7 +185,7 @@ const AboutUs = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-shadow mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block black-text cover-image no-darken mgt-promo-block-32822084"
-                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_food5.jpg);background-repeat: no-repeat;height: 145px;"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_food5.webp);background-repeat: no-repeat;height: 145px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside"></div>
@@ -200,7 +200,7 @@ const AboutUs = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-shadow mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block black-text cover-image no-darken mgt-promo-block-75175961"
-                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_food6.jpg);background-repeat: no-repeat;height: 145px;"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_food6.webp);background-repeat: no-repeat;height: 145px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside"></div>
@@ -215,7 +215,7 @@ const AboutUs = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-shadow mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block black-text cover-image no-darken mgt-promo-block-27017181"
-                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_bed1.jpg);background-repeat: no-repeat;height: 145px;"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_bed1.webp);background-repeat: no-repeat;height: 145px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside"></div>
@@ -272,7 +272,7 @@ const AboutUs = () => {
                         <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                           <div
                             class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-15051295"
-                            data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_bed2.jpg);background-repeat: no-repeat;height: 420px;"
+                            data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_bed2.webp);background-repeat: no-repeat;height: 420px;"
                           >
                             <div class="mgt-promo-block-content va-middle">
                               <div class="mgt-promo-block-content-inside vc_custom_1502119503691">

@@ -49,7 +49,7 @@ const Home = () => {
                                   data-easein="default"
                                   data-easeout="default"
                                   data-masterspeed="default"
-                                  data-thumb="assets/img/home_pipacs_main1.jpg"
+                                  data-thumb="assets/img/home_pipacs_main1.webp"
                                   data-rotate="0"
                                   data-saveperformance="off"
                                   data-title="Welcome"
@@ -67,7 +67,7 @@ const Home = () => {
                                 >
                                   {/* <!-- MAIN IMAGE --> */}
                                   <img
-                                    src="assets/img/home_pipacs_main1.jpg"
+                                    src="assets/img/home_pipacs_main1.webp"
                                     alt=""
                                     title="mussels-blacktable"
                                     width="1600"
@@ -274,7 +274,7 @@ const Home = () => {
                                   data-easein="default"
                                   data-easeout="default"
                                   data-masterspeed="default"
-                                  data-thumb="assets/img/home_pipacs_main2.jpg"
+                                  data-thumb="assets/img/home_pipacs_main2.webp"
                                   data-rotate="0"
                                   data-saveperformance="off"
                                   data-title="Menu"
@@ -292,7 +292,7 @@ const Home = () => {
                                 >
                                   {/* <!-- MAIN IMAGE --> */}
                                   <img
-                                    src="assets/img/home_pipacs_main2.jpg"
+                                    src="assets/img/home_pipacs_main2.webp"
                                     alt=""
                                     title="barmen-coctail"
                                     width="1600"
@@ -502,7 +502,7 @@ const Home = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-66293803"
-                              data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_food7.jpg);background-repeat: no-repeat;height: 420px;"
+                              data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_food7.webp);background-repeat: no-repeat;height: 420px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside vc_custom_1502111254458">
@@ -537,7 +537,7 @@ const Home = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-65740325"
-                              data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_bed2.jpg);background-repeat: no-repeat;height: 420px;"
+                              data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_bed2.webp);background-repeat: no-repeat;height: 420px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside vc_custom_1502119337451">
@@ -613,7 +613,7 @@ const Home = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block animated white-text cover-image no-darken mgt-promo-block-69094683"
-                              data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_food4.jpg);background-repeat: no-repeat;height: 495px;"
+                              data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_food4.webp);background-repeat: no-repeat;height: 495px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside vc_custom_1502111459689 mgt-promo-block-content-inside-show-on-hover">
@@ -650,7 +650,7 @@ const Home = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-shadow mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block black-text cover-image no-darken mgt-promo-block-59326650"
-                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_food5.jpg);background-repeat: no-repeat;height: 145px;"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_food5.webp);background-repeat: no-repeat;height: 145px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside"></div>
@@ -665,7 +665,7 @@ const Home = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-shadow mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block black-text cover-image no-darken mgt-promo-block-11490570"
-                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_food6.jpg);background-repeat: no-repeat;height: 145px;"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_food6.webp);background-repeat: no-repeat;height: 145px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside"></div>
@@ -680,7 +680,7 @@ const Home = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-shadow mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block black-text cover-image no-darken mgt-promo-block-73119794"
-                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_bed1.jpg);background-repeat: no-repeat;height: 145px;"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_bed1.webp);background-repeat: no-repeat;height: 145px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside"></div>
@@ -899,7 +899,7 @@ const Home = () => {
                   data-vc-full-width-init="false"
                   data-vc-stretch-content="true"
                   data-vc-parallax="1.5"
-                  data-vc-parallax-image="assets/img/home_pipacs_img1.jpg"
+                  data-vc-parallax-image="assets/img/about_us_pipacs_food4.webp"
                   class="vc_row wpb_row vc_row-fluid vc_custom_1501853930727 vc_row-has-fill vc_row-no-padding vc_general vc_parallax vc_parallax-content-moving"
                 >
                   <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -964,13 +964,13 @@ const Home = () => {
                             >
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="assets/img/home_pipacs_img2.jpg"
+                                  href="assets/img/home_pipacs_img2.webp"
                                   target="_self"
                                   rel="lightbox"
                                 >
                                   <div
                                     class="portfolio-item-image"
-                                    data-style="background-image: url(assets/img/home_pipacs_img2.jpg);"
+                                    data-style="background-image: url(assets/img/home_pipacs_img2.webp);"
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
 
@@ -993,13 +993,13 @@ const Home = () => {
                             >
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="assets/img/home_pipacs_img3.jpg"
+                                  href="assets/img/home_pipacs_img3.webp"
                                   target="_self"
                                   rel="lightbox"
                                 >
                                   <div
                                     class="portfolio-item-image"
-                                    data-style="background-image: url(assets/img/home_pipacs_img3.jpg);"
+                                    data-style="background-image: url(assets/img/home_pipacs_img3.webp);"
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
 
@@ -1019,13 +1019,13 @@ const Home = () => {
                             >
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="assets/img/home_pipacs_img4.jpg"
+                                  href="assets/img/home_pipacs_img4.webp"
                                   target="_self"
                                   rel="lightbox"
                                 >
                                   <div
                                     class="portfolio-item-image"
-                                    data-style="background-image: url(assets/img/home_pipacs_img4.jpg);"
+                                    data-style="background-image: url(assets/img/home_pipacs_img4.webp);"
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
 
@@ -1046,13 +1046,13 @@ const Home = () => {
                             >
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="assets/img/home_pipacs_img5.jpg"
+                                  href="assets/img/home_pipacs_img5.webp"
                                   target="_self"
                                   rel="lightbox"
                                 >
                                   <div
                                     class="portfolio-item-image"
-                                    data-style="background-image: url(assets/img/home_pipacs_img5.jpg);"
+                                    data-style="background-image: url(assets/img/home_pipacs_img5.webp);"
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
 

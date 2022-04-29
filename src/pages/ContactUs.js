@@ -10,7 +10,7 @@ const ContactUs = () => {
       <div class="content-block">
         <div
           class="container-bg with-bg container-fluid"
-          data-style="background-image: url(assets/img/contact_us_pipacs_main.jpg);"
+          data-style="background-image: url(assets/img/contact_us_pipacs_main.webp);"
         >
           <div class="container-bg-overlay">
             <div class="container">
@@ -380,7 +380,7 @@ const ContactUs = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-75835486"
-                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_bed2.jpg);background-repeat: no-repeat;height: 300px;"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_bed2.webp);background-repeat: no-repeat;height: 300px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside">

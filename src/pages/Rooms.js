@@ -9,7 +9,7 @@ const Rooms = () => {
       <div class="content-block">
         <div
           class="container-bg with-bg container-fluid"
-          data-style="background-image: url(assets/img/rooms_pipacs_main.jpg);"
+          data-style="background-image: url(assets/img/rooms_pipacs_main.webp);"
         >
           <div class="container-bg-overlay">
             <div class="container">
@@ -77,7 +77,7 @@ const Rooms = () => {
                             <div class="portfolio-item-block text-left">
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="assets/img/pipacs-room.jpg"
+                                  href="assets/img/pipacs-room.webp"
                                   target="_self"
                                   rel="lightbox"
                                 >
@@ -85,7 +85,7 @@ const Rooms = () => {
                                     class="portfolio-item-image"
                                     style={{
                                       backgroundImage:
-                                        "url(assets/img/pipacs-room.jpg)",
+                                        "url(assets/img/pipacs-room.webp)",
                                     }}
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
@@ -96,7 +96,8 @@ const Rooms = () => {
                                     </span> */}
                                     <h4 class="title">Pipacs szoba</h4>
                                     <div class="project-description">
-                                      20.000 Ft / szoba / éj<br />
+                                      20.000 Ft / szoba / éj
+                                      <br />
                                       Pótágy: 7.500 Ft
                                     </div>
                                   </div>
@@ -106,7 +107,7 @@ const Rooms = () => {
                             <div class="portfolio-item-block text-left">
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="assets/img/about_us_pipacs_bed2.jpg"
+                                  href="assets/img/about_us_pipacs_bed2.webp"
                                   target="_self"
                                   rel="lightbox"
                                 >
@@ -114,7 +115,7 @@ const Rooms = () => {
                                     class="portfolio-item-image"
                                     style={{
                                       backgroundImage:
-                                        "url(assets/img/about_us_pipacs_bed2.jpg)",
+                                        "url(assets/img/about_us_pipacs_bed2.webp)",
                                     }}
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
@@ -125,7 +126,8 @@ const Rooms = () => {
                                     </span> */}
                                     <h4 class="title">Kövirózsa szoba</h4>
                                     <div class="project-description">
-                                      22.000 Ft / szoba / éj<br />
+                                      22.000 Ft / szoba / éj
+                                      <br />
                                       Pótágy: 7.500 Ft
                                     </div>
                                   </div>
@@ -139,7 +141,7 @@ const Rooms = () => {
                             >
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="assets/img/rooms_pipacs_main.jpg"
+                                  href="assets/img/rooms_pipacs_main.webp"
                                   target="_self"
                                   rel="lightbox"
                                 >
@@ -147,7 +149,7 @@ const Rooms = () => {
                                     class="portfolio-item-image"
                                     style={{
                                       backgroundImage:
-                                        "url(assets/img/rooms_pipacs_main.jpg)",
+                                        "url(assets/img/rooms_pipacs_main.webp)",
                                     }}
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
@@ -156,7 +158,8 @@ const Rooms = () => {
                                     {/* <span class="sub-title">Fish</span> */}
                                     <h4 class="title">Veronika szoba</h4>
                                     <div class="project-description">
-                                      20.000 Ft / szoba / éj<br />
+                                      20.000 Ft / szoba / éj
+                                      <br />
                                       Pótágy: 7.500 Ft
                                     </div>
                                   </div>
@@ -170,7 +173,7 @@ const Rooms = () => {
                             >
                               <div class="portfolio-item-block-inside">
                                 <a
-                                  href="assets/img/rooms_sarga_napraforgo_main.jpg"
+                                  href="assets/img/rooms_sarga_napraforgo_main.webp"
                                   target="_self"
                                   rel="lightbox"
                                 >
@@ -178,7 +181,7 @@ const Rooms = () => {
                                     class="portfolio-item-image"
                                     style={{
                                       backgroundImage:
-                                        "url(assets/img/rooms_sarga_napraforgo_main.jpg)",
+                                        "url(assets/img/rooms_sarga_napraforgo_main.webp)",
                                     }}
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
@@ -189,7 +192,8 @@ const Rooms = () => {
                                       Napraforgó családi szoba
                                     </h4>
                                     <div class="project-description">
-                                      39.000 Ft / szoba / éj<br />
+                                      39.000 Ft / szoba / éj
+                                      <br />
                                       Pótágy: 7.500 Ft
                                     </div>
                                   </div>
@@ -407,56 +411,61 @@ const Rooms = () => {
               <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft text-size-medium">
                 <div class="wpb_wrapper rooms-details">
                   <span>Az ár tartalmazza:</span>
-                    <ul>
-                      <li>Szállás nemdohányzó, légkondicionált szobában</li>
-                      <li>
-                        Fürdőszobai felszerelés (szappan, tusfürdő, sampon,
-                        zuhanysapka), törölközők
-                      </li>
-                      <li>
-                        Parkolás kamerával megfigyelt, nem őrzött parkolóban
-                      </li>
-                      <li>Wifi</li>
-                    </ul>
-                    <p>
-                    Szobáink reggelivel foglalhatóak, melyet a szobaár nem tartalmaz, ezt a helyszínen lehet szabadon választani a’la carte reggeli étlapunk alapján.
-                    </p>
+                  <ul>
+                    <li>Szállás nemdohányzó, légkondicionált szobában</li>
+                    <li>
+                      Fürdőszobai felszerelés (szappan, tusfürdő, sampon,
+                      zuhanysapka), törölközők
+                    </li>
+                    <li>
+                      Parkolás kamerával megfigyelt, nem őrzött parkolóban
+                    </li>
+                    <li>Wifi</li>
+                  </ul>
+                  <p>
+                    Szobáink reggelivel foglalhatóak, melyet a szobaár nem
+                    tartalmaz, ezt a helyszínen lehet szabadon választani a’la
+                    carte reggeli étlapunk alapján.
+                  </p>
 
-                    <p>
-                    Félpanziós felár: 2.000 Ft/fő/alkalom
-                    </p>
+                  <p>Félpanziós felár: 2.000 Ft/fő/alkalom</p>
 
-                    <p>
-                    Gyermek kedvezmény:<br />
-                    Szülőkkel egy szobában pótágyon (max. 2 pótágy/szoba), min. 2 teljes fizető vendég esetén:
-                    </p>
+                  <p>
+                    Gyermek kedvezmény:
+                    <br />
+                    Szülőkkel egy szobában pótágyon (max. 2 pótágy/szoba), min.
+                    2 teljes fizető vendég esetén:
+                  </p>
 
-                    <p>
-                    -0-14 éves korig ingyenes.
-                    </p>
+                  <p>-0-14 éves korig ingyenes.</p>
 
-                    <p>
-                    Félpanziós étkezésük kedvezményes ára:<br />
-                    0-2 éves korig díjmentes,<br />
+                  <p>
+                    Félpanziós étkezésük kedvezményes ára:
+                    <br />
+                    0-2 éves korig díjmentes,
+                    <br />
                     2-14 éves korig 2.000 Ft/fő/alkalom.
-                    </p>
+                  </p>
 
-                    <p>
-                    Háziállat nem hozható.
-                    </p>
-                    
-                    <p>
-                    További információk:<br />
-                    check in: 15.00-tól<br />
+                  <p>Háziállat nem hozható.</p>
+
+                  <p>
+                    További információk:
+                    <br />
+                    check in: 15.00-tól
+                    <br />
                     check out: 11.00-ig
-                    </p>
+                  </p>
 
-                    <p>
-                    Late check out felára<br />
-                    5.000 Ft/fő<br />
-                    Early check in felár<br />
+                  <p>
+                    Late check out felára
+                    <br />
                     5.000 Ft/fő
-                    </p>
+                    <br />
+                    Early check in felár
+                    <br />
+                    5.000 Ft/fő
+                  </p>
                 </div>
               </div>
             </div>

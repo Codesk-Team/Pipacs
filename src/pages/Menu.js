@@ -9,7 +9,7 @@ const Menu = () => {
       <div class="content-block stick-to-footer">
         <div
           class="container-bg with-bg container-fluid"
-          data-style="background-image: url(assets/img/menu_pipacs_main.jpg);"
+          data-style="background-image: url(assets/img/menu_pipacs_main.webp);"
         >
           <div class="container-bg-overlay">
             <div class="container">

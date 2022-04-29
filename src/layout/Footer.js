@@ -16,7 +16,7 @@ const Footer = () => {
                   <p>Hétfő, Kedd, Szerda: Zárva</p>
                   <p>Csütörtök: 9:00 &#8211; 20:00</p>
                   <p>Péntek: 9:00 &#8211; 20:00</p>
-                  <p>Szombat: 9:00 &#8211; 18:00</p>
+                  <p>Szombat: 9:00 &#8211; 20:00</p>
                   <p>Vasárnap: 9:00 &#8211; 18:00</p>
                   <p>
                     <span class="text-color-theme">
@@ -54,9 +54,7 @@ const Footer = () => {
                 <h2 class="widgettitle">Foglalás</h2>
                 <div class="textwidget custom-html-widget">
                   <p>
-                    Asztalfoglalás: +36-30-117-7949
-                    <br />
-                    Séf: +36-30-984-0739
+                    Asztalfoglalás: +36-30-117-7949{", "}+36-30-984-0739
                     <br />
                     Email:{" "}
                     <span class="text-color-theme">
