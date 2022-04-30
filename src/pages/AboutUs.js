@@ -1,8 +1,11 @@
 import React from "react";
 import Footer from "../layout/Footer";
 import Header from "../layout/Header";
+import { useTranslation } from "react-i18next";
 
 const AboutUs = () => {
+  const { t } = useTranslation();
+
   return (
     <div class="home page-template-default page page-id-3699 wpb-js-composer js-comp-ver-5.2.1 vc_responsive">
       <Header />
@@ -16,7 +19,10 @@ const AboutUs = () => {
               <div class="row">
                 <div class="col-md-12">
                   <div class="page-item-title">
-                    <h1 class="text-center texttransform-none">Rólunk</h1>
+                    <h1 class="text-center texttransform-none">
+                      {/* Rólunk */}
+                      {t("aboutUs")}
+                    </h1>
                   </div>
                 </div>
               </div>
@@ -36,9 +42,13 @@ const AboutUs = () => {
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-12030347">
-                          <p class="mgt-header-block-subtitle">Rólunk</p>
+                          <p class="mgt-header-block-subtitle">
+                            {/* Rólunk */}
+                            {t("aboutUs")}
+                          </p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
-                            Pipacs Étterem & Panzió
+                            {/* Pipacs Étterem & Panzió */}
+                            {t("pipacsName")}
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -55,7 +65,7 @@ const AboutUs = () => {
                           <div class="wpb_wrapper">
                             <p class="text-justify">
                               <span style={{ color: "#999999" }}>
-                                2021 júniusában nyitottuk meg éttermünket azzal
+                                {/* 2021 júniusában nyitottuk meg éttermünket azzal
                                 a céllal, hogy a saját termelésű alapanyagaink
                                 közvetlenül, ne kizárólagosan csak a fine dining
                                 éttermeken keresztül jussanak el hozzátok. A
@@ -64,7 +74,8 @@ const AboutUs = () => {
                                 menü összeállításról Nagy Attila séfünk
                                 gondoskodik, aki tudását korábban a Parádsasvári
                                 Kastély konyháján pallérozta, amit 9 évig
-                                vezetett is.
+                                vezetett is. */}
+                                {t("aboutPage.aboutTextOne")}
                               </span>
                             </p>
                           </div>
@@ -79,7 +90,7 @@ const AboutUs = () => {
                           <div class="wpb_wrapper">
                             <p class="text-justify">
                               <span style={{ color: "#999999" }}>
-                                A fogásoknál főként a tradicionális magyar és a
+                                {/* A fogásoknál főként a tradicionális magyar és a
                                 helyi konyha alapízei dominálnak, kicsit
                                 egyszerűen és kicsit kifinomultan is
                                 egyidejűleg. Nemcsak a keleméri birtokról
@@ -90,7 +101,8 @@ const AboutUs = () => {
                                 környék vadjaiból kerülnek a konyhánkba, ahol
                                 Mag László, a Vadker Kft. tulajdonosa
                                 személyesen felel, a legjobb minőségű királyi
-                                szarvas bélszín beszállításáról.
+                                szarvas bélszín beszállításáról. */}
+                                {t("aboutPage.aboutTextTwo")}
                               </span>
                             </p>
                           </div>
@@ -108,9 +120,13 @@ const AboutUs = () => {
                     <div class="vc_column-inner vc_custom_1502119511003">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-47652033">
-                          <p class="mgt-header-block-subtitle">Rólunk</p>
+                          <p class="mgt-header-block-subtitle">
+                            {/* Rólunk */}
+                            {t("aboutUs")}
+                          </p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
-                            Különleges gasztro élmény
+                            {/* Különleges gasztro élmény */}
+                            {t("aboutPage.gastroExperience")}
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -118,14 +134,15 @@ const AboutUs = () => {
                           <div class="wpb_wrapper">
                             <p>
                               <span style={{ color: "#999999" }}>
-                                Séfünk hitvallása, hogy személyesen készíti el,
+                                {/* Séfünk hitvallása, hogy személyesen készíti el,
                                 majd szolgálja fel a választott fogásokat.
                                 Ezáltal lehetősége nyílik a vendégeknek arra,
                                 hogy séfünktől személyesen is kérdezzenek.
                                 Éttermünk mellett panziónkban is szívesen látjuk
                                 vendégeinket, ahol a kétágyas szobákon mellett,
                                 a négyágyas családi szobák is a rendelkezésükre
-                                állnak.
+                                állnak. */}
+                                {t("aboutPage.chefMind")}
                               </span>
                             </p>
                           </div>
@@ -149,30 +166,7 @@ const AboutUs = () => {
                             <div
                               class="mgt-promo-block animated white-text cover-image no-darken mgt-promo-block-70634358"
                               data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_food4.webp);background-repeat: no-repeat;height: 495px;"
-                            >
-                              <div class="mgt-promo-block-content va-middle">
-                                <div class="mgt-promo-block-content-inside vc_custom_1502117226355 mgt-promo-block-content-inside-show-on-hover">
-                                  <h2 style={{ textAlign: "center" }}>
-                                    Let’s build something amazing. We’re ready
-                                    when you are.
-                                  </h2>
-                                  <p style={{ textAlign: "center" }}>
-                                    We only hire great people who strive to push
-                                    their ideas into fruition by outmuscling and
-                                    outhustling the competition.
-                                  </p>
-                                  <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
-                                    <a
-                                      class="btn hvr-push mgt-button-icon-true mgt-button mgt-style-bordered mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-right text-font-weight-default mgt-text-transform-none"
-                                      href="portfolio.html"
-                                    >
-                                      Our dishes
-                                      <i class="entypo-icon entypo-icon-right-open-mini"></i>
-                                    </a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                            ></div>
                           </div>
                         </div>
                       </div>
@@ -242,19 +236,23 @@ const AboutUs = () => {
                             <div class="mgt-promo-block-content va-middle">
                               <div class="mgt-promo-block-content-inside vc_custom_1502117266071">
                                 <h5 style={{ textAlign: "center" }}>
-                                  Mennyei ízek
+                                  {/* Mennyei ízek */}
+                                  {t("goodTastes")}
                                 </h5>
                                 <h2 style={{ textAlign: "center" }}>
-                                  Tekintse meg
+                                  {/* Tekintse meg */}
+                                  {t("lookAt")}
                                   <br />
-                                  étlapunkat!
+                                  {/* étlapunkat! */}
+                                  {t("ourMenu")}
                                 </h2>
                                 <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                   <a
                                     class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                                     href="menu"
                                   >
-                                    Étlap
+                                    {/* Étlap */}
+                                    {t("menu")}
                                   </a>
                                 </div>
                               </div>
@@ -277,19 +275,23 @@ const AboutUs = () => {
                             <div class="mgt-promo-block-content va-middle">
                               <div class="mgt-promo-block-content-inside vc_custom_1502119503691">
                                 <h5 style={{ textAlign: "center" }}>
-                                  Teljes kikapcsolódás
+                                  {/* Teljes kikapcsolódás */}
+                                  {t("totalRelax")}
                                 </h5>
                                 <h2 style={{ textAlign: "center" }}>
-                                  Tekintse meg
+                                  {/* Tekintse meg */}
+                                  {t("ourRooms")}
                                   <br />
-                                  szobáinkat!
+                                  {/* szobáinkat! */}
+                                  {t("ourRooms")}
                                 </h2>
                                 <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                   <a
                                     class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                                     href="rooms"
                                   >
-                                    Szobák
+                                    {/* Szobák */}
+                                    {t("rooms")}
                                   </a>
                                 </div>
                               </div>
