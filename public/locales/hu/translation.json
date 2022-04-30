@@ -5,6 +5,7 @@
     "aboutUs": "Rólunk",
     "menu": "Étlap",
     "contactUs": "Kapcsolat",
+    "home": "Főoldal",
 
     "mainMenu": "Főmenü",
     "allergens": "Allergének",
@@ -39,6 +40,15 @@
         "traditionalTastes": "Tradicionális magyar ízek",
         "menuByChef": "A menü összeállításról Nagy Attila séfünk gondoskodik, aki tudását korábban a Parádsasvári Kastély konyháján pallérozta, amit 9 évig vezetett is.",
         "localKitchen": "A fogásoknál főként a tradicionális magyar és a helyi konyha alapízei dominálnak, kicsit egyszerűen és kicsit kifinomultan is egyidejűleg."
+    },
+
+    "footer": {
+        "navigation": "Navigáció",
+        "reservation": "Foglalás",
+        "allRightsReserved": "Minden jog fenttartva 2022 Pipacs",
+        "tac": "ÁSZF",
+        "openEveryDay": "A panzió a hét minden napján nyitva tart.",
+        "openingHoursFirstPartOfWeek": "Hétfő, Kedd, Szerda: Zárva"
     },
 
     "contactUsPage": {

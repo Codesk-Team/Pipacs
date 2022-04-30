@@ -145,7 +145,7 @@ const Home = () => {
                                     }}
                                   >
                                     {/* A Pipacs Étterem & Panzió */}
-                                    {t("homePage:restaurantAndGuestHouse")}
+                                    {t("homePage.restaurantAndGuestHouse")}
                                   </h1>
 
                                   {/* <!-- LAYER NR. 3 --> */}
@@ -182,7 +182,7 @@ const Home = () => {
                                     }}
                                   >
                                     {/* Weboldalán */}
-                                    {t("homePage:webpage")}
+                                    {t("homePage.webpage")}
                                   </div>
 
                                   {/* <!-- LAYER NR. 4 --> */}
@@ -229,7 +229,7 @@ const Home = () => {
                                     }}
                                   >
                                     {/* Rólunk */}
-                                    {t("homePage:about")}
+                                    {t("aboutUs")}
                                   </a>
 
                                   {/* <!-- LAYER NR. 5 --> */}
@@ -268,7 +268,7 @@ const Home = () => {
                                     }}
                                   >
                                     {/* Üdvözöljük */}
-                                    {t("homePage:welcome")}
+                                    {t("homePage.welcome")}
                                   </h1>
                                 </li>
                                 {/* <!-- SLIDE  --> */}
@@ -376,7 +376,7 @@ const Home = () => {
                                     }}
                                   >
                                     {/* A Pipacs Étterem & Panzió */}
-                                    {t("homePage:restaurantAndGuestHouse")}
+                                    {t("homePage.restaurantAndGuestHouse")}
                                   </h1>
 
                                   {/* <!-- LAYER NR. 8 --> */}
@@ -404,7 +404,7 @@ const Home = () => {
                                     // style="z-index: 7; white-space: nowrap; font-size: 16px; line-height: 27px; font-weight: 400; color: #9b9b9b; letter-spacing: 3px; font-family: Cabin;"
                                   >
                                     {/* Weboldalán */}
-                                    {t("homePage:webpage")}
+                                    {t("homePage.webpage")}
                                   </div>
 
                                   {/* <!-- LAYER NR. 9 --> */}
@@ -451,7 +451,7 @@ const Home = () => {
                                     }}
                                   >
                                     {/* Szobák */}
-                                    {t("homePage:rooms")}
+                                    {t("rooms")}
                                   </a>
 
                                   {/* <!-- LAYER NR. 10 --> */}
@@ -488,7 +488,7 @@ const Home = () => {
                                     }}
                                   >
                                     {/* Üdvözöljük */}
-                                    {t("homePage:welcome")}
+                                    {t("homePage.welcome")}
                                   </h1>
                                 </li>
                               </ul>
@@ -562,7 +562,7 @@ const Home = () => {
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
                                     {/* Tekintse meg */}
-                                    {t("ourRooms")}
+                                    {t("lookAt")}
                                     <br />
                                     {/* szobáinkat! */}
                                     {t("ourRooms")}
@@ -600,7 +600,7 @@ const Home = () => {
                           </p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
                             {/* A termőföldünkről egyenesen a konyhánkba */}
-                            {t("homePage:fromSoilToKitchen")}
+                            {t("homePage.fromSoilToKitchen")}
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -614,7 +614,7 @@ const Home = () => {
                                 éttermeken keresztül jussanak el hozzátok. A
                                 birtokunkról érkezik a Keleméri bárány, a szabad
                                 tartású csirke és a vadon termő gyümölcsök is. */}
-                                {t("homePage:ourPurpose")}
+                                {t("homePage.ourPurpose")}
                               </span>
                             </p>
                           </div>
@@ -695,47 +695,6 @@ const Home = () => {
                   </div>
                 </div>
                 <div class="vc_row-full-width vc_clearfix"></div>
-                {/* <div
-                  data-vc-full-width="true"
-                  data-vc-full-width-init="false"
-                  data-vc-stretch-content="true"
-                  data-vc-parallax="1.5"
-                  data-vc-parallax-image="upload/spicies-black.jpg"
-                  class="vc_row wpb_row vc_row-fluid vc_custom_1501853508813 vc_row-has-fill vc_row-no-padding vc_general vc_parallax vc_parallax-content-moving"
-                >
-                  <div class="wpb_column vc_column_container vc_col-sm-12">
-                    <div class="vc_column-inner">
-                      <div class="wpb_wrapper">
-                        <h2
-                          style={{
-                            fontSize: "55px",
-                            color: "#c69f7c",
-                            lineHeight: "58px",
-                            textAlign: "center",
-                            fontFamily: "Alex Brush",
-                            fontWeight: "400",
-                            fontSyle: "normal",
-                          }}
-                          class="vc_custom_heading"
-                        >
-                          When it satisfies your tastebuds
-                        </h2>
-                        <h2
-                          style={{
-                            fontSize: "65px",
-                            color: "#ffffff",
-                            lineHeight: "68px",
-                            textAlign: "center",
-                          }}
-                          class="vc_custom_heading"
-                        >
-                          Sunday Brunch
-                        </h2>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="vc_row-full-width vc_clearfix"></div> */}
                 <div
                   data-vc-full-width="true"
                   data-vc-full-width-init="false"
@@ -770,15 +729,15 @@ const Home = () => {
                             <div class="mgt-item-price-title-holder">
                               <h4>
                                 {/* Mangalica és vízi bivaly ízelítő */}
-                                {t("homePage:menuOnePartOne")} <br />
+                                {t("homePage.menuOnePartOne")} <br />
                                 {/* házi zöldség krémekkel és kovászos kenyérrel */}
-                                {t("homePage:menuOnePartTwo")}
+                                {t("homePage.menuOnePartTwo")}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">2700 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,7 */}
-                              {t("allergens")} 1,7
+                              {t("allergens")}: 1,7
                             </p>
                           </div>
                         </div>
@@ -789,13 +748,13 @@ const Home = () => {
                               <h4>
                                 {/* Tanyasi tyúkhúsleves zöldségekkel és
                                 csigatésztával */}
-                                {t("homePage:menuTwo")}
+                                {t("homePage.menuTwo")}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">2040 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,9 */}
-                              {t("allergens")} 1,3,9
+                              {t("allergens")}: 1,3,9
                             </p>
                           </div>
                         </div>
@@ -805,13 +764,13 @@ const Home = () => {
                             <div class="mgt-item-price-title-holder">
                               <h4>
                                 {/* Tárkonyos báránygombóc leves friss tejföllel */}
-                                {t("homePage:menuThree")}
+                                {t("homePage.menuThree")}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">2475 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 3,7,9 */}
-                              {t("allergens")} 3,7,9
+                              {t("allergens")}: 3,7,9
                             </p>
                           </div>
                         </div>
@@ -822,13 +781,13 @@ const Home = () => {
                               <h4>
                                 {/* Egészben sült szilvásváradi pisztráng friss
                                 fűszernövényekkel */}
-                                {t("homePage:menuFour")}
+                                {t("homePage.menuFour")}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">3590 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,4,7 */}
-                              {t("allergens")} 1,3,4,7
+                              {t("allergens")}: 1,3,4,7
                             </p>
                           </div>
                         </div>
@@ -845,13 +804,13 @@ const Home = () => {
                               <h4>
                                 {/* Keleméri birkapörkölt sztrapacskával kézműves
                                 savanyúsággal */}
-                                {t("homePage:menuFive")}
+                                {t("homePage.menuFive")}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">3880 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,7 */}
-                              {t("allergens")} 1,3,7
+                              {t("allergens")}: 1,3,7
                             </p>
                           </div>
                         </div>
@@ -861,13 +820,13 @@ const Home = () => {
                             <div class="mgt-item-price-title-holder">
                               <h4>
                                 {/* Túrógombóc házi tejföllel */}
-                                {t("homePage:menuSix")}
+                                {t("homePage.menuSix")}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">1620 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,7,8,5 */}
-                              {t("allergens")} 1,3,7,8,5
+                              {t("allergens")}: 1,3,7,8,5
                             </p>
                           </div>
                         </div>
@@ -878,13 +837,13 @@ const Home = () => {
                               <h4>
                                 {/* Erdei gyümölcsökkel töltött gratinírozott
                                 palacsinta */}
-                                {t("homePage:menuSeven")}
+                                {t("homePage.menuSeven")}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">1540 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,7,12 */}
-                              {t("allergens")} 1,3,7,12
+                              {t("allergens")}: 1,3,7,12
                             </p>
                           </div>
                         </div>
@@ -894,7 +853,7 @@ const Home = () => {
                             <div class="mgt-item-price-title-holder">
                               <h4>
                                 {/* Cigánypecsenye */}
-                                {t("homePage:menuEight")}
+                                {t("homePage.menuEight")}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">3920 Ft</div>
@@ -914,7 +873,7 @@ const Home = () => {
                             href="menu"
                           >
                             {/* Teljes étlap */}
-                            {t("homePage:fullMenu")}
+                            {t("homePage.fullMenu")}
                           </a>
                         </div>
                       </div>
@@ -945,7 +904,7 @@ const Home = () => {
                           class="vc_custom_heading"
                         >
                           {/* Tapasztalja meg Ön is */}
-                          {t("homePage:feelByYourself")}
+                          {t("homePage.feelByYourself")}
                         </h2>
                         <h2
                           style={{
@@ -958,7 +917,7 @@ const Home = () => {
                         >
                           {/* Mindig szívesen látjuk éttermünkben és panziónkban
                           egyaránt! */}
-                          {t("homePage:youAreAlwysWelcome")}
+                          {t("homePage.youAreAlwysWelcome")}
                         </h2>
                         <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
                           <a
@@ -1115,7 +1074,7 @@ const Home = () => {
                           </p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
                             {/* Tradicionális magyar ízek */}
-                            {t("homePage:traditionalTastes")}
+                            {t("homePage.traditionalTastes")}
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -1127,7 +1086,7 @@ const Home = () => {
                                 gondoskodik, aki tudását korábban a Parádsasvári
                                 Kastély konyháján pallérozta, amit 9 évig
                                 vezetett is. */}
-                                {t("homePage:menuByChef")}
+                                {t("homePage.menuByChef")}
                               </span>
                             </p>
                             <p>
@@ -1136,7 +1095,7 @@ const Home = () => {
                                 helyi konyha alapízei dominálnak, kicsit
                                 egyszerűen és kicsit kifinomultan is
                                 egyidejűleg. */}
-                                {t("homePage:localKitchen")}
+                                {t("homePage.localKitchen")}
                               </span>
                             </p>
                           </div>
@@ -1147,7 +1106,7 @@ const Home = () => {
                             href="about-us"
                           >
                             {/* Rólunk */}
-                            {t("homePage:aboutUs")}
+                            {t("aboutUs")}
                           </a>
                         </div>
                       </div>

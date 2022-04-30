@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <div class="container-fluid footer-wrapper">
       <div class="row">
@@ -11,38 +14,40 @@ const Footer = () => {
           <div class="footer-sidebar sidebar container footer-sidebar-col-3">
             <ul id="footer-sidebar" class="clearfix">
               <li id="text-3" class="widget widget_text">
-                <h2 class="widgettitle">Étterem nyitvatartás</h2>
+                <h2 class="widgettitle">
+                  {t("contactUsPage.restaurantOpeningHours")}
+                </h2>
                 <div class="textwidget">
-                  <p>Hétfő, Kedd, Szerda: Zárva</p>
-                  <p>Csütörtök: 9:00 &#8211; 20:00</p>
-                  <p>Péntek: 9:00 &#8211; 20:00</p>
-                  <p>Szombat: 9:00 &#8211; 20:00</p>
-                  <p>Vasárnap: 9:00 &#8211; 18:00</p>
+                  <p>{t("footer.openingHoursFirstPartOfWeek")}</p>
+                  <p> {t("contactUsPage.thursday")}</p>
+                  <p> {t("contactUsPage.fridayOH")}</p>
+                  <p> {t("contactUsPage.sundayOH")}</p>
+                  <p> {t("contactUsPage.saturdayOH")}</p>
                   <p>
                     <span class="text-color-theme">
-                      A panzió a hét minden napján nyitva tart.
+                      {t("footer.openEveryDay")}
                     </span>
                   </p>
                 </div>
               </li>
               <li id="nav_menu-2" class="widget widget_nav_menu">
-                <h2 class="widgettitle">Navigáció</h2>
+                <h2 class="widgettitle">{t("footer.navigation")}</h2>
                 <div class="menu-footermenu-1-container">
                   <ul id="menu-footermenu-1" class="menu">
                     <li class="menu-item">
-                      <a href="/">Főoldal</a>
+                      <a href="/">{t("home")}</a>
                     </li>
                     <li class="menu-item">
-                      <a href="about-us">Rólunk</a>
+                      <a href="about-us">{t("aboutUs")}</a>
                     </li>
                     <li class="menu-item">
-                      <a href="menu">Étlap</a>
+                      <a href="menu">{t("menu")}</a>
                     </li>
                     <li class="menu-item">
-                      <a href="rooms">Szobák</a>
+                      <a href="rooms">{t("rooms")}</a>
                     </li>
                     <li class="menu-item">
-                      <a href="contact-us">Kapcsolat</a>
+                      <a href="contact-us">{t("contactUs")}</a>
                     </li>
                   </ul>
                 </div>
@@ -51,10 +56,11 @@ const Footer = () => {
                 id="custom_html-2"
                 class="widget_text widget widget_custom_html"
               >
-                <h2 class="widgettitle">Foglalás</h2>
+                <h2 class="widgettitle">{t("footer.reservation")}</h2>
                 <div class="textwidget custom-html-widget">
                   <p>
-                    Asztalfoglalás: +36-30-117-7949{", "}+36-30-984-0739
+                    {t("contactUsPage.tableReservation")} +36 30 117 7949{", "}
+                    +36 30 984 0739
                     <br />
                     Email:{" "}
                     <span class="text-color-theme">
@@ -64,7 +70,7 @@ const Footer = () => {
                     </span>
                   </p>
                   <p>
-                    Szobafoglalás: +36-30-984-0837
+                    {t("contactUsPage.roomResarvation")} +36 30 984 0837
                     <br />
                     Email:{" "}
                     <span class="text-color-theme">
@@ -114,13 +120,13 @@ const Footer = () => {
           <div class="container">
             <div class="row">
               <div class="col-md-6 footer-copyright">
-                Minden jog fenttartva 2022 Pipacs
+                {t("footer.allRightsReserved")}
               </div>
               <div class="col-md-6 footer-menu">
                 <div class="menu-footermenu-simple-container">
                   <ul id="menu-footermenu-simple" class="footer-menu">
                     <li class="menu-item">
-                      <a href="#">ÁSZF</a>
+                      <a href="#">{t("footer.tac")}</a>
                     </li>
                   </ul>
                 </div>

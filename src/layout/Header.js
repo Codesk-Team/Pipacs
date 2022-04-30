@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t } = useTranslation();
+
   return (
     <header class="sticky-header main-header sticky-header-elements-headeronly mainmenu-position-menu_in_header">
       <div class="container-fluid">
@@ -38,27 +41,27 @@ const Header = () => {
                     <ul id="menu-main-menu-restaurant-2" class="nav">
                       <li class="menu-item">
                         <a href="/">
-                          <span>Főoldal</span>
+                          <span>{t("home")}</span>
                         </a>
                       </li>
                       <li class="menu-item">
                         <a href="about-us">
-                          <span>Rólunk</span>
+                          <span>{t("aboutUs")}</span>
                         </a>
                       </li>
                       <li class="menu-item">
                         <a href="menu">
-                          <span>Étlap</span>
+                          <span>{t("menu")}</span>
                         </a>
                       </li>
                       <li class="menu-item">
                         <a href="rooms">
-                          <span>Szobák</span>
+                          <span>{t("rooms")}</span>
                         </a>
                       </li>
                       <li class="menu-item">
                         <a href="contact-us">
-                          <span>Kapcsolat</span>
+                          <span>{t("contactUs")}</span>
                         </a>
                       </li>
                       {/* <li class="mgt-highlight menu-item">
