@@ -55,20 +55,6 @@ const ContactUs = () => {
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
-                        <div class="wpb_text_column wpb_content_element vc_custom_1502028795994 text-size-medium">
-                          <div class="wpb_wrapper">
-                            <p style={{ textAlign: "center" }}>
-                              <span style={{ color: "#999999" }}>
-                                {/* Ha megpihennél a csodás ételek és borok után, a
-                                Pipacs Étterem egyedi, klimatizált szobáiban
-                                erre is van lehetőség. A másnap reggelt pedig
-                                kezdd a séfünk által összeállított mennyei a’la
-                                carte reggelivel! */}
-                                {t("contactUsPage.restAfterWines")}
-                              </span>
-                            </p>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>
