@@ -1,8 +1,11 @@
 import React from "react";
 import Footer from "../layout/Footer";
 import Header from "../layout/Header";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <div class="home page-template-default page page-id-3699 wpb-js-composer js-comp-ver-5.2.1 vc_responsive">
       <Header />
@@ -141,7 +144,8 @@ const Home = () => {
                                       fontFamily: "Sorts Mill Goudy",
                                     }}
                                   >
-                                    A Pipacs Étterem & Panzió
+                                    {/* A Pipacs Étterem & Panzió */}
+                                    {t("homePage:restaurantAndGuestHouse")}
                                   </h1>
 
                                   {/* <!-- LAYER NR. 3 --> */}
@@ -177,7 +181,8 @@ const Home = () => {
                                       fontFamily: "Cabin",
                                     }}
                                   >
-                                    Weboldalán
+                                    {/* Weboldalán */}
+                                    {t("homePage:webpage")}
                                   </div>
 
                                   {/* <!-- LAYER NR. 4 --> */}
@@ -223,7 +228,8 @@ const Home = () => {
                                       textDecoration: "none",
                                     }}
                                   >
-                                    Rólunk
+                                    {/* Rólunk */}
+                                    {t("homePage:about")}
                                   </a>
 
                                   {/* <!-- LAYER NR. 5 --> */}
@@ -261,7 +267,8 @@ const Home = () => {
                                       fontFamily: "Alex Brush",
                                     }}
                                   >
-                                    Üdvözöljük
+                                    {/* Üdvözöljük */}
+                                    {t("homePage:welcome")}
                                   </h1>
                                 </li>
                                 {/* <!-- SLIDE  --> */}
@@ -368,7 +375,8 @@ const Home = () => {
                                       fontFamily: "Sorts Mill Goudy",
                                     }}
                                   >
-                                    A Pipacs Étterem & Panzió
+                                    {/* A Pipacs Étterem & Panzió */}
+                                    {t("homePage:restaurantAndGuestHouse")}
                                   </h1>
 
                                   {/* <!-- LAYER NR. 8 --> */}
@@ -395,7 +403,8 @@ const Home = () => {
                                     data-paddingleft="[0,0,0,0]"
                                     // style="z-index: 7; white-space: nowrap; font-size: 16px; line-height: 27px; font-weight: 400; color: #9b9b9b; letter-spacing: 3px; font-family: Cabin;"
                                   >
-                                    Weboldalán
+                                    {/* Weboldalán */}
+                                    {t("homePage:webpage")}
                                   </div>
 
                                   {/* <!-- LAYER NR. 9 --> */}
@@ -441,7 +450,8 @@ const Home = () => {
                                       textDecoration: "none",
                                     }}
                                   >
-                                    Szobák
+                                    {/* Szobák */}
+                                    {t("homePage:rooms")}
                                   </a>
 
                                   {/* <!-- LAYER NR. 10 --> */}
@@ -477,7 +487,8 @@ const Home = () => {
                                       fontFamily: "Alex Brush",
                                     }}
                                   >
-                                    Üdvözöljük
+                                    {/* Üdvözöljük */}
+                                    {t("homePage:welcome")}
                                   </h1>
                                 </li>
                               </ul>
@@ -507,19 +518,23 @@ const Home = () => {
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside vc_custom_1502111254458">
                                   <h5 style={{ textAlign: "center" }}>
-                                    Mennyei ízek
+                                    {/* Mennyei ízek */}
+                                    {t("homePage:goodTastes")}
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
-                                    Tekintse meg
+                                    {/* Tekintse meg */}
+                                    {t("homePage:lookAt")}
                                     <br />
-                                    étlapunkat!
+                                    {/* étlapunkat! */}
+                                    {t("homePage:ourMenu")}
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
                                       class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                                       href="menu"
                                     >
-                                      Étlap
+                                      {/* Étlap */}
+                                      {t("homePage:menu")}
                                     </a>
                                   </div>
                                 </div>
@@ -542,19 +557,23 @@ const Home = () => {
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside vc_custom_1502119337451">
                                   <h5 style={{ textAlign: "center" }}>
-                                    Teljes kikapcsolódás
+                                    {/* Teljes kikapcsolódás */}
+                                    {t("homePage:totalRelax")}
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
-                                    Tekintse meg
+                                    {/* Tekintse meg */}
+                                    {t("homePage:ourRooms")}
                                     <br />
-                                    szobáinkat!
+                                    {/* szobáinkat! */}
+                                    {t("homePage:ourRooms")}
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
                                       class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                                       href="rooms"
                                     >
-                                      Szobák
+                                      {/* Szobák */}
+                                      {t("homePage:rooms")}
                                     </a>
                                   </div>
                                 </div>
@@ -575,9 +594,13 @@ const Home = () => {
                     <div class="vc_column-inner vc_custom_1502119248785">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-2224038">
-                          <p class="mgt-header-block-subtitle">Pipacs</p>
+                          <p class="mgt-header-block-subtitle">
+                            {/* Pipacs */}
+                            {t("pipacs")}
+                          </p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
-                            A termőföldünkről egyenesen a konyhánkba
+                            {/* A termőföldünkről egyenesen a konyhánkba */}
+                            {t("homePage:fromSoilToKitchen")}
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -585,12 +608,13 @@ const Home = () => {
                           <div class="wpb_wrapper">
                             <p>
                               <span style={{ color: "#999999" }}>
-                                2021 júniusában nyitottuk meg éttermünket azzal
+                                {/* 2021 júniusában nyitottuk meg éttermünket azzal
                                 a céllal, hogy a saját termelésű alapanyagaink
                                 közvetlenül, ne kizárólagosan csak a fine dining
                                 éttermeken keresztül jussanak el hozzátok. A
                                 birtokunkról érkezik a Keleméri bárány, a szabad
-                                tartású csirke és a vadon termő gyümölcsök is.
+                                tartású csirke és a vadon termő gyümölcsök is. */}
+                                {t("homePage:ourPurpose")}
                               </span>
                             </p>
                           </div>
@@ -600,7 +624,8 @@ const Home = () => {
                             class="btn hvr-push mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-left mgt-display-inline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                             href="about-us-restaurant.html"
                           >
-                            Rólunk
+                            {/* Rólunk  */}
+                            {t("aboutUs")}
                           </a>
                         </div>
                       </div>
@@ -614,30 +639,7 @@ const Home = () => {
                             <div
                               class="mgt-promo-block animated white-text cover-image no-darken mgt-promo-block-69094683"
                               data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_food4.webp);background-repeat: no-repeat;height: 495px;"
-                            >
-                              <div class="mgt-promo-block-content va-middle">
-                                <div class="mgt-promo-block-content-inside vc_custom_1502111459689 mgt-promo-block-content-inside-show-on-hover">
-                                  <h2 style={{ textAlign: "center" }}>
-                                    Let’s build something amazing. We’re ready
-                                    when you are.
-                                  </h2>
-                                  <p style={{ textAlign: "center" }}>
-                                    We only hire great people who strive to push
-                                    their ideas into fruition by outmuscling and
-                                    outhustling the competition.
-                                  </p>
-                                  <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
-                                    <a
-                                      class="btn hvr-push mgt-button-icon-true mgt-button mgt-style-bordered mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-right text-font-weight-default mgt-text-transform-none"
-                                      href="about-us-restaurant.html"
-                                    >
-                                      Read more
-                                      <i class="entypo-icon entypo-icon-right-open-mini"></i>
-                                    </a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                            ></div>
                           </div>
                         </div>
                       </div>
@@ -743,9 +745,13 @@ const Home = () => {
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-65407710">
-                          <p class="mgt-header-block-subtitle">Étlap</p>
+                          <p class="mgt-header-block-subtitle">
+                            {/* Étlap */}
+                            {t("menu")}
+                          </p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
-                            Főmenü
+                            {/* Főmenü */}
+                            {t("mainMenu")}
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -763,13 +769,16 @@ const Home = () => {
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
                               <h4>
-                                Mangalica és vízi bivaly ízelítő <br /> házi
-                                zöldség krémekkel és kovászos kenyérrel
+                                {/* Mangalica és vízi bivaly ízelítő */}
+                                {t("homePage:menuOnePartOne")} <br />
+                                {/* házi zöldség krémekkel és kovászos kenyérrel */}
+                                {t("homePage:menuOnePartTwo")}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">2700 Ft</div>
                             <p class="mgt-item-price-description">
-                              Allergének: 1,7
+                              {/* Allergének: 1,7 */}
+                              {t("allergens")} 1,7
                             </p>
                           </div>
                         </div>
@@ -778,13 +787,15 @@ const Home = () => {
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
                               <h4>
-                                Tanyasi tyúkhúsleves zöldségekkel és
-                                csigatésztával
+                                {/* Tanyasi tyúkhúsleves zöldségekkel és
+                                csigatésztával */}
+                                {t("homePage:menuTwo")}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">2040 Ft</div>
                             <p class="mgt-item-price-description">
-                              Allergének: 1,3,9
+                              {/* Allergének: 1,3,9 */}
+                              {t("allergens")} 1,3,9
                             </p>
                           </div>
                         </div>
@@ -793,12 +804,14 @@ const Home = () => {
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
                               <h4>
-                                Tárkonyos báránygombóc leves friss tejföllel
+                                {/* Tárkonyos báránygombóc leves friss tejföllel */}
+                                {t("homePage:menuThree")}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">2475 Ft</div>
                             <p class="mgt-item-price-description">
-                              Allergének: 3,7,9
+                              {/* Allergének: 3,7,9 */}
+                              {t("allergens")} 3,7,9
                             </p>
                           </div>
                         </div>
@@ -807,13 +820,15 @@ const Home = () => {
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
                               <h4>
-                                Egészben sült szilvásváradi pisztráng friss
-                                fűszernövényekkel
+                                {/* Egészben sült szilvásváradi pisztráng friss
+                                fűszernövényekkel */}
+                                {t("homePage:menuFour")}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">3590 Ft</div>
                             <p class="mgt-item-price-description">
-                              Allergének: 1,3,4,7
+                              {/* Allergének: 1,3,4,7 */}
+                              {t("allergens")} 1,3,4,7
                             </p>
                           </div>
                         </div>
@@ -828,25 +843,15 @@ const Home = () => {
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
                               <h4>
-                                Keleméri birkapörkölt sztrapacskával kézműves
-                                savanyúsággal
+                                {/* Keleméri birkapörkölt sztrapacskával kézműves
+                                savanyúsággal */}
+                                {t("homePage:menuFive")}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">3880 Ft</div>
                             <p class="mgt-item-price-description">
-                              Allergének: 1,3,7
-                            </p>
-                          </div>
-                        </div>
-                        <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                          <div class="mgt-item-price-details">
-                            <div class="mgt-item-price-line"></div>
-                            <div class="mgt-item-price-title-holder">
-                              <h4>Túrógombóc házi tejföllel</h4>
-                            </div>
-                            <div class="mgt-item-price-value">1620 Ft</div>
-                            <p class="mgt-item-price-description">
-                              Allergének: 1,3,7,8,5
+                              {/* Allergének: 1,3,7 */}
+                              {t("allergens")} 1,3,7
                             </p>
                           </div>
                         </div>
@@ -855,13 +860,14 @@ const Home = () => {
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
                               <h4>
-                                Erdei gyümölcsökkel töltött gratinírozott
-                                palacsinta
+                                {/* Túrógombóc házi tejföllel */}
+                                {t("homePage:menuSix")}
                               </h4>
                             </div>
-                            <div class="mgt-item-price-value">1540 Ft</div>
+                            <div class="mgt-item-price-value">1620 Ft</div>
                             <p class="mgt-item-price-description">
-                              Allergének: 1,3,7,12
+                              {/* Allergének: 1,3,7,8,5 */}
+                              {t("allergens")} 1,3,7,8,5
                             </p>
                           </div>
                         </div>
@@ -869,7 +875,27 @@ const Home = () => {
                           <div class="mgt-item-price-details">
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
-                              <h4>Cigánypecsenye</h4>
+                              <h4>
+                                {/* Erdei gyümölcsökkel töltött gratinírozott
+                                palacsinta */}
+                                {t("homePage:menuSeven")}
+                              </h4>
+                            </div>
+                            <div class="mgt-item-price-value">1540 Ft</div>
+                            <p class="mgt-item-price-description">
+                              {/* Allergének: 1,3,7,12 */}
+                              {t("allergens")} 1,3,7,12
+                            </p>
+                          </div>
+                        </div>
+                        <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                          <div class="mgt-item-price-details">
+                            <div class="mgt-item-price-line"></div>
+                            <div class="mgt-item-price-title-holder">
+                              <h4>
+                                {/* Cigánypecsenye */}
+                                {t("homePage:menuEight")}
+                              </h4>
                             </div>
                             <div class="mgt-item-price-value">3920 Ft</div>
                           </div>
@@ -887,7 +913,8 @@ const Home = () => {
                             class="btn hvr-push mgt-button-icon- mgt-button mgt-style-bordered mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                             href="menu"
                           >
-                            Teljes étlap
+                            {/* Teljes étlap */}
+                            {t("homePage:fullMenu")}
                           </a>
                         </div>
                       </div>
@@ -917,7 +944,8 @@ const Home = () => {
                           }}
                           class="vc_custom_heading"
                         >
-                          Tapasztalja meg Ön is
+                          {/* Tapasztalja meg Ön is */}
+                          {t("homePage:feelByYourself")}
                         </h2>
                         <h2
                           style={{
@@ -928,15 +956,17 @@ const Home = () => {
                           }}
                           class="vc_custom_heading"
                         >
-                          Mindig szívesen látjuk éttermünkben és panziónkban
-                          egyaránt!
+                          {/* Mindig szívesen látjuk éttermünkben és panziónkban
+                          egyaránt! */}
+                          {t("homePage:youAreAlwysWelcome")}
                         </h2>
                         <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
                           <a
                             class="btn hvr-push mgt-button-icon- mgt-button mgt-style-solid mgt-size-large mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                             href="contact-us"
                           >
-                            Kapcsolat
+                            {/* Kapcsolat */}
+                            {t("contactUs")}
                           </a>
                         </div>
                       </div>
@@ -1079,9 +1109,13 @@ const Home = () => {
                     <div class="vc_column-inner vc_custom_1501770941177">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-46788011">
-                          <p class="mgt-header-block-subtitle">Pipacs</p>
+                          <p class="mgt-header-block-subtitle">
+                            {/* Pipacs */}
+                            {t("pipacs")}
+                          </p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
-                            Tradicionális magyar ízek
+                            {/* Tradicionális magyar ízek */}
+                            {t("homePage:traditionalTastes")}
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -1089,18 +1123,20 @@ const Home = () => {
                           <div class="wpb_wrapper">
                             <p>
                               <span style={{ color: "#999999" }}>
-                                A menü összeállításról Nagy Attila séfünk
+                                {/* A menü összeállításról Nagy Attila séfünk
                                 gondoskodik, aki tudását korábban a Parádsasvári
                                 Kastély konyháján pallérozta, amit 9 évig
-                                vezetett is.
+                                vezetett is. */}
+                                {t("homePage:menuByChef")}
                               </span>
                             </p>
                             <p>
                               <span style={{ color: "#999999" }}>
-                                A fogásoknál főként a tradicionális magyar és a
+                                {/* A fogásoknál főként a tradicionális magyar és a
                                 helyi konyha alapízei dominálnak, kicsit
                                 egyszerűen és kicsit kifinomultan is
-                                egyidejűleg.
+                                egyidejűleg. */}
+                                {t("homePage:localKitchen")}
                               </span>
                             </p>
                           </div>
@@ -1110,7 +1146,8 @@ const Home = () => {
                             class="btn hvr-push mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-left mgt-display-inline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                             href="about-us"
                           >
-                            Rólunk
+                            {/* Rólunk */}
+                            {t("homePage:aboutUs")}
                           </a>
                         </div>
                       </div>
