@@ -64,6 +64,11 @@ const Header = () => {
                           <span>{t("contactUs")}</span>
                         </a>
                       </li>
+                      <li class="menu-item">
+                        <a href="contact-us">
+                          <span style={{ color: "#c69f7c" }}>English</span>
+                        </a>
+                      </li>
                       {/* <li class="mgt-highlight menu-item">
                         <a href="reservation.html">
                           <span>Reservation</span>
