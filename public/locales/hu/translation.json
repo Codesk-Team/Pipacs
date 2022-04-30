@@ -61,7 +61,33 @@
         "saturdayOH": "Vasárnap        9:00 - 18:00",
         "tableReservation": "Asztalfoglalás:",
         "roomResarvation": "Szobafoglalás:"
+    },
 
-
+    "roomsPage": {
+        "unforgettableRest": "A felejthetetlen pihenésért...",
+        "restAfterWines": "Ha megpihennél a csodás ételek és borok után, a Pipacs Étterem egyedi, klimatizált szobáiban erre is van lehetőség. A másnap reggelt pedig kezdd a séfünk által összeállított mennyei a’la carte reggelivel!",
+        "room": "szoba",
+        "roomSlashNight": "szoba / éj",
+        "truckleBed": "Pótágy:",
+        "familyRoom": "családi szoba",
+        "priceContains": "Az ár tartalmazza:",
+        "notSmoking": "Szállás nemdohányzó, légkondicionált szobában",
+        "bathroomEquipments": "Fürdőszobai felszerelés (szappan, tusfürdő, sampon, zuhanysapka), törölközők",
+        "parking": "Parkolás kamerával megfigyelt, nem őrzött parkolóban",
+        "breakfast": "Szobáink reggelivel foglalhatóak, melyet a szobaár nem tartalmaz, ezt a helyszínen lehet szabadon választani a’la carte reggeli étlapunk alapján.",
+        "halfBoard": "Félpanziós felár: 2.000 Ft/fő/alkalom",
+        "childDiscount": "Gyermek kedvezmény:",
+        "withParents": "Szülőkkel egy szobában pótágyon (max. 2 pótágy/szoba), min. 2 teljes fizető vendég esetén:",
+        "free": "-0-14 éves korig ingyenes.",
+        "halfBoardDiscount": "Félpanziós étkezésük kedvezményes ára:",
+        "freeForBabies": "0-2 éves korig díjmentes,",
+        "olderChild": "2-14 éves korig 2.000 Ft/fő/alkalom.",
+        "pet": "Háziállat nem hozható.",
+        "additionalInfo": "További információk:",
+        "checkIn": "check in: 15.00-tól",
+        "checkOut": "check out: 11.00-ig",
+        "lateCheckOut": "Late check out felára",
+        "earlyCheckIn": "Early check in felár",
+        "proPerson": "/fő"
     }
 }
