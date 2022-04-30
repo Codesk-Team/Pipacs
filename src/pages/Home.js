@@ -600,7 +600,7 @@ const Home = () => {
                           </p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
                             {/* A termőföldünkről egyenesen a konyhánkba */}
-                            {t("homePage.fromSoilToKitchen")}
+                            {t("fromSoilToKitchen")}
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
