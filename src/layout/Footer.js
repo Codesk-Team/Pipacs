@@ -78,12 +78,6 @@ const Footer = () => {
                         info@egerpipacs.hu
                       </a>
                     </span>
-                    {", "}
-                    <span class="text-color-theme">
-                      <a href="mailto:info@egerpipacs.hu" class="__cf_email__">
-                        info@egerpipacs.hu
-                      </a>
-                    </span>
                   </p>
                   <div class="widget_barrel_social_icons shortcode_barrel_social_icons">
                     <div class="social-icons-wrapper">
