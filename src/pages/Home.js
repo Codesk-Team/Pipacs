@@ -519,14 +519,14 @@ const Home = () => {
                                 <div class="mgt-promo-block-content-inside vc_custom_1502111254458">
                                   <h5 style={{ textAlign: "center" }}>
                                     {/* Mennyei ízek */}
-                                    {t("homePage:goodTastes")}
+                                    {t("goodTastes")}
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
                                     {/* Tekintse meg */}
-                                    {t("homePage:lookAt")}
+                                    {t("lookAt")}
                                     <br />
                                     {/* étlapunkat! */}
-                                    {t("homePage:ourMenu")}
+                                    {t("ourMenu")}
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
@@ -534,7 +534,7 @@ const Home = () => {
                                       href="menu"
                                     >
                                       {/* Étlap */}
-                                      {t("homePage:menu")}
+                                      {t("menu")}
                                     </a>
                                   </div>
                                 </div>
@@ -558,14 +558,14 @@ const Home = () => {
                                 <div class="mgt-promo-block-content-inside vc_custom_1502119337451">
                                   <h5 style={{ textAlign: "center" }}>
                                     {/* Teljes kikapcsolódás */}
-                                    {t("homePage:totalRelax")}
+                                    {t("totalRelax")}
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
                                     {/* Tekintse meg */}
-                                    {t("homePage:ourRooms")}
+                                    {t("ourRooms")}
                                     <br />
                                     {/* szobáinkat! */}
-                                    {t("homePage:ourRooms")}
+                                    {t("ourRooms")}
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
@@ -573,7 +573,7 @@ const Home = () => {
                                       href="rooms"
                                     >
                                       {/* Szobák */}
-                                      {t("homePage:rooms")}
+                                      {t("rooms")}
                                     </a>
                                   </div>
                                 </div>

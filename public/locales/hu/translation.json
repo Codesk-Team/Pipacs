@@ -8,17 +8,19 @@
     "mainMenu": "Főmenü",
     "allergens": "Allergének",
 
+    "goodTastes": "Mennyei ízek",
+    "lookAt": "Tekintse meg",
+    "ourMenu": "étlapunkat!",
+    "totalRelax": "Teljes kikapcsolódás",
+    "ourRooms": "szobáinkat!",
+    "guesthouse": "Panzió",
+    "socialMedia": "Közösségi média",
 
     "homePage": {
         "restaurantAndGuestHouse": "A Pipacs Étterem & Panzió",
         "webpage": "Weboldalán",
         "aboutUs": "Rólunk",
         "welcome": "Üdvözöljük",
-        "goodTastes": "Mennyei ízek",
-        "lookAt": "Tekintse meg",
-        "Ourmenu": "étlapunkat!",
-        "totalRelax": "Teljes kikapcsolódás",
-        "ourRooms": "szobáinkat!",
         "fromSoilToKitchen": "A termőföldünkről egyenesen a konyhánkba",
         "ourPurpose": "2021 júniusában nyitottuk meg éttermünket azzal a céllal, hogy a saját termelésű alapanyagaink közvetlenül, ne kizárólagosan csak a fine dining éttermeken keresztül jussanak el hozzátok. A birtokunkról érkezik a Keleméri bárány, a szabad tartású csirke és a vadon termő gyümölcsök is.",
         "menuOnePartOne": "Mangalica és vízi bivaly ízelítő",
@@ -36,5 +38,30 @@
         "traditionalTastes": "Tradicionális magyar ízek",
         "menuByChef": "A menü összeállításról Nagy Attila séfünk gondoskodik, aki tudását korábban a Parádsasvári Kastély konyháján pallérozta, amit 9 évig vezetett is.",
         "localKitchen": "A fogásoknál főként a tradicionális magyar és a helyi konyha alapízei dominálnak, kicsit egyszerűen és kicsit kifinomultan is egyidejűleg."
+    },
+
+    "contactUsPage": {
+        "howCanWeHelp": "Miben tudunk segíteni?",
+        "restAfterWines": "Ha megpihennél a csodás ételek és borok után, a Pipacs Étterem egyedi, klimatizált szobáiban erre is van lehetőség. A másnap reggelt pedig kezdd a séfünk által összeállított mennyei a’la carte reggelivel!",
+        "findUs": "Találjon meg minket!",
+        "writeToUs": "Írjon nekünk üzenetet!",
+        "useContactForm": "Kérjük használja az alábbi formot az üzenet küldésre",
+        "weWillReachYouOut": "Amint tudunk válaszolunk az Ön üzenetére!",
+        "name": "Név*",
+        "email": "Email*",
+        "message": "Üzenet*",
+        "send": "Küldés",
+        "restaurantOpeningHours": "Étterem nyitvatartás",
+        "mondayOH": "Hétfő         Zárva",
+        "tuesdayOH": "Kedd          Zárva",
+        "wednesday": "Szerda       Zárva",
+        "thursday": "Csütörtök      9:00 - 20:00",
+        "fridayOH": "Péntek            9:00 - 20:00",
+        "sundayOH": "Szombat        9:00 - 20:00",
+        "saturdayOH": "Vasárnap        9:00 - 18:00",
+        "tableReservation": "Asztalfoglalás:",
+        "roomResarvation": "Szobafoglalás:"
+
+
     }
 }

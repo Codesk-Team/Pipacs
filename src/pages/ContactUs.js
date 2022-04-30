@@ -1,8 +1,11 @@
 import React from "react";
 import Footer from "../layout/Footer";
 import Header from "../layout/Header";
+import { useTranslation } from "react-i18next";
 
 const ContactUs = () => {
+  const { t } = useTranslation();
+
   return (
     <div class="home page-template-default page page-id-3699 wpb-js-composer js-comp-ver-5.2.1 vc_responsive">
       <Header />
@@ -17,7 +20,10 @@ const ContactUs = () => {
               <div class="row">
                 <div class="col-md-12">
                   <div class="page-item-title">
-                    <h1 class="text-center texttransform-none">Kapcsolat</h1>
+                    <h1 class="text-center texttransform-none">
+                      {/* Kapcsolat */}
+                      {t("contactUs")}
+                    </h1>
                   </div>
                 </div>
               </div>
@@ -38,10 +44,14 @@ const ContactUs = () => {
                     <div class="vc_column-inner vc_custom_1490279597723">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-center text-black wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-50018052">
-                          <p class="mgt-header-block-subtitle">Kapcsolat</p>
+                          <p class="mgt-header-block-subtitle">
+                            {/* Kapcsolat */}
+                            {t("contactUs")}
+                          </p>
                           <h2 class="mgt-header-block-title text-font-weight-default">
                             {/* What can we help you with */}
-                            Miben tudunk segíteni?
+                            {/* Miben tudunk segíteni? */}
+                            {t("contactUsPage.howCanWeHelp")}
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
@@ -49,11 +59,12 @@ const ContactUs = () => {
                           <div class="wpb_wrapper">
                             <p style={{ textAlign: "center" }}>
                               <span style={{ color: "#999999" }}>
-                                Ha megpihennél a csodás ételek és borok után, a
+                                {/* Ha megpihennél a csodás ételek és borok után, a
                                 Pipacs Étterem egyedi, klimatizált szobáiban
                                 erre is van lehetőség. A másnap reggelt pedig
                                 kezdd a séfünk által összeállított mennyei a’la
-                                carte reggelivel!
+                                carte reggelivel! */}
+                                {t("contactUsPage.restAfterWines")}
                               </span>
                             </p>
                           </div>
@@ -74,7 +85,8 @@ const ContactUs = () => {
                         <div class="wpb_text_column wpb_content_element text-size-medium">
                           <div class="wpb_wrapper">
                             <h3 style={{ textAlign: "left" }}>
-                              Találjon meg minket!
+                              {/* Találjon meg minket! */}
+                              {t("contactUsPage.findUs")}
                             </h3>
                             {/* <h3 style={{ textAlign: "left" }}>Find us</h3> */}
                             <p style={{ textAlign: "left" }}>
@@ -124,16 +136,19 @@ const ContactUs = () => {
                         <div class="wpb_text_column wpb_content_element text-size-medium">
                           <div class="wpb_wrapper">
                             <h3 style={{ textAlign: "left" }}>
-                              Írjon nekünk üzenetet!
+                              {/* Írjon nekünk üzenetet! */}
+                              {t("contactUsPage.writeToUs")}
                             </h3>
                             <p style={{ textAlign: "left" }}>
                               <span style={{ color: "#999999" }}>
-                                Kérjük használja az alábbi formot az üzenet
-                                küldésre
+                                {/* Kérjük használja az alábbi formot az üzenet
+                                küldésre */}
+                                {t("contactUsPage.useContactForm")}
                               </span>
                               <br />
                               <span style={{ color: "#999999" }}>
-                                Amint tudunk válaszolunk az Ön üzenetére!
+                                {/* Amint tudunk válaszolunk az Ön üzenetére! */}
+                                {t("contactUsPage.weWillReachYouOut")}
                               </span>
                             </p>
                           </div>
@@ -166,7 +181,8 @@ const ContactUs = () => {
                                       class="input1"
                                       aria-required="true"
                                       aria-invalid="false"
-                                      placeholder="Név*"
+                                      // placeholder="Név*"
+                                      placeholder={t("contactUsPage.name")}
                                     ></input>
                                   </span>
                                 </p>
@@ -182,7 +198,8 @@ const ContactUs = () => {
                                       class="input1"
                                       aria-required="true"
                                       aria-invalid="false"
-                                      placeholder="Email*"
+                                      // placeholder="Email*"
+                                      placeholder={t("contactUsPage.email")}
                                     ></input>
                                   </span>
                                 </p>
@@ -197,7 +214,8 @@ const ContactUs = () => {
                                       rows="10"
                                       class="input1"
                                       aria-invalid="false"
-                                      placeholder="Üzenet*"
+                                      // placeholder="Üzenet*"
+                                      placeholder={t("contactUsPage.message")}
                                     ></textarea>
                                   </span>
                                 </p>
@@ -207,7 +225,10 @@ const ContactUs = () => {
                                 <div class="quform-submit">
                                   <div class="quform-submit-inner">
                                     <button type="submit" class="submit-button">
-                                      <span>Küldés</span>
+                                      <span>
+                                        {/* Küldés */}
+                                        {t("contactUsPage.send")}
+                                      </span>
                                     </button>
                                   </div>
                                   <div class="quform-loading-wrap">
@@ -232,35 +253,38 @@ const ContactUs = () => {
                   <div class="wpb_text_column wpb_content_element contact-content">
                     <div class="wpb_wrapper">
                       <h3 style={{ textAlign: "center" }}>
-                        Étterem nyitvatartás
+                        {/* Étterem nyitvatartás */}
+                        {t("contactUsPage.restaurantOpeningHours")}
                       </h3>
                       <p style={{ textAlign: "center" }}>
-                        Hétfő         Zárva
+                        {/* Hétfő         Zárva */}
+                        {t("contactUsPage.mondayOH")}
                         <br />
-                        Kedd          Zárva
+                        {/* Kedd          Zárva */}
+                        {t("contactUsPage.tuesdayOH")}
                         <br />
-                        Szerda       Zárva
+                        {/* Szerda       Zárva */}
+                        {t("contactUsPage.wednesday")}
                         <br />
-                        Csütörtök      9:00 &#8211; 20:00
+                        {/* Csütörtök      9:00 &#8211; 20:00 */}
+                        {t("contactUsPage.thursday")}
                         <br />
-                        Péntek            9:00 &#8211; 20:00
+                        {/* Péntek            9:00 &#8211; 20:00 */}
+                        {t("contactUsPage.fridayOH")}
                         <br />
-                        Szombat        9:00 &#8211; 20:00
+                        {/* Szombat        9:00 &#8211; 20:00 */}
+                        {t("contactUsPage.sundayOH")}
                         <br />
-                        Vasárnap        9:00 &#8211; 18:00
+                        {/* Vasárnap        9:00 &#8211; 18:00 */}
+                        {t("contactUsPage.saturdayOH")}
                         {/* Sunday           10:00 am &#8211; 11:00 pm */}
                       </p>
-                      Asztalfoglalás:{" "}
+                      {t("contactUsPage.tableReservation")}{" "}
                       <a href="tel:+36-30-117-7949" class="__cf_email__">
-                        +36-30-117-7949
+                        +36 30 117 7949
                       </a>
                       <br />
-                      Séf:{" "}
-                      <a href="tel:+36-30-984-0739" class="__cf_email__">
-                        +36-30-984-0739
-                      </a>
-                      <br />
-                      E-mail::{" "}
+                      E-mail:{" "}
                       <a href="mailto:sef@egerpipacs.hu " class="__cf_email__">
                         sef@egerpipacs.hu
                       </a>
@@ -276,9 +300,9 @@ const ContactUs = () => {
                   </div>
                   <div class="wpb_text_column wpb_content_element contact-content">
                     <div class="wpb_wrapper">
-                      <h3>Panzió</h3>
+                      <h3> {t("guesthouse")}</h3>
                       <p>
-                        Szobafoglalás:{" "}
+                        {t("contactUsPage.roomResarvation")}{" "}
                         <a href="tel:+36-30-984-0837" class="__cf_email__">
                           +36-30-984-0837
                         </a>
@@ -310,7 +334,10 @@ const ContactUs = () => {
                   </div>
                   <div class="wpb_text_column wpb_content_element contact-content">
                     <div class="wpb_wrapper">
-                      <h3>Közösségi média</h3>
+                      <h3>
+                        {/* Közösségi média */}
+                        {t("socialMedia")}
+                      </h3>
                       <p>
                         <a
                           href="https://www.facebook.com/pipacsetteremeger/"
@@ -350,19 +377,23 @@ const ContactUs = () => {
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside">
                                   <h5 style={{ textAlign: "center" }}>
-                                    Mennyei ízek
+                                    {/* Mennyei ízek */}
+                                    {t("goodTastes")}
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
-                                    Tekintse meg
+                                    {/* Tekintse meg  */}
+                                    {t("lookAt")}
                                     <br />
-                                    étlapunkat!
+                                    {/* étlapunkat! */}
+                                    {t("ourMenu")}
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
                                       class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-large mgt-align-center mgt-display-newline mgt-text-size-small mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                                       href="menu"
                                     >
-                                      Étlap
+                                      {/* Étlap */}
+                                      {t("menu")}
                                     </a>
                                   </div>
                                 </div>
@@ -385,19 +416,23 @@ const ContactUs = () => {
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside">
                                   <h5 style={{ textAlign: "center" }}>
-                                    Teljes kikapcsolódás
+                                    {/* Teljes kikapcsolódás */}
+                                    {t("totalRelax")}
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
-                                    Tekintse meg
+                                    {/* Tekintse meg */}
+                                    {t("ourRooms")}
                                     <br />
-                                    szobáinkat!
+                                    {/* szobáinkat! */}
+                                    {t("ourRooms")}
                                   </h2>
                                   <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                     <a
                                       class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-large mgt-align-center mgt-display-newline mgt-text-size-small mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
                                       href="rooms"
                                     >
-                                      Szobák
+                                      {/* Szobák */}
+                                      {t("rooms")}
                                     </a>
                                   </div>
                                 </div>
