@@ -43,10 +43,7 @@ const Rooms = () => {
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-43612531">
-                          <p class="mgt-header-block-subtitle">
-                            {/* Szobák */}
-                            {t("rooms")}
-                          </p>
+                          {/* <p class="mgt-header-block-subtitle">{t("rooms")}</p> */}
                           <h2 class="mgt-header-block-title text-font-weight-default">
                             {/* A felejthetetlen pihenésért... */}
                             {t("roomsPage.unforgettableRest")}
@@ -209,7 +206,7 @@ const Rooms = () => {
                                   <div class="info">
                                     {/* <span class="sub-title">Fish</span> */}
                                     <h4 class="title">
-                                      Napraforgó {t("familyRoom")}
+                                      Napraforgó {t("roomsPage.familyRoom")}
                                     </h4>
                                     <div class="project-description">
                                       39.000 Ft /{" "}

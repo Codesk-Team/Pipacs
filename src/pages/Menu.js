@@ -38,10 +38,9 @@ const Menu = () => {
                     <div class="vc_column-inner vc_custom_1501950320442">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-76637847">
-                          <p class="mgt-header-block-subtitle">
-                            {/* Étlap */}
+                          {/* <p class="mgt-header-block-subtitle">
                             {t("menu")}
-                          </p>
+                          </p> */}
                           <h2 class="mgt-header-block-title text-font-weight-default">
                             {/* A termőföldünkről egyenes a konyhánkba! */}
                             {t("fromSoilToKitchen")}

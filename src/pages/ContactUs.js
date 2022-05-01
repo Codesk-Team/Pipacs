@@ -44,10 +44,9 @@ const ContactUs = () => {
                     <div class="vc_column-inner vc_custom_1490279597723">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-center text-black wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-50018052">
-                          <p class="mgt-header-block-subtitle">
-                            {/* Kapcsolat */}
+                          {/* <p class="mgt-header-block-subtitle">
                             {t("contactUs")}
-                          </p>
+                          </p> */}
                           <h2 class="mgt-header-block-title text-font-weight-default">
                             {/* What can we help you with */}
                             {/* Miben tudunk segíteni? */}

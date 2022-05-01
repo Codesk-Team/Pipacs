@@ -42,10 +42,10 @@ const AboutUs = () => {
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-center text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-12030347">
-                          <p class="mgt-header-block-subtitle">
-                            {/* Rólunk */}
+                          {/* <p class="mgt-header-block-subtitle">
+                           
                             {t("aboutUs")}
-                          </p>
+                          </p> */}
                           <h2 class="mgt-header-block-title text-font-weight-default">
                             {/* Pipacs Étterem & Panzió */}
                             {t("pipacsName")}
@@ -120,10 +120,9 @@ const AboutUs = () => {
                     <div class="vc_column-inner vc_custom_1502119511003">
                       <div class="wpb_wrapper">
                         <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-medium mgt-header-texttransform-none mgt-header-block-47652033">
-                          <p class="mgt-header-block-subtitle">
-                            {/* Rólunk */}
+                          {/* <p class="mgt-header-block-subtitle">
                             {t("aboutUs")}
-                          </p>
+                          </p> */}
                           <h2 class="mgt-header-block-title text-font-weight-default">
                             {/* Különleges gasztro élmény */}
                             {t("aboutPage.gastroExperience")}
