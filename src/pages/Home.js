@@ -885,7 +885,7 @@ const Home = () => {
                   data-vc-full-width-init="false"
                   data-vc-stretch-content="true"
                   data-vc-parallax="1.5"
-                  data-vc-parallax-image="assets/img/about_us_pipacs_food4.webp"
+                  data-vc-parallax-image="assets/img/feel_by_yourself_pipacs.webp"
                   class="vc_row wpb_row vc_row-fluid vc_custom_1501853930727 vc_row-has-fill vc_row-no-padding vc_general vc_parallax vc_parallax-content-moving"
                 >
                   <div class="wpb_column vc_column_container vc_col-sm-12">

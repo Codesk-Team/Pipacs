@@ -231,7 +231,7 @@ const AboutUs = () => {
                         <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                           <div
                             class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-15851137"
-                            data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_food7.jpg);background-repeat: no-repeat;height: 420px;"
+                            data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_food7.webp);background-repeat: no-repeat;height: 420px;"
                           >
                             <div class="mgt-promo-block-content va-middle">
                               <div class="mgt-promo-block-content-inside vc_custom_1502117266071">

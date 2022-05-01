@@ -358,7 +358,7 @@ const ContactUs = () => {
                           <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-66330768"
-                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_food7.jpg);background-repeat: no-repeat;height: 300px;"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/about_us_pipacs_food7.webp);background-repeat: no-repeat;height: 300px;"
                             >
                               <div class="mgt-promo-block-content va-middle">
                                 <div class="mgt-promo-block-content-inside">
