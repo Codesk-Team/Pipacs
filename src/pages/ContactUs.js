@@ -407,7 +407,7 @@ const ContactUs = () => {
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
                                     {/* Tekintse meg */}
-                                    {t("ourRooms")}
+                                    {t("lookAt")}
                                     <br />
                                     {/* szobáinkat! */}
                                     {t("ourRooms")}

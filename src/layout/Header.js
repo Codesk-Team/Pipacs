@@ -2,7 +2,10 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 const Header = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <header class="sticky-header main-header sticky-header-elements-headeronly mainmenu-position-menu_in_header">
@@ -65,8 +68,22 @@ const Header = () => {
                         </a>
                       </li>
                       <li class="menu-item">
-                        <a href="contact-us">
-                          <span style={{ color: "#c69f7c" }}>English</span>
+                        <a href="/">
+                          {i18n.language === "hu" ? (
+                            <span
+                              onClick={() => changeLanguage("en")}
+                              style={{ color: "#c69f7c" }}
+                            >
+                              EN
+                            </span>
+                          ) : (
+                            <span
+                              onClick={() => changeLanguage("hu")}
+                              style={{ color: "#c69f7c" }}
+                            >
+                              HU
+                            </span>
+                          )}
                         </a>
                       </li>
                       {/* <li class="mgt-highlight menu-item">
