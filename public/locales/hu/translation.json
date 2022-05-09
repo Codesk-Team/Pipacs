@@ -38,7 +38,7 @@
         "feelByYourself": "Tapasztalja meg Ön is",
         "youAreAlwysWelcome": "Mindig szívesen látjuk éttermünkben és panziónkban egyaránt!",
         "traditionalTastes": "Tradicionális magyar ízek",
-        "menuByChef": "A menü összeállításról Nagy Attila séfünk gondoskodik, aki tudását korábban a Parádsasvári Kastély konyháján pallérozta, amit 9 évig vezetett is.",
+        "menuByChef": "A menü összeállításról Nagy Attila séfünk gondoskodik, aki 9 évig egy öt csillagos kastélyhotel konyháját vezette, valamit tapasztalatait külföldön (Olaszországban, Németországban) gyarapította.",
         "localKitchen": "A fogásoknál főként a tradicionális magyar és a helyi konyha alapízei dominálnak, kicsit egyszerűen és kicsit kifinomultan is egyidejűleg."
     },
 
@@ -82,13 +82,15 @@
         "truckleBed": "Pótágy:",
         "familyRoom": "családi szoba",
         "priceContains": "Az ár tartalmazza:",
-        "notSmoking": "Szállás nemdohányzó, légkondicionált szobában",
-        "bathroomEquipments": "Fürdőszobai felszerelés (szappan, tusfürdő, sampon, zuhanysapka), törölközők",
+        "notSmoking": "Szállás nemdohányzó, franciaágyas, légkondicionált szobában",
+        "bathroomEquipments": "Fürdőszobai bekészítés (törölközők, szappan, sampon-tusfürdő, zuhanysapka)",
         "parking": "Parkolás kamerával megfigyelt, nem őrzött parkolóban",
-        "breakfast": "Szobáink reggelivel foglalhatóak, melyet a szobaár nem tartalmaz, ezt a helyszínen lehet szabadon választani a’la carte reggeli étlapunk alapján.",
+        "tax": "Áraink az idegenforgalmi adót (500Ft/fő/éj) nem tartalmazzák, ez a helyszínen fizetendő.",
+        "eatingPossibilities": "Étkezési lehetőségek:",
+        "breakfast": "Reggeli: tetszés szerint, a’la carte reggeli étlapunkról válaszható.",
         "halfBoard": "Félpanziós felár: 2.000 Ft/fő/alkalom",
         "childDiscount": "Gyermek kedvezmény:",
-        "withParents": "Szülőkkel egy szobában pótágyon (max. 2 pótágy/szoba), min. 2 teljes fizető vendég esetén:",
+        "withParents": "Szülőkkel két légterű családi, Napraforgó szobánkban pótágyon (max. 2 gyermek /szoba) történő elhelyezés esetén:",
         "free": "-0-14 éves korig ingyenes.",
         "halfBoardDiscount": "Félpanziós étkezésük kedvezményes ára:",
         "freeForBabies": "0-2 éves korig díjmentes,",
@@ -104,7 +106,7 @@
 
     "aboutPage": {
         "aboutTextOne": "2021 júniusában nyitottuk meg éttermünket azzal a céllal, hogy a saját termelésű alapanyagaink közvetlenül, ne kizárólagosan csak a fine dining éttermeken keresztül jussanak el hozzátok. A birtokról érkezik a Keleméri bárány, a szabad tartású csirke és a vadon termő gyümölcsök is. A menü összeállításról Nagy Attila séfünk gondoskodik, aki 9 évig egy öt csillagos kastélyhotel konyháját vezette, valamit tapasztalatait külföldön (Olaszországban, Németországban) gyarapította.",
-        "aboutTextTwo": "A fogásoknál főként a tradicionális magyar és a helyi konyha alapízei dominálnak, kicsit egyszerűen és kicsit kifinomultan is egyidejűleg. Nemcsak a keleméri birtokrólérkezik termelői alapanyag, hanem a Mátrai bivalyrezervátumból is, ahonnan Szalai Ferenc személyesen szállítja ki részünkre bivaly termékeit. A vadhúsok csak és kizárólag a környék vadjaiból kerülnek a konyhánkba, ahol Mag László, a Vadker Kft. tulajdonosa személyesen felel, a legjobb minőségű királyi szarvas bélszín beszállításáról.",
+        "aboutTextTwo": "A fogásoknál főként a tradicionális magyar és a helyi konyha alapízei dominálnak, kicsit egyszerűen és kicsit kifinomultan is egyidejűleg. Nemcsak a keleméri birtokról érkezik termelői alapanyag, hanem a Mátrai bivalyrezervátumból is, ahonnan Szalai Ferenc személyesen szállítja ki részünkre bivaly termékeit. A vadhúsok csak és kizárólag a környék vadjaiból kerülnek a konyhánkba, ahol Mag László, a Vadker Kft. tulajdonosa személyesen felel, a legjobb minőségű királyi szarvas bélszín beszállításáról.",
         "gastroExperience": "Különleges gasztro élmény",
         "chefMind": "Séfünk hitvallása, hogy személyesen készíti el, majd szolgálja fel a választott fogásokat. Ezáltal lehetősége nyílik a vendégeknek arra, hogy séfünktől személyesen is kérdezzenek. Éttermünk mellett panziónkban is szívesen látjuk vendégeinket, ahol a kétágyas szobákon mellett, a négyágyas családi szobák is a rendelkezésükre állnak."
     },

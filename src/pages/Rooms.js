@@ -108,8 +108,6 @@ const Rooms = () => {
                                     <div class="project-description">
                                       20.000 Ft /{" "}
                                       {t("roomsPage.roomSlashNight")}
-                                      <br />
-                                      Pótágy: 7.500 Ft
                                     </div>
                                   </div>
                                 </a>
@@ -141,8 +139,6 @@ const Rooms = () => {
                                     <div class="project-description">
                                       22.000 Ft /{" "}
                                       {t("roomsPage.roomSlashNight")}
-                                      <br />
-                                      {t("roomsPage.truckleBed")} 7.500 Ft
                                     </div>
                                   </div>
                                 </a>
@@ -176,8 +172,6 @@ const Rooms = () => {
                                     <div class="project-description">
                                       20.000 Ft /{" "}
                                       {t("roomsPage.roomSlashNight")}
-                                      <br />
-                                      {t("roomsPage.truckleBed")} 7.500 Ft
                                     </div>
                                   </div>
                                 </a>
@@ -211,8 +205,6 @@ const Rooms = () => {
                                     <div class="project-description">
                                       39.000 Ft /{" "}
                                       {t("roomsPage.roomSlashNight")}
-                                      <br />
-                                      {t("roomsPage.truckleBed")} 7.500 Ft
                                     </div>
                                   </div>
                                 </a>
@@ -264,8 +256,12 @@ const Rooms = () => {
                     {/* Szobáink reggelivel foglalhatóak, melyet a szobaár nem
                     tartalmaz, ezt a helyszínen lehet szabadon választani a’la
                     carte reggeli étlapunk alapján. */}
-                    {t("roomsPage.breakfast")}
+                    {t("roomsPage.tax")}
                   </p>
+
+                  <p>{t("roomsPage.eatingPossibilities")}</p>
+
+                  <p>{t("roomsPage.breakfast")}</p>
 
                   <p>
                     {/* Félpanziós felár: 2.000 Ft/fő/alkalom */}
