@@ -111,7 +111,7 @@
 
     "menuPage": {
         "ourFoods": "Ételeinket hazai, főként saját termelésű alapanyagokból készítjük. Fogásainknál főként a tradicionális magyar és a helyi konyha alapízei dominálnak.",
-        "sesionalMenu": "Szezonális menü (Bárányos április)",
+        "sesionalMenu": "Szezonális menü (BBQ május)",
         "warningHalfPrice": "Felhívjuk kedves vendégeink figyelmét, hogy a zárójelben feltüntetett árak fél adagra vonatkoznak.",
         "servicePrice": "Feltüntetett árainkra +10% szervízdíjat számolunk fel, melyet számlája végösszege tartalmaz.",
         "allergies": "Az étlapon jelölve találják az egyes ételek allergén tartalmát! A további allergén információkkal kapcsolatos tájékoztatásban kérje Kollegáink segítségét! Köszönjük!",
@@ -159,13 +159,13 @@
         "desser2": "Túrógombóc házi tejföllel",
         "desser3": "Tárkonykrém erdei gyümölcs kompóttal",
         "desser4": "Pipacs csoki trió, ropogós tuile-lal",
-        "sheepApril": "Bárányos április",
+        "sheepApril": "BBQ Május",
         "sesionalMenuShort": "Szezonális menü",
-        "sesionalSoup1": "Savanyú báránybelsőségleves burgonyagombóccal",
-        "sesionalDessert1": "Tavaszi virágkrém",
-        "sesionalMainDish1Part1": "Préselt rozmaringos báránysült és báránygerinc",
-        "sesionalMainDish1Part2": "lilakáposztával mini burgonyafánkkal",
-        "sesionalMainDish2": "Tavaszi bárányragu",
-        "sesionalMainDish3": "Bárány burger"
+        "sesionalSoup1": "Paradicsomleves mozzarella sajttal",
+        "sesionalDessert1": "A séf csokis palacsintája",
+        "sesionalMainDish1Part1": "BBQ marhaoldalas steak",
+        "sesionalMainDish1Part2": "burgonyával, chilis káposzta salátával",
+        "sesionalMainDish2": "Báránygerinc streak házi szószokkal",
+        "sesionalMainDish3": "Mátrai bivaly burger kéksajttal, baceonnel"
     }
 }
