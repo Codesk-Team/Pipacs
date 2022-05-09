@@ -287,6 +287,7 @@ const ContactUs = () => {
                     <div class="wpb_wrapper">
                       <h3> {t("guesthouse")}</h3>
                       <p>
+                        {t("footer.openEveryDay")} <br />
                         {t("contactUsPage.roomResarvation")}{" "}
                         <a href="tel:+36-30-984-0837" class="__cf_email__">
                           +36-30-984-0837
