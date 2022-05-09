@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -120,7 +121,13 @@ const Footer = () => {
                 <div class="menu-footermenu-simple-container">
                   <ul id="menu-footermenu-simple" class="footer-menu">
                     <li class="menu-item">
-                      <a href="#">{t("footer.tac")}</a>
+                      <Link
+                        to="assets/files/Pipacs_ASZF.pdf"
+                        target="_blank"
+                        download
+                      >
+                        {t("footer.tac")}
+                      </Link>
                     </li>
                   </ul>
                 </div>
