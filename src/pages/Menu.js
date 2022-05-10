@@ -8,14 +8,15 @@ const Menu = () => {
 
   const menuSlicer = (text) => {
     const textLenght = text.length;
+    const maxLength = 22;
 
     return (
       <>
-        {textLenght > 30 ? (
+        {textLenght > maxLength ? (
           <>
-            {text.slice(0, 30)}
+            {text.slice(0, maxLength)}
             <br />
-            {text.slice(30, textLenght)}
+            {text.slice(maxLength, textLenght)}
           </>
         ) : (
           <>{text}</>
