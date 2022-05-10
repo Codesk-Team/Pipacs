@@ -6,6 +6,24 @@ import { useTranslation } from "react-i18next";
 const Home = () => {
   const { t } = useTranslation();
 
+  const menuSlicer = (text) => {
+    const textLenght = text.length;
+
+    return (
+      <>
+        {textLenght > 40 ? (
+          <>
+            {text.slice(0, 40)}
+            <br />
+            {text.slice(40, textLenght)}
+          </>
+        ) : (
+          <>{text}</>
+        )}
+      </>
+    );
+  };
+
   return (
     <div class="home page-template-default page page-id-3699 wpb-js-composer js-comp-ver-5.2.1 vc_responsive">
       <Header />
@@ -727,12 +745,7 @@ const Home = () => {
                           <div class="mgt-item-price-details">
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
-                              <h4>
-                                {/* Mangalica és vízi bivaly ízelítő */}
-                                {t("homePage.menuOnePartOne")} <br />
-                                {/* házi zöldség krémekkel és kovászos kenyérrel */}
-                                {t("homePage.menuOnePartTwo")}
-                              </h4>
+                              <h4>{menuSlicer(t("homePage.menuOne"))}</h4>
                             </div>
                             <div class="mgt-item-price-value">2700 Ft</div>
                             <p class="mgt-item-price-description">
@@ -748,7 +761,7 @@ const Home = () => {
                               <h4>
                                 {/* Tanyasi tyúkhúsleves zöldségekkel és
                                 csigatésztával */}
-                                {t("homePage.menuTwo")}
+                                {menuSlicer(t("homePage.menuTwo"))}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">2040 Ft</div>
@@ -764,7 +777,7 @@ const Home = () => {
                             <div class="mgt-item-price-title-holder">
                               <h4>
                                 {/* Tárkonyos báránygombóc leves friss tejföllel */}
-                                {t("homePage.menuThree")}
+                                {menuSlicer(t("homePage.menuThree"))}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">2475 Ft</div>
@@ -781,7 +794,7 @@ const Home = () => {
                               <h4>
                                 {/* Egészben sült szilvásváradi pisztráng friss
                                 fűszernövényekkel */}
-                                {t("homePage.menuFour")}
+                                {menuSlicer(t("homePage.menuFour"))}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">3590 Ft</div>
@@ -804,7 +817,7 @@ const Home = () => {
                               <h4>
                                 {/* Keleméri birkapörkölt sztrapacskával kézműves
                                 savanyúsággal */}
-                                {t("homePage.menuFive")}
+                                {menuSlicer(t("homePage.menuFive"))}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">3880 Ft</div>
@@ -820,7 +833,7 @@ const Home = () => {
                             <div class="mgt-item-price-title-holder">
                               <h4>
                                 {/* Túrógombóc házi tejföllel */}
-                                {t("homePage.menuSix")}
+                                {menuSlicer(t("homePage.menuSix"))}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">1620 Ft</div>
@@ -837,7 +850,7 @@ const Home = () => {
                               <h4>
                                 {/* Erdei gyümölcsökkel töltött gratinírozott
                                 palacsinta */}
-                                {t("homePage.menuSeven")}
+                                {menuSlicer(t("homePage.menuSeven"))}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">1540 Ft</div>
@@ -853,7 +866,7 @@ const Home = () => {
                             <div class="mgt-item-price-title-holder">
                               <h4>
                                 {/* Cigánypecsenye */}
-                                {t("homePage.menuEight")}
+                                {menuSlicer(t("homePage.menuEight"))}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">3920 Ft</div>
