@@ -4528,12 +4528,24 @@ body #content h4.wpb_toggle.wpb_toggle_title_active:before {
 * 18. MGT Shortcodes
 */
 /* 18.1 Promo Block */
+
+.additional-custom-space {
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 750px) {
+    .additional-custom-space {
+        margin-top: 30px !important;
+    }
+}
+
 .mgt-promo-block {
     width: 100%;
     display: table;
     background-position: top center;
 }
 .mgt-promo-block-container.wpb_content_element {
+    margin-top: 0px;
     margin-bottom: 0;
     overflow: visible;
 }
@@ -7268,6 +7280,7 @@ body.transparent-header .portfolio-item-details.portfolio-layout-1.portfolio-tit
 .mgt-item-price .mgt-item-price-title-holder h4 {
     font-weight: bold;
     display: inline;
+    overflow-wrap: break-word;
 }
 .mgt-item-price .mgt-item-price-line {
     border-bottom: 2px dotted #dfe1e6;

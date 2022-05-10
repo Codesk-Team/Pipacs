@@ -648,7 +648,7 @@ const Home = () => {
                   <div class="wpb_column vc_column_container vc_col-sm-2">
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
-                        <div class="mgt-promo-block-container wpb_content_element">
+                        <div class="mgt-promo-block-container wpb_content_element additional-custom-space">
                           <div class="mgt-promo-block-wrapper mgt-promo-block-shadow mgt-promo-block-hover">
                             <div
                               class="mgt-promo-block black-text cover-image no-darken mgt-promo-block-59326650"

@@ -313,12 +313,12 @@ const Rooms = () => {
                     {/* Late check out felára */}
                     {t("roomsPage.lateCheckOut")}
                     <br />
-                    5.000 Ft/{t("roomsPage.proPerson")}
+                    5.000 Ft{t("roomsPage.proPerson")}
                     <br />
                     {/* Early check in felár */}
                     {t("roomsPage.earlyCheckIn")}
                     <br />
-                    5.000 Ft/{t("roomsPage.proPerson")}
+                    5.000 Ft{t("roomsPage.proPerson")}
                   </p>
                 </div>
               </div>

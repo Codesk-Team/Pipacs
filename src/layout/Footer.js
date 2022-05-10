@@ -95,7 +95,7 @@ const Footer = () => {
                         </li>
                         <li>
                           <a
-                            href="https://www.facebook.com/pipacsetteremeger/"
+                            href="https://www.instagram.com/pipacsetteremespanzio/"
                             target="_blank"
                             class="a-instagram"
                             rel="noreferrer"
