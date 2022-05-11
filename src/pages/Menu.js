@@ -225,7 +225,7 @@ const Menu = () => {
                                                       t(
                                                         "menuPage.coldPreMeal1"
                                                       ),
-                                                      28,
+                                                      31,
                                                       28
                                                     )}
                                                   </h4>

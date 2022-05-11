@@ -115,7 +115,7 @@ const Footer = () => {
           <div class="container">
             <div class="row">
               <div class="col-md-6 footer-copyright">
-                {t("footer.allRightsReserved")}
+                {t("footer.allRightsReserved")} &#169; 2022 Almári Pipacs Kft.
               </div>
               <div class="col-md-6 footer-menu">
                 <div class="menu-footermenu-simple-container">
