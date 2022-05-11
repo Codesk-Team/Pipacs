@@ -68,7 +68,7 @@ const Header = () => {
                         </a>
                       </li>
                       <li class="menu-item">
-                        <a href="/">
+                        <a href="#">
                           {i18n.language === "hu" ? (
                             <span
                               onClick={() => changeLanguage("en")}

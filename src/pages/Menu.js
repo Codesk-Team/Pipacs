@@ -222,7 +222,11 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.coldPreMeal1")
+                                                      t(
+                                                        "menuPage.coldPreMeal1"
+                                                      ),
+                                                      28,
+                                                      28
                                                     )}
                                                   </h4>
                                                 </div>
@@ -241,7 +245,11 @@ const Menu = () => {
                                                   <h4>
                                                     {/* Grill sajt padlizsánkrémmel */}
                                                     {menuSlicer(
-                                                      t("menuPage.coldPreMeal2")
+                                                      t(
+                                                        "menuPage.coldPreMeal2"
+                                                      ),
+                                                      27,
+                                                      29
                                                     )}
                                                   </h4>
                                                 </div>
@@ -260,7 +268,11 @@ const Menu = () => {
                                                   <h4>
                                                     {/* Zöld saláta tökmagolajjal */}
                                                     {menuSlicer(
-                                                      t("menuPage.coldPreMeal3")
+                                                      t(
+                                                        "menuPage.coldPreMeal3"
+                                                      ),
+                                                      25,
+                                                      33
                                                     )}
                                                   </h4>
                                                 </div>
@@ -292,7 +304,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.soup1")
+                                                      t("menuPage.soup1"),
+                                                      21,
+                                                      23
                                                     )}
                                                   </h4>
                                                 </div>
@@ -310,7 +324,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.soup2")
+                                                      t("menuPage.soup2"),
+                                                      23,
+                                                      24
                                                     )}
                                                   </h4>
                                                 </div>
@@ -328,7 +344,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.soup3")
+                                                      t("menuPage.soup3"),
+                                                      23,
+                                                      26
                                                     )}
                                                   </h4>
                                                 </div>
@@ -365,7 +383,9 @@ const Menu = () => {
                                                     {/* Vargányás pacal habos
                                                     burgonyapürével */}
                                                     {menuSlicer(
-                                                      t("menuPage.localMeal1")
+                                                      t("menuPage.localMeal1"),
+                                                      22,
+                                                      27
                                                     )}
                                                   </h4>
                                                 </div>
@@ -383,7 +403,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.localMeal2")
+                                                      t("menuPage.localMeal2"),
+                                                      22,
+                                                      25
                                                     )}
                                                   </h4>
                                                 </div>
@@ -401,7 +423,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.localMeal3")
+                                                      t("menuPage.localMeal3"),
+                                                      21,
+                                                      25
                                                     )}
                                                   </h4>
                                                 </div>
@@ -439,7 +463,9 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t(
                                                         "menuPage.childrenMeal1"
-                                                      )
+                                                      ),
+                                                      21,
+                                                      27
                                                     )}
                                                   </h4>
                                                 </div>
@@ -459,7 +485,9 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t(
                                                         "menuPage.childrenMeal2"
-                                                      )
+                                                      ),
+                                                      31,
+                                                      31
                                                     )}
                                                   </h4>
                                                 </div>
@@ -479,7 +507,9 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t(
                                                         "menuPage.childrenMeal3"
-                                                      )
+                                                      ),
+                                                      30,
+                                                      25
                                                     )}
                                                   </h4>
                                                 </div>
@@ -595,7 +625,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.mainDish1")
+                                                      t("menuPage.mainDish1"),
+                                                      27,
+                                                      25
                                                     )}
                                                   </h4>
                                                 </div>
@@ -613,7 +645,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.mainDish2")
+                                                      t("menuPage.mainDish2"),
+                                                      25,
+                                                      24
                                                     )}
                                                   </h4>
                                                 </div>
@@ -631,7 +665,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.mainDish3")
+                                                      t("menuPage.mainDish3"),
+                                                      27,
+                                                      25
                                                     )}
                                                   </h4>
                                                 </div>
@@ -664,7 +700,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.mainDish5")
+                                                      t("menuPage.mainDish5"),
+                                                      29,
+                                                      26
                                                     )}
                                                   </h4>
                                                 </div>
@@ -735,7 +773,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.garnish1")
+                                                      t("menuPage.garnish1"),
+                                                      25,
+                                                      27
                                                     )}
                                                   </h4>
                                                 </div>
@@ -753,7 +793,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.garnish2")
+                                                      t("menuPage.garnish2"),
+                                                      20,
+                                                      23
                                                     )}
                                                   </h4>
                                                 </div>
@@ -771,7 +813,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.garnish3")
+                                                      t("menuPage.garnish3"),
+                                                      23,
+                                                      25
                                                     )}
                                                   </h4>
                                                 </div>
@@ -836,7 +880,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.desser1")
+                                                      t("menuPage.desser1"),
+                                                      27,
+                                                      25
                                                     )}
                                                   </h4>
                                                 </div>
@@ -872,7 +918,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.desser3")
+                                                      t("menuPage.desser3"),
+                                                      26,
+                                                      26
                                                     )}
                                                   </h4>
                                                 </div>
@@ -890,7 +938,9 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.desser4")
+                                                      t("menuPage.desser4"),
+                                                      26,
+                                                      26
                                                     )}
                                                   </h4>
                                                 </div>
@@ -987,7 +1037,9 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t(
                                                         "menuPage.sesionalSoup1"
-                                                      )
+                                                      ),
+                                                      26,
+                                                      26
                                                     )}
                                                   </h4>
                                                 </div>
@@ -1069,7 +1121,9 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t(
                                                         "menuPage.sesionalMainDish1"
-                                                      )
+                                                      ),
+                                                      23,
+                                                      25
                                                     )}
                                                   </h4>
                                                 </div>
@@ -1089,7 +1143,9 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t(
                                                         "menuPage.sesionalMainDish2"
-                                                      )
+                                                      ),
+                                                      25,
+                                                      26
                                                     )}
                                                   </h4>
                                                 </div>
@@ -1109,7 +1165,9 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t(
                                                         "menuPage.sesionalMainDish3"
-                                                      )
+                                                      ),
+                                                      21,
+                                                      25
                                                     )}
                                                   </h4>
                                                 </div>
