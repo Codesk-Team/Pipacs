@@ -4,11 +4,15 @@ import Header from "../layout/Header";
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
-  const menuSlicer = (text) => {
+  const menuSlicer = (text, huMaxLength, enMaxLength) => {
     const textLenght = text.length;
-    const maxLength = 25;
+    let maxLength = i18n.language === "hu" ? huMaxLength : enMaxLength;
+
+    if (!maxLength) {
+      maxLength = 25;
+    }
 
     return (
       <>
@@ -746,7 +750,9 @@ const Home = () => {
                           <div class="mgt-item-price-details">
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
-                              <h4>{menuSlicer(t("homePage.menuOne"))}</h4>
+                              <h4>
+                                {menuSlicer(t("homePage.menuOne"), 25, 28)}
+                              </h4>
                             </div>
                             <div class="mgt-item-price-value">2700 Ft</div>
                             <p class="mgt-item-price-description">
@@ -762,7 +768,7 @@ const Home = () => {
                               <h4>
                                 {/* Tanyasi tyúkhúsleves zöldségekkel és
                                 csigatésztával */}
-                                {menuSlicer(t("homePage.menuTwo"))}
+                                {menuSlicer(t("homePage.menuTwo"), 21, 23)}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">2040 Ft</div>
@@ -778,7 +784,7 @@ const Home = () => {
                             <div class="mgt-item-price-title-holder">
                               <h4>
                                 {/* Tárkonyos báránygombóc leves friss tejföllel */}
-                                {menuSlicer(t("homePage.menuThree"))}
+                                {menuSlicer(t("homePage.menuThree"), 23, 24)}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">2475 Ft</div>
@@ -795,7 +801,7 @@ const Home = () => {
                               <h4>
                                 {/* Egészben sült szilvásváradi pisztráng friss
                                 fűszernövényekkel */}
-                                {menuSlicer(t("homePage.menuFour"))}
+                                {menuSlicer(t("homePage.menuFour"), 27, 25)}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">3590 Ft</div>
@@ -818,7 +824,7 @@ const Home = () => {
                               <h4>
                                 {/* Keleméri birkapörkölt sztrapacskával kézműves
                                 savanyúsággal */}
-                                {menuSlicer(t("homePage.menuFive"))}
+                                {menuSlicer(t("homePage.menuFive"), 22, 25)}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">3880 Ft</div>
@@ -834,7 +840,7 @@ const Home = () => {
                             <div class="mgt-item-price-title-holder">
                               <h4>
                                 {/* Túrógombóc házi tejföllel */}
-                                {menuSlicer(t("homePage.menuSix"))}
+                                {menuSlicer(t("homePage.menuSix"), 25, 25)}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">1620 Ft</div>
@@ -851,7 +857,7 @@ const Home = () => {
                               <h4>
                                 {/* Erdei gyümölcsökkel töltött gratinírozott
                                 palacsinta */}
-                                {menuSlicer(t("homePage.menuSeven"))}
+                                {menuSlicer(t("homePage.menuSeven"), 27, 27)}
                               </h4>
                             </div>
                             <div class="mgt-item-price-value">1540 Ft</div>

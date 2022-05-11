@@ -4,11 +4,15 @@ import Header from "../layout/Header";
 import { useTranslation } from "react-i18next";
 
 const Menu = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
-  const menuSlicer = (text) => {
+  const menuSlicer = (text, huMaxLength, enMaxLength) => {
     const textLenght = text.length;
-    const maxLength = 22;
+    let maxLength = i18n.language === "hu" ? huMaxLength : enMaxLength;
+
+    if (!maxLength) {
+      maxLength = 25;
+    }
 
     return (
       <>
