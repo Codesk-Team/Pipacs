@@ -4,6 +4,8 @@ import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs";
 import Menu from "./pages/Menu";
 import Rooms from "./pages/Rooms";
+import "react-toastify/dist/ReactToastify.min.css";
+
 // import SeasionalMenu from "./pages/SeasionalMenu";
 
 function App() {

@@ -1,10 +1,30 @@
 import React from "react";
 import Footer from "../layout/Footer";
 import Header from "../layout/Header";
+import { Formik } from "formik";
 import { useTranslation } from "react-i18next";
+import { toast } from "react-toastify";
+import * as Yup from "yup";
+import emailjs from "emailjs-com";
 
 const ContactUs = () => {
   const { t } = useTranslation();
+
+  let toastId = null;
+  const displayToast = (message) => {
+    if (!toast.isActive(toastId)) {
+      toastId = toast(message, {
+        closeOnClick: false,
+        progressClassName: "toastProgress",
+        pauseOnHover: true,
+        toastId: "my_toast",
+        closeButton: false,
+        position: "top-right",
+        autoClose: 6000,
+        hideProgressBar: true,
+      });
+    }
+  };
 
   return (
     <div class="home page-template-default page page-id-3699 wpb-js-composer js-comp-ver-5.2.1 vc_responsive">
@@ -146,83 +166,157 @@ const ContactUs = () => {
                           dir="ltr"
                         >
                           <div class="screen-reader-response"></div>
-
-                          <form
-                            class="quform"
-                            action="js/plugins/quform/process.php"
-                            method="post"
-                            enctype="multipart/form-data"
-                            onclick=""
+                          <Formik
+                            initialValues={{
+                              name: "",
+                              email: "",
+                              subject: "",
+                              message: "",
+                            }}
+                            enableReinitialize
+                            onSubmit={(values, { setSubmitting }) => {
+                              displayToast(
+                                "Üzenet elküldve! Köszönjük megkeresését!"
+                              );
+                              emailjs
+                                .send(
+                                  "service_qrg8zgr",
+                                  "template_1ej1e4i",
+                                  {
+                                    name: "Pipacs",
+                                    from_name: `${values.name}`,
+                                    reply_to: values.email,
+                                    subject: values.subject,
+                                    message: values.message,
+                                    site_name: "egerpipacs.hu",
+                                    to_email: "info@egerpipacs.hu",
+                                    from_email: "noreply@egerpipacs.hu",
+                                  },
+                                  "user_LrB06JmtNSOzWeUdvPyEj"
+                                )
+                                .then(() => {
+                                  displayToast(
+                                    "Üzenet elküldve! Köszönjük megkeresését!"
+                                  );
+                                  setSubmitting(false);
+                                })
+                                .catch((e) => {
+                                  displayToast(
+                                    "Sikertelen üzenetküldés! Kérjük próbálja meg később!"
+                                  );
+                                  setSubmitting(false);
+                                });
+                            }}
+                            validationSchema={Yup.object().shape({
+                              name: Yup.string().required(
+                                "Név kitöltése kötelező!"
+                              ),
+                              email: Yup.string()
+                                .required("Email kitöltése kötelező!")
+                                .email("Hibás email cím!"),
+                              message: Yup.string().required(
+                                "Üzenet megadása kötelező!"
+                              ),
+                            })}
                           >
-                            <div class="quform-elements">
-                              <div class="quform-element">
-                                <p>
-                                  <span class="wpcf7-form-control-wrap your-name">
-                                    <input
-                                      id="name"
-                                      type="text"
-                                      name="name"
-                                      size="40"
-                                      class="input1"
-                                      aria-required="true"
-                                      aria-invalid="false"
-                                      // placeholder="Név*"
-                                      placeholder={t("contactUsPage.name")}
-                                    ></input>
-                                  </span>
-                                </p>
-                              </div>
-                              <div class="quform-element">
-                                <p>
-                                  <span class="wpcf7-form-control-wrap your-email">
-                                    <input
-                                      id="email"
-                                      type="text"
-                                      name="email"
-                                      size="40"
-                                      class="input1"
-                                      aria-required="true"
-                                      aria-invalid="false"
-                                      // placeholder="Email*"
-                                      placeholder={t("contactUsPage.email")}
-                                    ></input>
-                                  </span>
-                                </p>
-                              </div>
-                              <div class="quform-element">
-                                <p>
-                                  <span class="wpcf7-form-control-wrap your-message">
-                                    <textarea
-                                      id="message"
-                                      name="message"
-                                      cols="40"
-                                      rows="10"
-                                      class="input1"
-                                      aria-invalid="false"
-                                      // placeholder="Üzenet*"
-                                      placeholder={t("contactUsPage.message")}
-                                    ></textarea>
-                                  </span>
-                                </p>
-                              </div>
-                              <p>
-                                {/* <!-- Begin Submit button --> */}
-                                <div class="quform-submit">
-                                  <div class="quform-submit-inner">
-                                    <button type="submit" class="submit-button">
-                                      <span>
-                                        {/* Küldés */}
-                                        {t("contactUsPage.send")}
+                            {({
+                              handleBlur,
+                              handleChange,
+                              handleSubmit,
+                              values,
+                              isSubmitting,
+                              errors,
+                              touched,
+                            }) => (
+                              <form
+                                class="quform"
+                                noValidate
+                                onSubmit={handleSubmit}
+                              >
+                                <div class="quform-elements">
+                                  <div class="quform-element">
+                                    <p>
+                                      <span class="wpcf7-form-control-wrap your-name">
+                                        <input
+                                          id="name"
+                                          type="text"
+                                          name="name"
+                                          size="40"
+                                          class="input1"
+                                          aria-required="true"
+                                          aria-invalid="false"
+                                          placeholder={t("contactUsPage.name")}
+                                          onBlur={handleBlur}
+                                          onChange={handleChange}
+                                          value={values.name}
+                                        ></input>
                                       </span>
-                                    </button>
+                                    </p>
                                   </div>
-                                  <div class="quform-loading-wrap">
-                                    <span class="quform-loading"></span>
+                                  <div class="quform-element">
+                                    <p>
+                                      <span class="wpcf7-form-control-wrap your-email">
+                                        <input
+                                          id="email"
+                                          type="email"
+                                          name="email"
+                                          size="40"
+                                          class="input1"
+                                          aria-required="true"
+                                          aria-invalid="false"
+                                          placeholder={t("contactUsPage.email")}
+                                          onBlur={handleBlur}
+                                          onChange={handleChange}
+                                          value={values.email}
+                                        ></input>
+                                      </span>
+                                    </p>
                                   </div>
+                                  <div class="quform-element">
+                                    <p>
+                                      <span class="wpcf7-form-control-wrap your-message">
+                                        <textarea
+                                          id="message"
+                                          name="message"
+                                          cols="40"
+                                          rows="10"
+                                          class="input1"
+                                          aria-invalid="false"
+                                          placeholder={t(
+                                            "contactUsPage.message"
+                                          )}
+                                          onBlur={handleBlur}
+                                          onChange={handleChange}
+                                          value={values.message}
+                                        ></textarea>
+                                      </span>
+                                    </p>
+                                  </div>
+                                  <p>
+                                    {/* <!-- Begin Submit button --> */}
+                                    <div class="quform-submit">
+                                      {isSubmitting ? (
+                                        <div class="quform-loading-wrap">
+                                          <span class="quform-loading"></span>
+                                        </div>
+                                      ) : (
+                                        <div class="quform-submit-inner">
+                                          <button
+                                            type="submit"
+                                            class="submit-button"
+                                          >
+                                            <span>
+                                              {t("contactUsPage.send")}
+                                            </span>
+                                          </button>
+                                        </div>
+                                      )}
+                                    </div>
+                                  </p>
                                 </div>
-                              </p>
-                            </div>
-                          </form>
+                              </form>
+                            )}
+                          </Formik>
                         </div>
                       </div>
                     </div>
