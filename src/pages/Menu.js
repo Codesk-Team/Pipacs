@@ -1038,8 +1038,8 @@ const Menu = () => {
                                                       t(
                                                         "menuPage.sesionalSoup1"
                                                       ),
-                                                      26,
-                                                      26
+                                                      31,
+                                                      31
                                                     )}
                                                   </h4>
                                                 </div>
@@ -1047,7 +1047,7 @@ const Menu = () => {
                                                   2340 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 7,9
+                                                  {t("allergens")}: 3,7
                                                 </p>
                                               </div>
                                             </div>
@@ -1082,11 +1082,33 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  1960 Ft
+                                                  2100 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 1,3,7,8
+                                                  {t("allergens")}: 1,5,7
                                                 </p>
+                                              </div>
+                                              <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                                <div class="mgt-item-price-details">
+                                                  <div class="mgt-item-price-line"></div>
+                                                  <div class="mgt-item-price-title-holder">
+                                                    <h4>
+                                                      {menuSlicer(
+                                                        t(
+                                                          "menuPage.sesionalDessert2"
+                                                        ),
+                                                        26,
+                                                        26
+                                                      )}
+                                                    </h4>
+                                                  </div>
+                                                  <div class="mgt-item-price-value">
+                                                    1200 Ft
+                                                  </div>
+                                                  <p class="mgt-item-price-description">
+                                                    {t("allergens")}: 3,7
+                                                  </p>
+                                                </div>
                                               </div>
                                             </div>
                                           </div>
@@ -1122,13 +1144,36 @@ const Menu = () => {
                                                       t(
                                                         "menuPage.sesionalMainDish1"
                                                       ),
-                                                      23,
-                                                      25
+                                                      26,
+                                                      26
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  5960 Ft
+                                                  4480 Ft
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  {t("allergens")}:
+                                                  1,3,4,7,10,11
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>
+                                                    {menuSlicer(
+                                                      t(
+                                                        "menuPage.sesionalMainDish2"
+                                                      ),
+                                                      30,
+                                                      31
+                                                    )}
+                                                  </h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  5120 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: -
@@ -1142,40 +1187,18 @@ const Menu = () => {
                                                   <h4>
                                                     {menuSlicer(
                                                       t(
-                                                        "menuPage.sesionalMainDish2"
-                                                      ),
-                                                      25,
-                                                      26
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  5620 Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 3,7,9,12
-                                                </p>
-                                              </div>
-                                            </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t(
                                                         "menuPage.sesionalMainDish3"
                                                       ),
-                                                      21,
-                                                      25
+                                                      24,
+                                                      23
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  4280 Ft
+                                                  5960 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 1,3,7,10
+                                                  {t("allergens")}: 1
                                                 </p>
                                               </div>
                                             </div>
