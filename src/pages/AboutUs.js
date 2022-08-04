@@ -222,82 +222,109 @@ const AboutUs = () => {
                 </div>
 
                 <div class="vc_row-full-width vc_clearfix"></div>
-                <div class="vc_row wpb_row vc_row-fluid vc_custom_1496400967126">
-                  <div class="wpb_column vc_column_container vc_col-sm-6">
-                    <div class="vc_column-inner vc_custom_1501610531272">
-                      <div class="wpb_wrapper">
-                        {/* <div class="mgt-promo-block-container wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp"> */}
+                <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4">
+                  <div class="vc_column-inner vc_custom_1501610531272">
+                    <div class="wpb_wrapper">
+                      <div class="mgt-promo-block-container wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
                         <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                           <div
-                            class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-15851137"
+                            class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-66293803"
                             data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_food7.webp);background-repeat: no-repeat;height: 420px;"
                           >
                             <div class="mgt-promo-block-content va-middle">
-                              <div class="mgt-promo-block-content-inside vc_custom_1502117266071">
-                                <h5 style={{ textAlign: "center" }}>
-                                  {/* Mennyei ízek */}
-                                  {t("goodTastes")}
-                                </h5>
-                                <h2 style={{ textAlign: "center" }}>
-                                  {/* Tekintse meg */}
-                                  {t("lookAt")}
-                                  <br />
-                                  {/* étlapunkat! */}
-                                  {t("ourMenu")}
-                                </h2>
-                                <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
-                                  <a
-                                    class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                                    href="menu"
-                                  >
-                                    {/* Étlap */}
-                                    {t("menu")}
-                                  </a>
-                                </div>
+                              <h5 style={{ textAlign: "center" }}>
+                                {/* Mennyei ízek */}
+                                {t("goodTastes")}
+                              </h5>
+                              <h2 style={{ textAlign: "center" }}>
+                                {/* Tekintse meg */}
+                                {t("lookAt")}
+                                <br />
+                                {/* étlapunkat! */}
+                                {t("ourMenu")}
+                              </h2>
+                              <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
+                                <a
+                                  class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
+                                  href="menu"
+                                >
+                                  {/* Étlap */}
+                                  {t("menu")}
+                                </a>
                               </div>
                             </div>
                           </div>
                         </div>
-                        {/* </div> */}
                       </div>
                     </div>
                   </div>
-                  <div class="wpb_column vc_column_container vc_col-sm-6">
-                    <div class="vc_column-inner vc_custom_1501610544677">
-                      <div class="wpb_wrapper">
-                        {/* <div class="mgt-promo-block-container wpb_content_element wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight"> */}
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4">
+                  <div class="vc_column-inner vc_custom_1501610544677">
+                    <div class="wpb_wrapper">
+                      <div class="mgt-promo-block-container wpb_content_element wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight">
                         <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
                           <div
-                            class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-15051295"
+                            class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-65740325"
                             data-style="background-color: #ffffff;background-image: url(assets/img/about_us_pipacs_bed2.webp);background-repeat: no-repeat;height: 420px;"
                           >
                             <div class="mgt-promo-block-content va-middle">
-                              <div class="mgt-promo-block-content-inside vc_custom_1502119503691">
-                                <h5 style={{ textAlign: "center" }}>
-                                  {/* Teljes kikapcsolódás */}
-                                  {t("totalRelax")}
-                                </h5>
-                                <h2 style={{ textAlign: "center" }}>
-                                  {/* Tekintse meg */}
-                                  {t("lookAt")}
-                                  <br />
-                                  {/* szobáinkat! */}
-                                  {t("ourRooms")}
-                                </h2>
-                                <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
-                                  <a
-                                    class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                                    href="rooms"
-                                  >
-                                    {/* Szobák */}
-                                    {t("rooms")}
-                                  </a>
-                                </div>
+                              <h5 style={{ textAlign: "center" }}>
+                                {/* Teljes kikapcsolódás */}
+                                {t("totalRelax")}
+                              </h5>
+                              <h2 style={{ textAlign: "center" }}>
+                                {/* Tekintse meg */}
+                                {t("lookAt")}
+                                <br />
+                                {/* szobáinkat! */}
+                                {t("ourRooms")}
+                              </h2>
+                              <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
+                                <a
+                                  class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
+                                  href="rooms"
+                                >
+                                  {/* Szobák */}
+                                  {t("rooms")}
+                                </a>
                               </div>
                             </div>
                           </div>
                         </div>
-                        {/* </div> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4">
+                  <div class="vc_column-inner vc_custom_1501610544677">
+                    <div class="wpb_wrapper">
+                      <div class="mgt-promo-block-container wpb_content_element wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight">
+                        <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
+                          <div
+                            class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-65740325"
+                            data-style="background-color: #ffffff;background-image: url(assets/img/pipacs_wedding_1.webp);background-repeat: no-repeat;height: 420px;"
+                          >
+                            <div class="mgt-promo-block-content va-middle">
+                              <h5 style={{ textAlign: "center" }}>
+                                {t("totalRelax")}
+                              </h5>
+                              <h2 style={{ textAlign: "center" }}>
+                                {t("lookAt")}
+                                <br />
+                                {t("ourEventRoom")}
+                              </h2>
+                              <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
+                                <a
+                                  class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
+                                  href="eventHall"
+                                >
+                                  {t("eventHall")}
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>

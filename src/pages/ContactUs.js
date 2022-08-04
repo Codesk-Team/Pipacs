@@ -443,9 +443,9 @@ const ContactUs = () => {
                 </div>
                 <div
                   class="vc_row wpb_row vc_row-fluid vc_custom_1502044403439"
-                  style={{ display: "flex", justifyContent: "center" }}
+                  // style={{ display: "flex", justifyContent: "center" }}
                 >
-                  <div class="wpb_column vc_column_container vc_col-sm-4">
+                  <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4">
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
                         <div class="mgt-promo-block-container wpb_content_element">
@@ -484,7 +484,7 @@ const ContactUs = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="wpb_column vc_column_container vc_col-sm-4">
+                  <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4">
                     <div class="vc_column-inner">
                       <div class="wpb_wrapper">
                         <div class="mgt-promo-block-container wpb_content_element">
@@ -513,6 +513,45 @@ const ContactUs = () => {
                                     >
                                       {/* Szobák */}
                                       {t("rooms")}
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4">
+                    <div class="vc_column-inner">
+                      <div class="wpb_wrapper">
+                        <div class="mgt-promo-block-container wpb_content_element">
+                          <div class="mgt-promo-block-wrapper mgt-promo-block-hover">
+                            <div
+                              class="mgt-promo-block animated white-text cover-image darken mgt-promo-block-75835486"
+                              data-style="background-color: #f5f5f5;background-image: url(assets/img/pipacs_wedding_1.webp);background-repeat: no-repeat;height: 300px;"
+                            >
+                              <div class="mgt-promo-block-content va-middle">
+                                <div class="mgt-promo-block-content-inside">
+                                  <h5 style={{ textAlign: "center" }}>
+                                    {/* Teljes kikapcsolódás */}
+                                    {t("totalRelax")}
+                                  </h5>
+                                  <h2 style={{ textAlign: "center" }}>
+                                    {/* Tekintse meg */}
+                                    {t("lookAt")}
+                                    <br />
+                                    {/* szobáinkat! */}
+                                    {t("ourEventRoom")}
+                                  </h2>
+                                  <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
+                                    <a
+                                      class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-large mgt-align-center mgt-display-newline mgt-text-size-small mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
+                                      href="rooms"
+                                    >
+                                      {/* Szobák */}
+                                      {t("eventHall")}
                                     </a>
                                   </div>
                                 </div>
