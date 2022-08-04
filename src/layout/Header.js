@@ -63,6 +63,11 @@ const Header = () => {
                         </a>
                       </li>
                       <li class="menu-item">
+                        <a href="eventHall">
+                          <span>{t("eventHall")}</span>
+                        </a>
+                      </li>
+                      <li class="menu-item">
                         <a href="contact-us">
                           <span>{t("contactUs")}</span>
                         </a>
