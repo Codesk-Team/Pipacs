@@ -624,7 +624,7 @@ const Home = () => {
                                 <div class="mgt-button-wrapper mgt-button-wrapper-align-center mgt-button-wrapper-display-newline mgt-button-top-margin-true mgt-button-right-margin-false mgt-button-round-edges-full">
                                   <a
                                     class="btn hvr-grow mgt-button-icon- mgt-button mgt-style-solid mgt-size-normal mgt-align-center mgt-display-newline mgt-text-size-normal mgt-button-icon-separator- mgt-button-icon-position-left text-font-weight-default mgt-text-transform-none"
-                                    href="rooms"
+                                    href="eventHall"
                                   >
                                     {t("eventHall")}
                                   </a>

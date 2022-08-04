@@ -105,6 +105,14 @@
         "proPerson": "/fő"
     },
 
+    "eventHallPage": {
+        "intoText": "Rendezvényterem bemutatása",
+        "textOne": "Éttermünk alsó szintjén került kialakításra rendezvénytermünk, mely 20-25 fős összejövetelek, születésnapok, ballagások, esküvők, céges rendezvények, tréningek lebonyolítására is alkalmas.",
+        "textTwo": "Egyedi olasz bársonyszékekkel és hangulatos bár résszel felszerelt termünkben ingyenes wifi áll Vendégeink rendelkezésére.",
+        "textThree": "Hogy igazán felejthetetlen legyen a nálunk töltött esemény, a tökéletesen elkészített ételekről Nagy Attila séfünk gondoskodik akár svédasztalos vagy felszolgált étkezésről legyen szó, egyéni igényekhez alkalmazkodva.",
+        "textFour": "Tökéletességre törekszünk, hogy a vendéglátás nálunk vendégül látás legyen!"
+    },
+
     "aboutPage": {
         "aboutTextOne": "2021 júniusában nyitottuk meg éttermünket azzal a céllal, hogy a saját termelésű alapanyagaink közvetlenül, ne kizárólagosan csak a fine dining éttermeken keresztül jussanak el hozzátok. A birtokról érkezik a Keleméri bárány, a szabad tartású csirke és a vadon termő gyümölcsök is. A menü összeállításról Nagy Attila séfünk gondoskodik, aki 9 évig egy öt csillagos kastélyhotel konyháját vezette, valamit tapasztalatait külföldön (Olaszországban, Németországban) gyarapította.",
         "aboutTextTwo": "A fogásoknál főként a tradicionális magyar és a helyi konyha alapízei dominálnak, kicsit egyszerűen és kicsit kifinomultan is egyidejűleg. Nemcsak a keleméri birtokról érkezik termelői alapanyag, hanem a Mátrai bivalyrezervátumból is, ahonnan Szalai Ferenc személyesen szállítja ki részünkre bivaly termékeit. A vadhúsok csak és kizárólag a környék vadjaiból kerülnek a konyhánkba, ahol Mag László, a Vadker Kft. tulajdonosa személyesen felel, a legjobb minőségű királyi szarvas bélszín beszállításáról.",

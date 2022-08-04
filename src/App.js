@@ -5,6 +5,7 @@ import AboutUs from "./pages/AboutUs";
 import Menu from "./pages/Menu";
 import Rooms from "./pages/Rooms";
 import "react-toastify/dist/ReactToastify.min.css";
+import EventHall from "./pages/EventHall";
 
 // import SeasionalMenu from "./pages/SeasionalMenu";
 
@@ -16,6 +17,7 @@ function App() {
       <Route path="about-us" element={<AboutUs />} />
       <Route path="menu" element={<Menu />} />
       <Route path="rooms" element={<Rooms />} />
+      <Route path="eventHall" element={<EventHall />} />
       {/* <Route path="seasional-menu" element={<SeasionalMenu />} /> */}
     </Routes>
   );
