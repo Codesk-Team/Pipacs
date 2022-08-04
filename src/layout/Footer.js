@@ -48,6 +48,9 @@ const Footer = () => {
                       <a href="rooms">{t("rooms")}</a>
                     </li>
                     <li class="menu-item">
+                      <a href="eventHall">{t("eventHall")}</a>
+                    </li>
+                    <li class="menu-item">
                       <a href="contact-us">{t("contactUs")}</a>
                     </li>
                   </ul>
