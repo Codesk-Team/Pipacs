@@ -307,7 +307,7 @@ const AboutUs = () => {
                           >
                             <div class="mgt-promo-block-content va-middle">
                               <h5 style={{ textAlign: "center" }}>
-                                {t("totalRelax")}
+                                {t("unforgettableExperience")}
                               </h5>
                               <h2 style={{ textAlign: "center" }}>
                                 {t("lookAt")}

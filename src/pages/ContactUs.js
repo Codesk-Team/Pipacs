@@ -536,7 +536,7 @@ const ContactUs = () => {
                                 <div class="mgt-promo-block-content-inside">
                                   <h5 style={{ textAlign: "center" }}>
                                     {/* Teljes kikapcsolódás */}
-                                    {t("totalRelax")}
+                                    {t("unforgettableExperience")}
                                   </h5>
                                   <h2 style={{ textAlign: "center" }}>
                                     {/* Tekintse meg */}
