@@ -1044,10 +1044,10 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  2340 Ft
+                                                  2360 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 3,7
+                                                  {t("allergens")}: 1,3,7,9
                                                 </p>
                                               </div>
                                             </div>
@@ -1077,18 +1077,20 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t(
                                                         "menuPage.sesionalDessert1"
-                                                      )
+                                                      ),
+                                                      29,
+                                                      29
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  2100 Ft
+                                                  1980 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 1,5,7
+                                                  {t("allergens")}: 1,3,7,8
                                                 </p>
                                               </div>
-                                              <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              {/* <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                                 <div class="mgt-item-price-details">
                                                   <div class="mgt-item-price-line"></div>
                                                   <div class="mgt-item-price-title-holder">
@@ -1109,7 +1111,7 @@ const Menu = () => {
                                                     {t("allergens")}: 3,7
                                                   </p>
                                                 </div>
-                                              </div>
+                                              </div> */}
                                             </div>
                                           </div>
                                         </div>
@@ -1153,8 +1155,7 @@ const Menu = () => {
                                                   4480 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}:
-                                                  1,3,4,7,10,11
+                                                  {t("allergens")}: 1,3,7,10
                                                 </p>
                                               </div>
                                             </div>
@@ -1167,16 +1168,16 @@ const Menu = () => {
                                                       t(
                                                         "menuPage.sesionalMainDish2"
                                                       ),
-                                                      30,
-                                                      31
+                                                      27,
+                                                      32
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  5120 Ft
+                                                  6640 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: -
+                                                  {t("allergens")}: 1,3,4,7
                                                 </p>
                                               </div>
                                             </div>
@@ -1189,16 +1190,16 @@ const Menu = () => {
                                                       t(
                                                         "menuPage.sesionalMainDish3"
                                                       ),
-                                                      24,
-                                                      23
+                                                      25,
+                                                      29
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  5960 Ft
+                                                  5620 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 1
+                                                  {t("allergens")}: 1,3,7,12
                                                 </p>
                                               </div>
                                             </div>

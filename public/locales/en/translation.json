@@ -122,7 +122,7 @@
 
     "menuPage": {
         "ourFoods": "Our food is made from local, mainly home-grown ingredients. Our dishes are mainly based on traditional Hungarian and local cuisine.",
-        "sesionalMenu": "Seasonal Menu (July)",
+        "sesionalMenu": "Seasonal Menu (August)",
         "warningHalfPrice": "Please note that the prices in the brackets are for a half portion.",
         "servicePrice": "A service charge of +10% will be added to the prices indicated, which will be included in the total amount of your invoice.",
         "allergies": "The allergen content of each food is marked on the menu! For further allergen information, please ask our colleagues! Thank you!",
@@ -166,13 +166,13 @@
         "desser2": "Cottage cheese dumplings with homemade sour cream",
         "desser3": "Tarragon cream with forest fruit compote",
         "desser4": "Pipacs chocolate trio with crunchy tuile",
-        "sheepApril": "July",
+        "sheepApril": "August",
         "sesionalMenuShort": "Seasonal menu",
-        "sesionalSoup1": "Kale soup with buffalo dumpling",
-        "sesionalDessert1": "Yoghurt cream with forest fruits",
+        "sesionalSoup1": "Chowder soup with fresh dill",
+        "sesionalDessert1": "The chef's chocolate pancakes",
         "sesionalDessert2": "Classic ice cream cup",
-        "sesionalMainDish1": "Burger selection (Kelemer lamb burger, Mátra buffalo burger, Black cod burger)",
-        "sesionalMainDish2": "Pork steak with sage greens and steak potatoes",
-        "sesionalMainDish3": "Duck breast with fresh “lecsó” with soft homemade bread"
+        "sesionalMainDish1": "Buffalo Burger",
+        "sesionalMainDish2": "Gray catfish with cottage cheese sliders",
+        "sesionalMainDish3": "Pork tenderloin with boletus mushroom foam and sponge roll with green spices"
     }
 }

@@ -123,7 +123,7 @@
 
     "menuPage": {
         "ourFoods": "Ételeinket hazai, főként saját termelésű alapanyagokból készítjük. Fogásainknál főként a tradicionális magyar és a helyi konyha alapízei dominálnak.",
-        "sesionalMenu": "Szezonális menü (július)",
+        "sesionalMenu": "Szezonális menü (augusztus)",
         "warningHalfPrice": "Felhívjuk kedves vendégeink figyelmét, hogy a zárójelben feltüntetett árak fél adagra vonatkoznak.",
         "servicePrice": "Feltüntetett árainkra +10% szervízdíjat számolunk fel, melyet számlája végösszege tartalmaz.",
         "allergies": "Az étlapon jelölve találják az egyes ételek allergén tartalmát! A további allergén információkkal kapcsolatos tájékoztatásban kérje Kollegáink segítségét! Köszönjük!",
@@ -167,13 +167,13 @@
         "desser2": "Túrógombóc házi tejföllel",
         "desser3": "Tárkonykrém erdei gyümölcs kompóttal",
         "desser4": "Pipacs csoki trió, ropogós tuile-lal",
-        "sheepApril": "Július",
+        "sheepApril": "Augusztus",
         "sesionalMenuShort": "Szezonális menü",
-        "sesionalSoup1": "Kelkáposztás bivaly gombócleves",
-        "sesionalDessert1": "Joghurtos pohárkrém erdei gyümölcsökkel",
+        "sesionalSoup1": "Legényfogóleves friss kaporral",
+        "sesionalDessert1": "A séf csokoládés palacsintája",
         "sesionalDessert2": "Klasszikus fagylalt kehely",
-        "sesionalMainDish1": "Burger válogatás (Keleméri bárány burger, Mátrai bivaly burger, Fekete tőkehal Burger)",
-        "sesionalMainDish2": "Sertés steak zsályás zöldekkel steak burgonyával",
-        "sesionalMainDish3": "Kacsamell friss lecsóval puha házi kenyérrel"
+        "sesionalMainDish1": "Bivaly Burger",
+        "sesionalMainDish2": "Szürkeharcsapaprikás túrós csuszával",
+        "sesionalMainDish3": "Sertésszűz vargányahabbal zöldfűszeres piskótatekerccsel"
     }
 }
