@@ -231,7 +231,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  2700,-Ft
+                                                  3800,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 1,7
@@ -254,7 +254,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  1580,-Ft
+                                                  2260,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 7
@@ -277,7 +277,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  1320,-Ft
+                                                  1680,-Ft
                                                 </div>
                                               </div>
                                             </div>
@@ -311,7 +311,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  2040,-Ft (1460,-Ft)
+                                                  2460,-Ft (1720,-Ft)
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 1,3,9
@@ -331,7 +331,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  2475,-Ft (1740,-Ft)
+                                                  2850,-Ft (1990,-Ft)
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 3,7,9
@@ -351,10 +351,10 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  2620,-Ft (1820,-Ft)
+                                                  3120,-Ft (2190,-Ft)
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 9
+                                                  {t("allergens")}: 1,3,9
                                                 </p>
                                               </div>
                                             </div>
@@ -390,10 +390,10 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  3340,-Ft (2360,-Ft)
+                                                  4260,-Ft (2980,-Ft)
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 7,9
+                                                  {t("allergens")}: 7
                                                 </p>
                                               </div>
                                             </div>
@@ -410,7 +410,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  3880,-Ft (2740,-Ft)
+                                                  6260,-Ft (4380,-Ft)
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 1,3,7
@@ -425,12 +425,12 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t("menuPage.localMeal3"),
                                                       21,
-                                                      25
+                                                      26
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  2160,-Ft (1740, -Ft)
+                                                  2680,-Ft (1880, -Ft)
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 1,3,7
@@ -470,10 +470,10 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  820,-Ft
+                                                  1120,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 1,3,9
+                                                  {t("allergens")}: 1,3
                                                 </p>
                                               </div>
                                             </div>
@@ -492,7 +492,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  820,-Ft
+                                                  1120,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 7
@@ -514,7 +514,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  1820,-Ft
+                                                  2120,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 1,3,7
@@ -549,7 +549,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  520,-Ft
+                                                  610,-Ft
                                                 </div>
                                               </div>
                                             </div>
@@ -564,7 +564,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  510,-Ft
+                                                  610,-Ft
                                                 </div>
                                               </div>
                                             </div>
@@ -579,7 +579,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  520,-Ft
+                                                  650,-Ft
                                                 </div>
                                               </div>
                                             </div>
@@ -592,7 +592,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  490,-Ft
+                                                  590,-Ft
                                                 </div>
                                               </div>
                                             </div>
@@ -632,10 +632,10 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  3590,-Ft
+                                                  4460,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 1,3,4,7
+                                                  {t("allergens")}: 4,9
                                                 </p>
                                               </div>
                                             </div>
@@ -647,12 +647,12 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t("menuPage.mainDish2"),
                                                       25,
-                                                      24
+                                                      45
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  2720,-Ft
+                                                  2990,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 1,3,7
@@ -667,15 +667,15 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t("menuPage.mainDish3"),
                                                       27,
-                                                      25
+                                                      39
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  3220,-Ft
+                                                  3620,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 7,9,12
+                                                  {t("allergens")}: 7
                                                 </p>
                                               </div>
                                             </div>
@@ -685,12 +685,14 @@ const Menu = () => {
                                                 <div class="mgt-item-price-title-holder">
                                                   <h4>
                                                     {menuSlicer(
-                                                      t("menuPage.mainDish4")
+                                                      t("menuPage.mainDish4"),
+                                                      25,
+                                                      26
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  3920,-Ft
+                                                  3990,-Ft
                                                 </div>
                                               </div>
                                             </div>
@@ -702,12 +704,12 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t("menuPage.mainDish5"),
                                                       29,
-                                                      26
+                                                      29
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  5120,-Ft
+                                                  6640,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 9, 12
@@ -725,10 +727,10 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  2740,-Ft
+                                                  2960,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}:7
+                                                  {t("allergens")}: 7
                                                 </p>
                                               </div>
                                             </div>
@@ -743,10 +745,10 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  3460,-Ft
+                                                  3940,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 1,3,9,12
+                                                  {t("allergens")}: 1,3
                                                 </p>
                                               </div>
                                             </div>
@@ -780,7 +782,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  940,-Ft (660,-Ft)
+                                                  1130,-Ft (790,-Ft)
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 7
@@ -800,7 +802,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  960,-Ft (675,-Ft)
+                                                  1240,-Ft (870,-Ft)
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 7
@@ -820,7 +822,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  820,-Ft (575,-Ft)
+                                                  1120,-Ft (790,-Ft)
                                                 </div>
                                               </div>
                                             </div>
@@ -835,7 +837,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  510,-Ft (360,-Ft)
+                                                  560,-Ft (390,-Ft)
                                                 </div>
                                               </div>
                                             </div>
@@ -850,7 +852,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  380,-Ft
+                                                  420,-Ft
                                                 </div>
                                               </div>
                                               <p class="mgt-item-price-description">
@@ -882,15 +884,15 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t("menuPage.desser1"),
                                                       27,
-                                                      25
+                                                      26
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  1540,-Ft
+                                                  1910,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
-                                                  {t("allergens")}: 1,3,7,12
+                                                  {t("allergens")}: 1,3,7
                                                 </p>
                                               </div>
                                             </div>
@@ -905,7 +907,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  1620,-Ft (1195,-Ft)
+                                                  2260,-Ft (1580,-Ft)
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 1,3,7,8,5
@@ -925,7 +927,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  1220,-Ft
+                                                  1460,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 3,7
@@ -940,15 +942,35 @@ const Menu = () => {
                                                     {menuSlicer(
                                                       t("menuPage.desser4"),
                                                       26,
-                                                      26
+                                                      28
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  1540,-Ft
+                                                  2210,-Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {t("allergens")}: 1,3,7,8,5
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <div class="mgt-item-price-line"></div>
+                                                <div class="mgt-item-price-title-holder">
+                                                  <h4>
+                                                    {menuSlicer(
+                                                      t("menuPage.desser5"),
+                                                      26,
+                                                      28
+                                                    )}
+                                                  </h4>
+                                                </div>
+                                                <div class="mgt-item-price-value">
+                                                  2210,-Ft
+                                                </div>
+                                                <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 1,3,7,8
                                                 </p>
                                               </div>
                                             </div>
