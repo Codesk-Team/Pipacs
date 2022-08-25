@@ -780,10 +780,10 @@ const Home = () => {
                             <div class="mgt-item-price-line"></div>
                             <div class="mgt-item-price-title-holder">
                               <h4>
-                                {menuSlicer(t("homePage.menuOne"), 25, 28)}
+                                {menuSlicer(t("homePage.menuOne"), 24, 28)}
                               </h4>
                             </div>
-                            <div class="mgt-item-price-value">2700 Ft</div>
+                            <div class="mgt-item-price-value">3800 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,7 */}
                               {t("allergens")}: 1,7
@@ -797,13 +797,13 @@ const Home = () => {
                               <h4>
                                 {/* Tanyasi tyúkhúsleves zöldségekkel és
                                 csigatésztával */}
-                                {menuSlicer(t("homePage.menuTwo"), 21, 23)}
+                                {menuSlicer(t("homePage.menuTwo"), 27, 26)}
                               </h4>
                             </div>
-                            <div class="mgt-item-price-value">2040 Ft</div>
+                            <div class="mgt-item-price-value">2260 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,9 */}
-                              {t("allergens")}: 1,3,9
+                              {t("allergens")}: 7
                             </p>
                           </div>
                         </div>
@@ -813,13 +813,13 @@ const Home = () => {
                             <div class="mgt-item-price-title-holder">
                               <h4>
                                 {/* Tárkonyos báránygombóc leves friss tejföllel */}
-                                {menuSlicer(t("homePage.menuThree"), 23, 24)}
+                                {menuSlicer(t("homePage.menuThree"), 21, 23)}
                               </h4>
                             </div>
-                            <div class="mgt-item-price-value">2475 Ft</div>
+                            <div class="mgt-item-price-value">2460 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 3,7,9 */}
-                              {t("allergens")}: 3,7,9
+                              {t("allergens")}: 1,3,9
                             </p>
                           </div>
                         </div>
@@ -833,7 +833,7 @@ const Home = () => {
                                 {menuSlicer(t("homePage.menuFour"), 27, 25)}
                               </h4>
                             </div>
-                            <div class="mgt-item-price-value">3590 Ft</div>
+                            <div class="mgt-item-price-value">4460 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,4,7 */}
                               {t("allergens")}: 1,3,4,7
@@ -853,13 +853,13 @@ const Home = () => {
                               <h4>
                                 {/* Keleméri birkapörkölt sztrapacskával kézműves
                                 savanyúsággal */}
-                                {menuSlicer(t("homePage.menuFive"), 22, 25)}
+                                {menuSlicer(t("homePage.menuFive"), 27, 37)}
                               </h4>
                             </div>
-                            <div class="mgt-item-price-value">3880 Ft</div>
+                            <div class="mgt-item-price-value">3620 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,7 */}
-                              {t("allergens")}: 1,3,7
+                              {t("allergens")}: 7,9,12
                             </p>
                           </div>
                         </div>
@@ -869,13 +869,13 @@ const Home = () => {
                             <div class="mgt-item-price-title-holder">
                               <h4>
                                 {/* Túrógombóc házi tejföllel */}
-                                {menuSlicer(t("homePage.menuSix"), 25, 25)}
+                                {menuSlicer(t("homePage.menuSix"), 22, 29)}
                               </h4>
                             </div>
-                            <div class="mgt-item-price-value">1620 Ft</div>
+                            <div class="mgt-item-price-value">6640 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,7,8,5 */}
-                              {t("allergens")}: 1,3,7,8,5
+                              {t("allergens")}: 9,12
                             </p>
                           </div>
                         </div>
@@ -886,13 +886,13 @@ const Home = () => {
                               <h4>
                                 {/* Erdei gyümölcsökkel töltött gratinírozott
                                 palacsinta */}
-                                {menuSlicer(t("homePage.menuSeven"), 27, 27)}
+                                {menuSlicer(t("homePage.menuSeven"), 27, 29)}
                               </h4>
                             </div>
-                            <div class="mgt-item-price-value">1540 Ft</div>
+                            <div class="mgt-item-price-value">2260 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,7,12 */}
-                              {t("allergens")}: 1,3,7,12
+                              {t("allergens")}: 1,3,7,8,5
                             </p>
                           </div>
                         </div>
@@ -902,10 +902,14 @@ const Home = () => {
                             <div class="mgt-item-price-title-holder">
                               <h4>
                                 {/* Cigánypecsenye */}
-                                {menuSlicer(t("homePage.menuEight"))}
+                                {menuSlicer(t("homePage.menuEight"), 25, 28)}
                               </h4>
                             </div>
-                            <div class="mgt-item-price-value">3920 Ft</div>
+                            <div class="mgt-item-price-value">2210 Ft</div>
+                            <p class="mgt-item-price-description">
+                              {/* Allergének: 1,3,7,12 */}
+                              {t("allergens")}: 1,3,7,8
+                            </p>
                           </div>
                         </div>
                       </div>
