@@ -786,7 +786,7 @@ const Home = () => {
                             <div class="mgt-item-price-value">3800 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,7 */}
-                              {t("allergens")}: 1,7
+                              {/* {t("allergens")}: 1,7 */}
                             </p>
                           </div>
                         </div>
@@ -803,7 +803,7 @@ const Home = () => {
                             <div class="mgt-item-price-value">2260 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,9 */}
-                              {t("allergens")}: 7
+                              {/* {t("allergens")}: 7 */}
                             </p>
                           </div>
                         </div>
@@ -819,7 +819,7 @@ const Home = () => {
                             <div class="mgt-item-price-value">2460 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 3,7,9 */}
-                              {t("allergens")}: 1,3,9
+                              {/* {t("allergens")}: 1,3,9 */}
                             </p>
                           </div>
                         </div>
@@ -836,7 +836,7 @@ const Home = () => {
                             <div class="mgt-item-price-value">4460 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,4,7 */}
-                              {t("allergens")}: 1,3,4,7
+                              {/* {t("allergens")}: 1,3,4,7 */}
                             </p>
                           </div>
                         </div>
@@ -859,7 +859,7 @@ const Home = () => {
                             <div class="mgt-item-price-value">3620 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,7 */}
-                              {t("allergens")}: 7,9,12
+                              {/* {t("allergens")}: 7,9,12 */}
                             </p>
                           </div>
                         </div>
@@ -875,7 +875,7 @@ const Home = () => {
                             <div class="mgt-item-price-value">6640 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,7,8,5 */}
-                              {t("allergens")}: 9,12
+                              {/* {t("allergens")}: 9,12 */}
                             </p>
                           </div>
                         </div>
@@ -892,7 +892,7 @@ const Home = () => {
                             <div class="mgt-item-price-value">2260 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,7,12 */}
-                              {t("allergens")}: 1,3,7,8,5
+                              {/* {t("allergens")}: 1,3,7,8,5 */}
                             </p>
                           </div>
                         </div>
@@ -908,7 +908,7 @@ const Home = () => {
                             <div class="mgt-item-price-value">2210 Ft</div>
                             <p class="mgt-item-price-description">
                               {/* Allergének: 1,3,7,12 */}
-                              {t("allergens")}: 1,3,7,8
+                              {/* {t("allergens")}: 1,3,7,8 */}
                             </p>
                           </div>
                         </div>
