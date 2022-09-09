@@ -777,67 +777,62 @@ const Home = () => {
                       <div class="wpb_wrapper">
                         <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
-                            <div class="mgt-item-price-line"></div>
-                            <div class="mgt-item-price-title-holder">
-                              <h4>
-                                {menuSlicer(t("homePage.menuOne"), 24, 28)}
-                              </h4>
-                            </div>
-                            <div class="mgt-item-price-value">3800 Ft</div>
-                            <p class="mgt-item-price-description">
-                              {/* Allergének: 1,7 */}
-                              {/* {t("allergens")}: 1,7 */}
-                            </p>
+                            <h4>
+                              <b>{t("homePage.menuOne")} </b>
+                              <span
+                                style={{
+                                  fontSize: 18,
+                                  fontFamily: "cabin",
+                                }}
+                              >
+                                - 3800 Ft
+                              </span>
+                            </h4>
                           </div>
                         </div>
                         <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
-                            <div class="mgt-item-price-line"></div>
-                            <div class="mgt-item-price-title-holder">
-                              <h4>
-                                {/* Tanyasi tyúkhúsleves zöldségekkel és
-                                csigatésztával */}
-                                {menuSlicer(t("homePage.menuTwo"), 27, 26)}
-                              </h4>
-                            </div>
-                            <div class="mgt-item-price-value">2260 Ft</div>
-                            <p class="mgt-item-price-description">
-                              {/* Allergének: 1,3,9 */}
-                              {/* {t("allergens")}: 7 */}
-                            </p>
+                            <h4>
+                              <b>{t("homePage.menuTwo")} </b>
+                              <span
+                                style={{
+                                  fontSize: 18,
+                                  fontFamily: "cabin",
+                                }}
+                              >
+                                - 2260 Ft
+                              </span>
+                            </h4>
                           </div>
                         </div>
                         <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
-                            <div class="mgt-item-price-line"></div>
-                            <div class="mgt-item-price-title-holder">
-                              <h4>
-                                {/* Tárkonyos báránygombóc leves friss tejföllel */}
-                                {menuSlicer(t("homePage.menuThree"), 21, 23)}
-                              </h4>
-                            </div>
-                            <div class="mgt-item-price-value">2460 Ft</div>
-                            <p class="mgt-item-price-description">
-                              {/* Allergének: 3,7,9 */}
-                              {/* {t("allergens")}: 1,3,9 */}
-                            </p>
+                            <h4>
+                              <b>{t("homePage.menuThree")} </b>
+                              <span
+                                style={{
+                                  fontSize: 18,
+                                  fontFamily: "cabin",
+                                }}
+                              >
+                                - 2460 Ft
+                              </span>
+                            </h4>
                           </div>
                         </div>
                         <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
-                            <div class="mgt-item-price-line"></div>
-                            <div class="mgt-item-price-title-holder">
-                              <h4>
-                                {/* Egészben sült szilvásváradi pisztráng friss
-                                fűszernövényekkel */}
-                                {menuSlicer(t("homePage.menuFour"), 27, 25)}
-                              </h4>
-                            </div>
-                            <div class="mgt-item-price-value">4460 Ft</div>
-                            <p class="mgt-item-price-description">
-                              {/* Allergének: 1,3,4,7 */}
-                              {/* {t("allergens")}: 1,3,4,7 */}
-                            </p>
+                            <h4>
+                              <b>{t("homePage.menuFour")} </b>
+                              <span
+                                style={{
+                                  fontSize: 18,
+                                  fontFamily: "cabin",
+                                }}
+                              >
+                                - 4460 Ft
+                              </span>
+                            </h4>
                           </div>
                         </div>
                       </div>
@@ -848,68 +843,62 @@ const Home = () => {
                       <div class="wpb_wrapper">
                         <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
-                            <div class="mgt-item-price-line"></div>
-                            <div class="mgt-item-price-title-holder">
-                              <h4>
-                                {/* Keleméri birkapörkölt sztrapacskával kézműves
-                                savanyúsággal */}
-                                {menuSlicer(t("homePage.menuFive"), 27, 37)}
-                              </h4>
-                            </div>
-                            <div class="mgt-item-price-value">3620 Ft</div>
-                            <p class="mgt-item-price-description">
-                              {/* Allergének: 1,3,7 */}
-                              {/* {t("allergens")}: 7,9,12 */}
-                            </p>
+                            <h4>
+                              <b>{t("homePage.menuFive")} </b>
+                              <span
+                                style={{
+                                  fontSize: 18,
+                                  fontFamily: "cabin",
+                                }}
+                              >
+                                - 3620 Ft
+                              </span>
+                            </h4>
                           </div>
                         </div>
                         <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
-                            <div class="mgt-item-price-line"></div>
-                            <div class="mgt-item-price-title-holder">
-                              <h4>
-                                {/* Túrógombóc házi tejföllel */}
-                                {menuSlicer(t("homePage.menuSix"), 22, 29)}
-                              </h4>
-                            </div>
-                            <div class="mgt-item-price-value">6640 Ft</div>
-                            <p class="mgt-item-price-description">
-                              {/* Allergének: 1,3,7,8,5 */}
-                              {/* {t("allergens")}: 9,12 */}
-                            </p>
+                            <h4>
+                              <b>{t("homePage.menuSix")} </b>
+                              <span
+                                style={{
+                                  fontSize: 18,
+                                  fontFamily: "cabin",
+                                }}
+                              >
+                                - 6640 Ft
+                              </span>
+                            </h4>
                           </div>
                         </div>
                         <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
-                            <div class="mgt-item-price-line"></div>
-                            <div class="mgt-item-price-title-holder">
-                              <h4>
-                                {/* Erdei gyümölcsökkel töltött gratinírozott
-                                palacsinta */}
-                                {menuSlicer(t("homePage.menuSeven"), 27, 29)}
-                              </h4>
-                            </div>
-                            <div class="mgt-item-price-value">2260 Ft</div>
-                            <p class="mgt-item-price-description">
-                              {/* Allergének: 1,3,7,12 */}
-                              {/* {t("allergens")}: 1,3,7,8,5 */}
-                            </p>
+                            <h4>
+                              <b>{t("homePage.menuSeven")} </b>
+                              <span
+                                style={{
+                                  fontSize: 18,
+                                  fontFamily: "cabin",
+                                }}
+                              >
+                                - 2260 Ft
+                              </span>
+                            </h4>
                           </div>
                         </div>
                         <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                           <div class="mgt-item-price-details">
-                            <div class="mgt-item-price-line"></div>
-                            <div class="mgt-item-price-title-holder">
-                              <h4>
-                                {/* Cigánypecsenye */}
-                                {menuSlicer(t("homePage.menuEight"), 25, 28)}
-                              </h4>
-                            </div>
-                            <div class="mgt-item-price-value">2210 Ft</div>
-                            <p class="mgt-item-price-description">
-                              {/* Allergének: 1,3,7,12 */}
-                              {/* {t("allergens")}: 1,3,7,8 */}
-                            </p>
+                            <h4>
+                              <b>{t("homePage.menuEight")} </b>
+                              <span
+                                style={{
+                                  fontSize: 18,
+                                  fontFamily: "cabin",
+                                }}
+                              >
+                                - 2210 Ft
+                              </span>
+                            </h4>
                           </div>
                         </div>
                       </div>

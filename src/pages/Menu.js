@@ -249,67 +249,59 @@ const Menu = () => {
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t(
-                                                        "menuPage.coldPreMeal1"
-                                                      ),
-                                                      31,
-                                                      28
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  3800,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.coldPreMeal1")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 3800 Ft
+                                                  </span>
+                                                </h4>
+                                                {/* <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 1,7
+                                                </p> */}
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-orange clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {/* Grill sajt padlizsánkrémmel */}
-                                                    {menuSlicer(
-                                                      t(
-                                                        "menuPage.coldPreMeal2"
-                                                      ),
-                                                      27,
-                                                      29
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  2260,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.coldPreMeal2")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2260 Ft
+                                                  </span>
+                                                </h4>
+                                                {/* <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 7
+                                                </p> */}
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {/* Zöld saláta tökmagolajjal */}
-                                                    {menuSlicer(
-                                                      t(
-                                                        "menuPage.coldPreMeal3"
-                                                      ),
-                                                      25,
-                                                      33
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  1680,-Ft
-                                                </div>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.coldPreMeal3")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 1680 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-9635760">
@@ -331,10 +323,8 @@ const Menu = () => {
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                {/* <div class="mgt-item-price-line"></div> */}
-                                                {/* <div class="mgt-item-price-title-holder"> */}
                                                 <h4>
-                                                  {t("menuPage.soup1")}{" "}
+                                                  <b>{t("menuPage.soup1")} </b>
                                                   <span
                                                     style={{
                                                       fontSize: 18,
@@ -352,7 +342,7 @@ const Menu = () => {
                                             <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
                                                 <h4>
-                                                  {t("menuPage.soup2")}{" "}
+                                                  <b>{t("menuPage.soup2")} </b>
                                                   <span
                                                     style={{
                                                       fontSize: 18,
@@ -370,7 +360,7 @@ const Menu = () => {
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
                                                 <h4>
-                                                  {t("menuPage.soup3")}{" "}
+                                                  <b>{t("menuPage.soup3")} </b>
                                                   <span
                                                     style={{
                                                       fontSize: 18,
@@ -404,64 +394,62 @@ const Menu = () => {
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {/* Vargányás pacal habos
-                                                    burgonyapürével */}
-                                                    {menuSlicer(
-                                                      t("menuPage.localMeal1"),
-                                                      22,
-                                                      27
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  4260,-Ft (2980,-Ft)
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.localMeal1")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 4260 Ft (2980 Ft)
+                                                  </span>
+                                                </h4>
+                                                {/* <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 7
+                                                </p> */}
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.localMeal2"),
-                                                      22,
-                                                      25
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  6260,-Ft (4380,-Ft)
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.localMeal2")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 6260 Ft (4380 Ft)
+                                                  </span>
+                                                </h4>
+                                                {/* <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 1,3,7
+                                                </p> */}
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.localMeal3"),
-                                                      21,
-                                                      26
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  2680,-Ft (1880, -Ft)
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.localMeal3")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2680 Ft (1880 Ft)
+                                                  </span>
+                                                </h4>
+                                                {/* <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 1,3,7
+                                                </p> */}
                                               </div>
                                             </div>
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-9635760">
@@ -484,68 +472,68 @@ const Menu = () => {
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t(
-                                                        "menuPage.childrenMeal1"
-                                                      ),
-                                                      21,
-                                                      26
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  1120,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t(
+                                                      "menuPage.childrenMeal1"
+                                                    )}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 1120 Ft
+                                                  </span>
+                                                </h4>
+                                                {/* <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 1,3
+                                                </p> */}
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t(
-                                                        "menuPage.childrenMeal2"
-                                                      ),
-                                                      31,
-                                                      31
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  1120,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t(
+                                                      "menuPage.childrenMeal2"
+                                                    )}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 1120 Ft
+                                                  </span>
+                                                </h4>
+                                                {/* <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 7
+                                                </p> */}
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t(
-                                                        "menuPage.childrenMeal3"
-                                                      ),
-                                                      30,
-                                                      25
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  2120,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t(
+                                                      "menuPage.childrenMeal3"
+                                                    )}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2120 Ft
+                                                  </span>
+                                                </h4>
+                                                {/* <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 1,3,7
+                                                </p> */}
                                               </div>
                                             </div>
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-9635760">
@@ -567,60 +555,70 @@ const Menu = () => {
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.pickle1")
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  610,-Ft
-                                                </div>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.pickle1")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 610 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.pickle2")
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  610,-Ft
-                                                </div>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.pickle2")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 610 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.pickle3")
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  650,-Ft
-                                                </div>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.pickle3")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 650 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {t("menuPage.pickle4")}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  590,-Ft
-                                                </div>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.pickle4")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 590 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                           </div>
@@ -648,135 +646,124 @@ const Menu = () => {
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.mainDish1"),
-                                                      27,
-                                                      25
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  4460,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 4,9 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.mainDish1")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 4460 Ft
+                                                  </span>
+                                                </h4>
+                                                {/* <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 4,9
+                                                </p> */}
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.mainDish2"),
-                                                      25,
-                                                      45
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  2990,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.mainDish2")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2990 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.mainDish3"),
-                                                      27,
-                                                      39
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  3620,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.mainDish3")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 3620 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.mainDish4"),
-                                                      25,
-                                                      26
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  3990,-Ft
-                                                </div>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.mainDish4")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 3990 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.mainDish5"),
-                                                      29,
-                                                      29
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  6640,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 9, 12 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.mainDish5")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 6640 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.mainDish6")
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  2960,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.mainDish6")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2960 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.mainDish7")
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  3940,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.mainDish7")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 3940 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-9635760">
@@ -798,93 +785,88 @@ const Menu = () => {
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.garnish1"),
-                                                      25,
-                                                      27
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  1130,-Ft (790,-Ft)
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.garnish1")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 1130 Ft (790 Ft)
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.garnish2"),
-                                                      20,
-                                                      23
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  1240,-Ft (870,-Ft)
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.garnish2")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 1240 Ft (870 Ft)
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.garnish3"),
-                                                      23,
-                                                      25
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  1120,-Ft (790,-Ft)
-                                                </div>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.garnish3")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 1120 Ft (790 Ft)
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.garnish4")
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  560,-Ft (390,-Ft)
-                                                </div>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.garnish4")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 560 Ft (390 Ft)
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.garnish5")
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  420,-Ft
-                                                </div>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.garnish5")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 420 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
-                                              <p class="mgt-item-price-description">
-                                                {/* {t("allergens")}: 1 */}
-                                              </p>
                                             </div>
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-9635760">
                                               <p class="mgt-header-block-subtitle">
@@ -905,100 +887,87 @@ const Menu = () => {
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.desser1"),
-                                                      27,
-                                                      26
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  1910,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.desser1")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 1910 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.desser2")
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  2260,-Ft (1580,-Ft)
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,7,8,5 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.desser2")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2260 Ft (1580 Ft)
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.desser3"),
-                                                      26,
-                                                      26
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  1460,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 3,7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.desser3")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 1460 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.desser4"),
-                                                      26,
-                                                      28
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  2210,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,7,8,5 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.desser4")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2210 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.desser5"),
-                                                      26,
-                                                      28
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  2210,-Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,7,8 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.desser5")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2210 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                           </div>
@@ -1080,24 +1049,21 @@ const Menu = () => {
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t(
-                                                        "menuPage.sesionalSoup1"
-                                                      ),
-                                                      33,
-                                                      31
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  2850 Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,7,9 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t(
+                                                      "menuPage.sesionalSoup1"
+                                                    )}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2850 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-16188151">
@@ -1120,45 +1086,39 @@ const Menu = () => {
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t(
-                                                        "menuPage.sesionalDessert1"
-                                                      ),
-                                                      29,
-                                                      29
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  2240 Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,7,8 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t(
+                                                      "menuPage.sesionalDessert1"
+                                                    )}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2240 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                               {/* <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                                 <div class="mgt-item-price-details">
-                                                  <div class="mgt-item-price-line"></div>
-                                                  <div class="mgt-item-price-title-holder">
-                                                    <h4>
-                                                      {menuSlicer(
-                                                        t(
-                                                          "menuPage.sesionalDessert2"
-                                                        ),
-                                                        26,
-                                                        26
-                                                      )}
-                                                    </h4>
-                                                  </div>
-                                                  <div class="mgt-item-price-value">
-                                                    1200 Ft
-                                                  </div>
-                                                  <p class="mgt-item-price-description">
-                                                    {t("allergens")}: 3,7
-                                                  </p>
+                                                   <h4>
+                                                  <b>
+                                                    {t(
+                                                      "menuPage.sesionalDessert1"
+                                                    )}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2240 Ft
+                                                  </span>
+                                                </h4>
                                                 </div>
                                               </div> */}
                                             </div>
@@ -1188,68 +1148,59 @@ const Menu = () => {
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t(
-                                                        "menuPage.sesionalMainDish1"
-                                                      ),
-                                                      26,
-                                                      26
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  4480 Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,7,10 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t(
+                                                      "menuPage.sesionalMainDish1"
+                                                    )}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 4480 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t(
-                                                        "menuPage.sesionalMainDish2"
-                                                      ),
-                                                      28,
-                                                      32
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  3680 Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,4,7 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t(
+                                                      "menuPage.sesionalMainDish2"
+                                                    )}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 3680 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t(
-                                                        "menuPage.sesionalMainDish3"
-                                                      ),
-                                                      25,
-                                                      29
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  7980 Ft
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,7,12 */}
-                                                </p>
+                                                <h4>
+                                                  <b>
+                                                    {t(
+                                                      "menuPage.sesionalMainDish3"
+                                                    )}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 7980 Ft
+                                                  </span>
+                                                </h4>
                                               </div>
                                             </div>
                                           </div>
