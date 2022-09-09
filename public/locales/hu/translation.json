@@ -123,7 +123,7 @@
 
     "menuPage": {
         "ourFoods": "Ételeinket hazai, főként saját termelésű alapanyagokból készítjük. Fogásainknál főként a tradicionális magyar és a helyi konyha alapízei dominálnak.",
-        "sesionalMenu": "Szezonális menü (augusztus)",
+        "sesionalMenu": "Szezonális menü (szeptember)",
         "warningHalfPrice": "Felhívjuk kedves vendégeink figyelmét, hogy a zárójelben feltüntetett árak fél adagra vonatkoznak.",
         "servicePrice": "Feltüntetett árainkra +10% szervízdíjat számolunk fel, melyet számlája végösszege tartalmaz.",
         "allergies": "Az étlapon jelölve találják az egyes ételek allergén tartalmát! A további allergén információkkal kapcsolatos tájékoztatásban kérje Kollegáink segítségét! Köszönjük!",
@@ -168,13 +168,13 @@
         "desser3": "Tárkonykrém erdei gyümölcs kompóttal",
         "desser4": "Pipacs csoki trió, ropogós tuile-lal",
         "desser5": "A séf csokis palacsintája",
-        "sheepApril": "Augusztus",
+        "sheepApril": "Szeptember",
         "sesionalMenuShort": "Szezonális menü",
-        "sesionalSoup1": "Legényfogóleves friss kaporral",
-        "sesionalDessert1": "A séf csokoládés palacsintája",
+        "sesionalSoup1": "Tárkonyos Keleméri báránybelsőség leves burgonyagombóccal",
+        "sesionalDessert1": "Sült fagylalt gyümölcsökkel",
         "sesionalDessert2": "Klasszikus fagylalt kehely",
         "sesionalMainDish1": "Bivaly Burger",
-        "sesionalMainDish2": "Szürkeharcsapaprikás túrós csuszával",
-        "sesionalMainDish3": "Sertésszűz vargányahabbal zöldfűszeres piskótatekerccsel"
+        "sesionalMainDish2": "Ropogós csirkeszárnyak steak burgonyával chili szósszal",
+        "sesionalMainDish3": "Vadragu zöldségekkel"
     }
 }

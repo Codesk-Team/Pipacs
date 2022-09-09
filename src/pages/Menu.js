@@ -1060,13 +1060,13 @@ const Menu = () => {
                                                       t(
                                                         "menuPage.sesionalSoup1"
                                                       ),
-                                                      31,
+                                                      33,
                                                       31
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  2360 Ft
+                                                  2850 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {/* {t("allergens")}: 1,3,7,9 */}
@@ -1106,7 +1106,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  1980 Ft
+                                                  2240 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {/* {t("allergens")}: 1,3,7,8 */}
@@ -1190,13 +1190,13 @@ const Menu = () => {
                                                       t(
                                                         "menuPage.sesionalMainDish2"
                                                       ),
-                                                      27,
+                                                      28,
                                                       32
                                                     )}
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  6640 Ft
+                                                  3680 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {/* {t("allergens")}: 1,3,4,7 */}
@@ -1218,7 +1218,7 @@ const Menu = () => {
                                                   </h4>
                                                 </div>
                                                 <div class="mgt-item-price-value">
-                                                  5620 Ft
+                                                  7980 Ft
                                                 </div>
                                                 <p class="mgt-item-price-description">
                                                   {/* {t("allergens")}: 1,3,7,12 */}
