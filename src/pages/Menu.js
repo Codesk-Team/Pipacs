@@ -29,6 +29,37 @@ const Menu = () => {
     );
   };
 
+  const threeLinerMenuSlicer = (
+    text,
+    huMaxLengthOne,
+    huMaxLengthTwo,
+    enMaxLengthOne,
+    enMaxLengthTwo
+  ) => {
+    const textLenght = text.length;
+    let maxLengthOne = i18n.language === "hu" ? huMaxLengthOne : enMaxLengthOne;
+
+    if (!maxLengthOne) {
+      maxLengthOne = 15;
+    }
+
+    let maxLengthTwo = i18n.language === "hu" ? huMaxLengthTwo : enMaxLengthTwo;
+
+    if (!maxLengthTwo) {
+      maxLengthTwo = 15;
+    }
+
+    return (
+      <>
+        {text.slice(0, maxLengthOne)}
+        <br />
+        {text.slice(maxLengthOne, maxLengthTwo)}
+        {/* <br /> */}
+        {text.slice(maxLengthTwo, textLenght)}
+      </>
+    );
+  };
+
   return (
     <div class="home page-template-default page page-id-3699 wpb-js-composer js-comp-ver-5.2.1 vc_responsive">
       <Header />
@@ -300,62 +331,58 @@ const Menu = () => {
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.soup1"),
-                                                      21,
-                                                      23
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  2460,-Ft (1720,-Ft)
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,9 */}
-                                                </p>
+                                                {/* <div class="mgt-item-price-line"></div> */}
+                                                {/* <div class="mgt-item-price-title-holder"> */}
+                                                <h4>
+                                                  {t("menuPage.soup1")}{" "}
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2460 Ft (1720 Ft)
+                                                  </span>
+                                                </h4>
+                                                {/* <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 1,3,9
+                                                </p> */}
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-theme clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.soup2"),
-                                                      23,
-                                                      24
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  2850,-Ft (1990,-Ft)
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 3,7,9 */}
-                                                </p>
+                                                <h4>
+                                                  {t("menuPage.soup2")}{" "}
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2850 Ft (1990 Ft)
+                                                  </span>
+                                                </h4>
+                                                {/* <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 3,7,9
+                                                </p>  */}
                                               </div>
                                             </div>
                                             <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
-                                                <div class="mgt-item-price-line"></div>
-                                                <div class="mgt-item-price-title-holder">
-                                                  <h4>
-                                                    {menuSlicer(
-                                                      t("menuPage.soup3"),
-                                                      23,
-                                                      26
-                                                    )}
-                                                  </h4>
-                                                </div>
-                                                <div class="mgt-item-price-value">
-                                                  3120,-Ft (2190,-Ft)
-                                                </div>
-                                                <p class="mgt-item-price-description">
-                                                  {/* {t("allergens")}: 1,3,9 */}
-                                                </p>
+                                                <h4>
+                                                  {t("menuPage.soup3")}{" "}
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 3120Ft (2190 Ft)
+                                                  </span>
+                                                </h4>
+                                                {/* <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 1,3,9
+                                                </p> */}
                                               </div>
                                             </div>
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-9635760">
