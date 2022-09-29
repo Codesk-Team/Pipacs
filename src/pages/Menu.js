@@ -1061,7 +1061,7 @@ const Menu = () => {
                                                       fontFamily: "cabin",
                                                     }}
                                                   >
-                                                    - 2850 Ft
+                                                    - 3280 Ft
                                                   </span>
                                                 </h4>
                                               </div>
@@ -1098,7 +1098,7 @@ const Menu = () => {
                                                       fontFamily: "cabin",
                                                     }}
                                                   >
-                                                    - 2240 Ft
+                                                    - 2380 Ft
                                                   </span>
                                                 </h4>
                                               </div>
@@ -1179,12 +1179,12 @@ const Menu = () => {
                                                       fontFamily: "cabin",
                                                     }}
                                                   >
-                                                    - 3680 Ft
+                                                    - 7980 Ft
                                                   </span>
                                                 </h4>
                                               </div>
                                             </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                            {/* <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
                                                 <h4>
                                                   <b>
@@ -1199,6 +1199,51 @@ const Menu = () => {
                                                     }}
                                                   >
                                                     - 7980 Ft
+                                                  </span>
+                                                </h4>
+                                              </div>
+                                            </div> */}
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="wpb_column vc_column_container vc_col-sm-6">
+                                        <div class="vc_column-inner">
+                                          <div class="wpb_wrapper">
+                                            <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-82732155">
+                                              <p class="mgt-header-block-subtitle">
+                                                {t(
+                                                  "menuPage.sesionalMenuShort"
+                                                )}
+                                              </p>
+                                              <h2 class="mgt-header-block-title text-font-weight-default">
+                                                {t(
+                                                  "menuPage.sesionalWarmAppetizers"
+                                                )}
+                                              </h2>
+                                            </div>
+                                            <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_3 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_black wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight">
+                                              <span class="vc_sep_holder vc_sep_holder_l">
+                                                <span class="vc_sep_line"></span>
+                                              </span>
+                                              <span class="vc_sep_holder vc_sep_holder_r">
+                                                <span class="vc_sep_line"></span>
+                                              </span>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <h4>
+                                                  <b>
+                                                    {t(
+                                                      "menuPage.sesionalWarmAppetizer1"
+                                                    )}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 7500 Ft
                                                   </span>
                                                 </h4>
                                               </div>
