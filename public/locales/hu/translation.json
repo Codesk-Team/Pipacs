@@ -123,7 +123,7 @@
 
     "menuPage": {
         "ourFoods": "Ételeinket hazai, főként saját termelésű alapanyagokból készítjük. Fogásainknál főként a tradicionális magyar és a helyi konyha alapízei dominálnak.",
-        "sesionalMenu": "Szezonális menü (október)",
+        "sesionalMenu": "Szezonális menü (november)",
         "warningHalfPrice": "Felhívjuk kedves vendégeink figyelmét, hogy a zárójelben feltüntetett árak fél adagra vonatkoznak.",
         "servicePrice": "Feltüntetett árainkra +10% szervízdíjat számolunk fel, melyet számlája végösszege tartalmaz.",
         "allergies": "Az étlapon jelölve találják az egyes ételek allergén tartalmát! A további allergén információkkal kapcsolatos tájékoztatásban kérje Kollegáink segítségét! Köszönjük!",
@@ -168,15 +168,15 @@
         "desser3": "Tárkonykrém erdei gyümölcs kompóttal",
         "desser4": "Pipacs csoki trió, ropogós tuile-lal",
         "desser5": "A séf csokis palacsintája",
-        "sheepApril": "Október",
+        "sheepApril": "November",
         "sesionalMenuShort": "Szezonális menü",
-        "sesionalSoup1": "Harcsa halászlé",
-        "sesionalDessert1": "Pipacs sajttorta duó",
+        "sesionalSoup1": "Liba korhelyleves",
+        "sesionalDessert1": "Pipacs csokoládé souflé Baileys fagylalttal",
         "sesionalDessert2": "Klasszikus fagylalt kehely",
-        "sesionalMainDish1": "Mátrai Bivaly Burger kéksajttal és baconnel (csípősen is)",
-        "sesionalMainDish2": "Szarvasgerinc árpakása rizottóval erdei gombákkal bikavér mártással mogyorós csipkével",
+        "sesionalMainDish1": "Hízott libamáj Burger körtével",
+        "sesionalMainDish2": "Libacomb csipkével birssel és káposztával",
         "sesionalMainDish3": "Vadragu zöldségekkel",
         "sesionalWarmAppetizers": "Meleg előétel",
-        "sesionalWarmAppetizer1": "Rakott libamáj szőlőmártással"
+        "sesionalWarmAppetizer1": "Kacsamell és pecsenyemáj zöldséges tabbouleh"
     }
 }

@@ -1160,7 +1160,7 @@ const Menu = () => {
                                                       fontFamily: "cabin",
                                                     }}
                                                   >
-                                                    - 4480 Ft
+                                                    - 7860 Ft
                                                   </span>
                                                 </h4>
                                               </div>
@@ -1179,7 +1179,7 @@ const Menu = () => {
                                                       fontFamily: "cabin",
                                                     }}
                                                   >
-                                                    - 7980 Ft
+                                                    - 8120 Ft
                                                   </span>
                                                 </h4>
                                               </div>
