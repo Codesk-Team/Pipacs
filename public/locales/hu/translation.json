@@ -185,13 +185,14 @@
         "desser5": "A séf csokis palacsintája",
         "sheepApril": "December",
         "sesionalMenuShort": "Szezonális menü",
-        "sesionalSoup1": "Liba korhelyleves",
-        "sesionalDessert1": "Pipacs csokoládé souflé Baileys fagylalttal",
-        "sesionalDessert2": "Klasszikus fagylalt kehely",
-        "sesionalMainDish1": "Hízott libamáj Burger körtével",
-        "sesionalMainDish2": "Libacomb csipkével birssel és káposztával",
-        "sesionalMainDish3": "Vadragu zöldségekkel",
+        "sesionalSoup1": "Harcsa halászlé",
+        "sesionalSoup2": "Bárányraguleves keleméri báránykából",
+        "sesionalDessert1": "Szirupos diótorta",
+        "sesionalDessert2": "Churros",
+        "sesionalMainDish1": "Töltött káposzta kakastaréj szalonnával",
+        "sesionalMainDish2": "Pulykamell sajtkéregben aszalt gyümölcsökkel",
+        "sesionalMainDish3": "Bivaly Burger",
         "sesionalWarmAppetizers": "Meleg előétel",
-        "sesionalWarmAppetizer1": "Kacsamell és pecsenyemáj zöldséges tabbouleh"
+        "sesionalWarmAppetizer1": "Kocsonya"
     }
 }

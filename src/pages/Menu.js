@@ -1061,7 +1061,24 @@ const Menu = () => {
                                                       fontFamily: "cabin",
                                                     }}
                                                   >
-                                                    - 3280 Ft
+                                                    - 3680 Ft
+                                                  </span>
+                                                </h4>
+                                              </div>
+                                              <div class="mgt-item-price-details">
+                                                <h4>
+                                                  <b>
+                                                    {t(
+                                                      "menuPage.sesionalSoup2"
+                                                    )}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 2850 Ft
                                                   </span>
                                                 </h4>
                                               </div>
@@ -1098,29 +1115,29 @@ const Menu = () => {
                                                       fontFamily: "cabin",
                                                     }}
                                                   >
-                                                    - 2380 Ft
+                                                    - 2250 Ft
                                                   </span>
                                                 </h4>
                                               </div>
-                                              {/* <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                                 <div class="mgt-item-price-details">
-                                                   <h4>
-                                                  <b>
-                                                    {t(
-                                                      "menuPage.sesionalDessert1"
-                                                    )}{" "}
-                                                  </b>
-                                                  <span
-                                                    style={{
-                                                      fontSize: 18,
-                                                      fontFamily: "cabin",
-                                                    }}
-                                                  >
-                                                    - 2240 Ft
-                                                  </span>
-                                                </h4>
+                                                  <h4>
+                                                    <b>
+                                                      {t(
+                                                        "menuPage.sesionalDessert2"
+                                                      )}{" "}
+                                                    </b>
+                                                    <span
+                                                      style={{
+                                                        fontSize: 18,
+                                                        fontFamily: "cabin",
+                                                      }}
+                                                    >
+                                                      - 1250 Ft
+                                                    </span>
+                                                  </h4>
                                                 </div>
-                                              </div> */}
+                                              </div>
                                             </div>
                                           </div>
                                         </div>
@@ -1146,44 +1163,60 @@ const Menu = () => {
                                                 <span class="vc_sep_line"></span>
                                               </span>
                                             </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <h4>
-                                                  <b>
-                                                    {t(
-                                                      "menuPage.sesionalMainDish1"
-                                                    )}{" "}
-                                                  </b>
-                                                  <span
-                                                    style={{
-                                                      fontSize: 18,
-                                                      fontFamily: "cabin",
-                                                    }}
-                                                  >
-                                                    - 7860 Ft
-                                                  </span>
-                                                </h4>
-                                              </div>
+                                            {/* <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig"> */}
+                                            <div class="mgt-item-price-details">
+                                              <h4>
+                                                <b>
+                                                  {t(
+                                                    "menuPage.sesionalMainDish1"
+                                                  )}{" "}
+                                                </b>
+                                                <span
+                                                  style={{
+                                                    fontSize: 18,
+                                                    fontFamily: "cabin",
+                                                  }}
+                                                >
+                                                  - 4500 Ft
+                                                </span>
+                                              </h4>
                                             </div>
-                                            <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
-                                              <div class="mgt-item-price-details">
-                                                <h4>
-                                                  <b>
-                                                    {t(
-                                                      "menuPage.sesionalMainDish2"
-                                                    )}{" "}
-                                                  </b>
-                                                  <span
-                                                    style={{
-                                                      fontSize: 18,
-                                                      fontFamily: "cabin",
-                                                    }}
-                                                  >
-                                                    - 8120 Ft
-                                                  </span>
-                                                </h4>
-                                              </div>
+                                            <div class="mgt-item-price-details">
+                                              <h4>
+                                                <b>
+                                                  {t(
+                                                    "menuPage.sesionalMainDish2"
+                                                  )}{" "}
+                                                </b>
+                                                <span
+                                                  style={{
+                                                    fontSize: 18,
+                                                    fontFamily: "cabin",
+                                                  }}
+                                                >
+                                                  - 7820 Ft
+                                                </span>
+                                              </h4>
                                             </div>
+                                            <div class="mgt-item-price-details">
+                                              <h4>
+                                                <b>
+                                                  {t(
+                                                    "menuPage.sesionalMainDish3"
+                                                  )}{" "}
+                                                </b>
+                                                <span
+                                                  style={{
+                                                    fontSize: 18,
+                                                    fontFamily: "cabin",
+                                                  }}
+                                                >
+                                                  - 4480 Ft
+                                                </span>
+                                              </h4>
+                                            </div>
+                                            {/* </div> */}
+
                                             {/* <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                               <div class="mgt-item-price-details">
                                                 <h4>
@@ -1243,7 +1276,7 @@ const Menu = () => {
                                                       fontFamily: "cabin",
                                                     }}
                                                   >
-                                                    - 7500 Ft
+                                                    - 3250 Ft
                                                   </span>
                                                 </h4>
                                               </div>

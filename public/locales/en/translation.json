@@ -137,7 +137,7 @@
 
     "menuPage": {
         "ourFoods": "Our food is made from local, mainly home-grown ingredients. Our dishes are mainly based on traditional Hungarian and local cuisine.",
-        "sesionalMenu": "Seasonal Menu (November)",
+        "sesionalMenu": "Seasonal Menu (december)",
         "warningHalfPrice": "Please note that the prices in the brackets are for a half portion.",
         "servicePrice": "A service charge of +10% will be added to the prices indicated, which will be included in the total amount of your invoice.",
         "allergies": "The allergen content of each food is marked on the menu! For further allergen information, please ask our colleagues! Thank you!",
@@ -182,15 +182,16 @@
         "desser3": "Tarragon cream with forest fruit compote",
         "desser4": "„Pipacs” chocolate trio with crispy tuile",
         "desser5": "The Chef’s chocolate pancake",
-        "sheepApril": "November",
+        "sheepApril": "December",
         "sesionalMenuShort": "Seasonal menu",
-        "sesionalSoup1": "Goose soup",
-        "sesionalDessert1": "Poppy chocolate soufflé with Baileys ice cream",
-        "sesionalDessert2": "Classic ice cream cup",
-        "sesionalMainDish1": "Fatted foie gras Burger with pears",
-        "sesionalMainDish2": "Goose leg with lace, quince and cabbage",
-        "sesionalMainDish3": "With wild vegetables",
+        "sesionalSoup1": "Catfish soup",
+        "sesionalSoup2": "Lamb ragout soup with lamb from Keleméri",
+        "sesionalDessert1": "Walnut cake with syrup",
+        "sesionalDessert2": "Churros",
+        "sesionalMainDish1": "Stuffed cabbage with roostercomb bacon",
+        "sesionalMainDish2": "Turkey breast in a cheese crust with dried fruits",
+        "sesionalMainDish3": "Buffalo Burger",
         "sesionalWarmAppetizers": "Warm appetizer",
-        "sesionalWarmAppetizer1": "Duck breast and roast liver vegetable tabbouleh"
+        "sesionalWarmAppetizer1": "Jelly (mostly made from pork)"
     }
 }
