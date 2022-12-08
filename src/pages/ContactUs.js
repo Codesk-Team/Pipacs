@@ -369,6 +369,51 @@ const ContactUs = () => {
                       </a>
                     </div>
                   </div>
+                  <div class="wpb_text_column wpb_content_element contact-content">
+                    <div class="wpb_wrapper">
+                      <h3 style={{ textAlign: "center" }}>
+                        {t("contactUsPage.holidayOpeningHours")}
+                      </h3>
+                      <p style={{ textAlign: "center" }}>
+                        {t("contactUsPage.firstDay")}
+                        <br />
+                        {t("contactUsPage.secondDay")}
+                        <br />
+                        {t("contactUsPage.thirdDay")}
+                        <br />
+                        {t("contactUsPage.fourthDay")}
+                        <br />
+                        {t("contactUsPage.fifthDay")}
+                        <br />
+                        {t("contactUsPage.sixthDay")}
+                        <br />
+                        {t("contactUsPage.seventhDay")}
+                        <br />
+                        {t("contactUsPage.eightDay")}
+                        <br />
+                        {t("contactUsPage.ninthDay")}
+                        <br />
+                        {t("contactUsPage.tenthDay")}
+                        <br />
+                        {t("contactUsPage.eleventhDay")}
+                        <br />
+                        {t("contactUsPage.twelfthDay")}
+                        <br />
+                        {t("contactUsPage.additionalRange")}
+                        <br />
+                        <b>{t("contactUsPage.openingDay")}</b>
+                      </p>
+                      {t("contactUsPage.tableReservation")}{" "}
+                      <a href="tel:+36-30-117-7949" class="__cf_email__">
+                        +36 30 117 7949
+                      </a>
+                      <br />
+                      E-mail:{" "}
+                      <a href="mailto:sef@egerpipacs.hu " class="__cf_email__">
+                        sef@egerpipacs.hu
+                      </a>
+                    </div>
+                  </div>
                   <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey">
                     <span class="vc_sep_holder vc_sep_holder_l">
                       <span class="vc_sep_line"></span>
