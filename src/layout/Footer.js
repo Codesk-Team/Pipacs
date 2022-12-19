@@ -24,6 +24,9 @@ const Footer = () => {
                   <p> {t("contactUsPage.fridayOH")}</p>
                   <p> {t("contactUsPage.sundayOH")}</p>
                   <p> {t("contactUsPage.saturdayOH")}</p>
+                  <Link to="/contact-us">
+                    <p> {t("contactUsPage.clickToViewHolidayOpeningHours")}</p>
+                  </Link>
                   <p>
                     <span class="text-color-theme">
                       {t("footer.openEveryDay")}
