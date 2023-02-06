@@ -269,31 +269,6 @@ const Rooms = () => {
                   </p>
 
                   <p>
-                    {/* Gyermek kedvezmény: */}
-                    {t("roomsPage.childDiscount")}
-                    <br />
-                    {/* Szülőkkel egy szobában pótágyon (max. 2 pótágy/szoba), min.
-                    2 teljes fizető vendég esetén: */}
-                    {t("roomsPage.withParents")}
-                  </p>
-
-                  <p>
-                    {/* -0-14 éves korig ingyenes. */}
-                    {t("roomsPage.free")}
-                  </p>
-
-                  <p>
-                    {/* Félpanziós étkezésük kedvezményes ára: */}
-                    {t("roomsPage.halfBoardDiscount")}
-                    <br />
-                    {/* 0-2 éves korig díjmentes, */}
-                    {t("roomsPage.freeForBabies")}
-                    <br />
-                    {/* 2-14 éves korig 2.000 Ft/fő/alkalom. */}
-                    {t("roomsPage.olderChild")}
-                  </p>
-
-                  <p>
                     {/* Háziállat nem hozható. */}
                     {t("roomsPage.pet")}
                   </p>

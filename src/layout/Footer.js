@@ -86,6 +86,9 @@ const Footer = () => {
                       </a>
                     </span>
                   </p>
+                  <p>
+                    {t("contactUsPage.registrationNumber")}
+                  </p>
                   <div class="widget_barrel_social_icons shortcode_barrel_social_icons">
                     <div class="social-icons-wrapper">
                       <ul>
