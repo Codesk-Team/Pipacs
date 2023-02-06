@@ -133,6 +133,21 @@
 
     "menuPage": {
         "ourFoods": "Our food is made from local, mainly home-grown ingredients. Our dishes are mainly based on traditional Hungarian and local cuisine.",
+        "sheepMenu": {
+            "title": "Directly from our farm in Kelemér",
+            "subTitle1": "In December 2022, Kelemér lamb received EU geographical indication protection, which can be associated with the highest quality in the food industry.",
+            "subTitle2": "A product name can be recognized as a geographical indication if the product is specifically linked to the place where it is made. Geographical indications make it easier for consumers to identify products that are of good quality and can be trusted.",
+            "subTitle3": "Geographical indications are considered intellectual property.",
+            "menuName": "Keleméri bárányhúsból készült ételeink",
+            "meal1": "Kelemér lamb rillettes with fattened foie gras (with homemade bread and artisanal pickles)",
+            "meal2": "Kelemér lamb ragout soup with green spiced potato dumplings",
+            "meal3": "Kelemér lamb burger",
+            "meal4": "Kelemér lamb with roasted cabbage and homemade noodles",
+            "meal5": "Kelemér mutton stew with Sztrapacska with homemade pickles",
+            "additionalText1": "Our farm is located 70 km north of Eger, at the foot of the Gömör-Szepesi Mountains. The meat of the lambs bred here, i.e. „Keleméri lamb”, comes from sires from Île-de-France or Suffolk and is kept and raised in Kelemér from selection to slaughter.",
+            "additionalText2": "The feeding of the Keleméri lamb is based on strict rules. Lamb feed produced based on a unique recipe must not contain soy, GMO plants, animal protein, wheat and corn, as well as medicine. It grazes 97 types of herbs on our organic pasture.",
+            "additionalText3": "The physical and sensory characteristics of lamb meat: fresh, clean, spicy smell, spicy taste and crumbly texture, fresh red color, no fat on the meat or in the meat, the surface of the cut meat is marbled thanks to the thin intermuscular fat layer."
+        },
         "sesionalMenu": "Seasonal Menu (february)",
         "warningHalfPrice": "Please note that the prices in the brackets are for a half portion.",
         "servicePrice": "We charge a +12% service fee to our prices, which includes in the total amount of the invoice.",

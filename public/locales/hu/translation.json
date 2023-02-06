@@ -134,6 +134,21 @@
 
     "menuPage": {
         "ourFoods": "Ételeinket hazai, főként saját termelésű alapanyagokból készítjük. Fogásainknál főként a tradicionális magyar és a helyi konyha alapízei dominálnak.",
+        "sheepMenu": {
+            "title": "Egyenesen keleméri farmunkról",
+            "subTitle1": "2022. decemberében a Keleméri bárányhús EU-s földrajzi árujelző oltalmat kapott, amely a legmagasabb élelmiszeripari minőséggel társítható.",
+            "subTitle2": "Egy termékelnevezés akkor ismerhető el földrajzi árujelzőként, ha a termék konkrétan ahhoz a helyhez kötődik, ahol készül. A földrajzi jelzések segítségével a fogyasztók könnyebben tudják azonosítani azokat a termékeket, amelyek jó minőségűek, és amelyekben megbízhatnak.",
+            "subTitle3": "A földrajzi jelzések szellemi tulajdonnak minősülnek.",
+            "menuName": "Keleméri bárányhúsból készült ételeink",
+            "meal1": "Keleméri bárány rilettes hízott libamájjal (házi magos kenyérrel és kézműves savanyúsággal)",
+            "meal2": "Keleméri bárányraguleves zöldfűszeres burgonya gombóccal",
+            "meal3": "Keleméri bárány Burger",
+            "meal4": "Keleméri bárány sült, káposztával és házi nudlival",
+            "meal5": "Keleméri birkapörkölt sztrapacskával kézműves savanyúságokkal",
+            "additionalText1": "Egertől 70 km-re északi irányban, a Gömör-Szepesi-hegység lábán található farmunk. Az itt tenyésztett bárányok húsa, azaz a „Keleméri bárányhús”  Île-de-France vagy Suffolk apaállatoktól származó, és választástól a vágásig Keleméren tartott és nevelt bárány húsa.",
+            "additionalText2": "A Keleméri bárány takarmányozása szigorú szabályokon alapul. Az egyedi receptúra alapján gyártott báránytáp nem tartalmazhat szóját, GMO-s növényeket, állati eredetű fehérjét, búzát és kukoricát, valamint gyógyszert. Bio legelőnkön 97 féle gyógynövényt legel.",
+            "additionalText3": "A bárányhús fizikai és érzékszervi tulajdonságai: friss, tiszta, fűszeres illatú, fűszeres ízű és omlós állagú, színe üde pirosas, a húson vagy a húsban faggyúsodás nincs, a vágott hús felülete a vékony izomszövetközi zsírrétegnek köszönhetően márványozott."
+        },
         "sesionalMenu": "Szezonális menü (február)",
         "warningHalfPrice": "Felhívjuk kedves vendégeink figyelmét, hogy a zárójelben feltüntetett árak fél adagra vonatkoznak.",
         "servicePrice": "Feltüntetett árainkra +12% szervízdíjat számolunk fel, melyet számlája végösszege tartalmaz.",
