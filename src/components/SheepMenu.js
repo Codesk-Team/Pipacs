@@ -140,7 +140,10 @@ const SheepMenu = () => {
               class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1501952538196 text-size-medium"
               style={{ border: "2px solid #c69f7c" }}
             >
-              <div class="wpb_wrapper" style={{ textAlign: "center" }}>
+              <div
+                class="wpb_wrapper"
+                style={{ textAlign: "center", paddingBottom: "20px" }}
+              >
                 <p style={{ textAlign: "center" }}>
                   <span style={{ color: "#999999" }}>
                     <em>{t("menuPage.sheepMenu.additionalText1")}</em>
