@@ -349,7 +349,7 @@ const Menu = () => {
                                                       fontFamily: "cabin",
                                                     }}
                                                   >
-                                                    - 2850 Ft (1990 Ft)
+                                                    - 2280 Ft (1640 Ft)
                                                   </span>
                                                 </h4>
                                                 {/* <p class="mgt-item-price-description">
@@ -424,7 +424,7 @@ const Menu = () => {
                                                       fontFamily: "cabin",
                                                     }}
                                                   >
-                                                    - 6260 Ft (4380 Ft)
+                                                    - 2680 Ft (1880 Ft)
                                                   </span>
                                                 </h4>
                                                 {/* <p class="mgt-item-price-description">
@@ -444,7 +444,27 @@ const Menu = () => {
                                                       fontFamily: "cabin",
                                                     }}
                                                   >
-                                                    - 2680 Ft (1880 Ft)
+                                                    - 2550 Ft (1580 Ft)
+                                                  </span>
+                                                </h4>
+                                                {/* <p class="mgt-item-price-description">
+                                                  {t("allergens")}: 1,3,7
+                                                </p> */}
+                                              </div>
+                                            </div>
+                                            <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              <div class="mgt-item-price-details">
+                                                <h4>
+                                                  <b>
+                                                    {t("menuPage.localMeal4")}{" "}
+                                                  </b>
+                                                  <span
+                                                    style={{
+                                                      fontSize: 18,
+                                                      fontFamily: "cabin",
+                                                    }}
+                                                  >
+                                                    - 4480 Ft
                                                   </span>
                                                 </h4>
                                                 {/* <p class="mgt-item-price-description">
