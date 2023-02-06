@@ -1061,11 +1061,11 @@ const Menu = () => {
                                                       fontFamily: "cabin",
                                                     }}
                                                   >
-                                                    - 3680 Ft
+                                                    - 2460 Ft
                                                   </span>
                                                 </h4>
                                               </div>
-                                              <div class="mgt-item-price-details">
+                                              {/* <div class="mgt-item-price-details">
                                                 <h4>
                                                   <b>
                                                     {t(
@@ -1081,7 +1081,7 @@ const Menu = () => {
                                                     - 2850 Ft
                                                   </span>
                                                 </h4>
-                                              </div>
+                                              </div> */}
                                             </div>
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-16188151">
                                               <p class="mgt-header-block-subtitle">
@@ -1115,11 +1115,11 @@ const Menu = () => {
                                                       fontFamily: "cabin",
                                                     }}
                                                   >
-                                                    - 2250 Ft
+                                                    - 2260 Ft
                                                   </span>
                                                 </h4>
                                               </div>
-                                              <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
+                                              {/* <div class="mgt-item-price mgt-item-price-badge-color-red clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
                                                 <div class="mgt-item-price-details">
                                                   <h4>
                                                     <b>
@@ -1137,7 +1137,7 @@ const Menu = () => {
                                                     </span>
                                                   </h4>
                                                 </div>
-                                              </div>
+                                              </div> */}
                                             </div>
                                           </div>
                                         </div>
@@ -1177,7 +1177,7 @@ const Menu = () => {
                                                     fontFamily: "cabin",
                                                   }}
                                                 >
-                                                  - 4500 Ft
+                                                  - 5420 Ft
                                                 </span>
                                               </h4>
                                             </div>
@@ -1194,11 +1194,11 @@ const Menu = () => {
                                                     fontFamily: "cabin",
                                                   }}
                                                 >
-                                                  - 7820 Ft
+                                                  - 4360 Ft
                                                 </span>
                                               </h4>
                                             </div>
-                                            <div class="mgt-item-price-details">
+                                            {/* <div class="mgt-item-price-details">
                                               <h4>
                                                 <b>
                                                   {t(
@@ -1214,7 +1214,7 @@ const Menu = () => {
                                                   - 4480 Ft
                                                 </span>
                                               </h4>
-                                            </div>
+                                            </div> */}
                                             {/* </div> */}
 
                                             {/* <div class="mgt-item-price mgt-item-price-badge-color-black clearfix wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUpBig fadeInUpBig">
@@ -1239,7 +1239,7 @@ const Menu = () => {
                                           </div>
                                         </div>
                                       </div>
-                                      <div class="wpb_column vc_column_container vc_col-sm-6">
+                                      {/* <div class="wpb_column vc_column_container vc_col-sm-6">
                                         <div class="vc_column-inner">
                                           <div class="wpb_wrapper">
                                             <div class="mgt-header-block clearfix text-left text-black wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_content_element mgt-header-block-style-2 mgt-header-block-fontsize-regular mgt-header-texttransform-header mgt-header-block-82732155">
@@ -1283,7 +1283,7 @@ const Menu = () => {
                                             </div>
                                           </div>
                                         </div>
-                                      </div>
+                                      </div> */}
                                     </div>
                                   </div>
                                 </div>
