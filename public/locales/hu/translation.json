@@ -114,8 +114,49 @@
         "checkOut": "check out: 11.00-ig",
         "lateCheckOut": "Late check out felára",
         "earlyCheckIn": "Early check in felár",
-        "proPerson": "/fő"
+        "proPerson": "/fő",
+        "personPerNight": "fő / éj",
+        "valentineDay": "Valentin napi szoba"
     },
+
+   
+
+    "valentineDay": {
+        "title": "Valentin nap a Pipacsban",
+        "firstText": "Töltse az év legromantikusabb napját a Pipacs Panzióban!",
+        "subTitle": "Csomagajánlat tartalma:" ,
+        "bulletPointOne": "Szállás 2 fő részére 2 éjszakára Standard franciaágyas szobában",
+        "bulletPointTwo": "Pezsgő és romantikus virágszirom bekészítés érkezéskor a szobában",
+        "bulletPointThree": "Reggeli*",
+        "bulletPointFour": "Belépő a Demjéni Thermál fürdőbe nappali vagy romantikus éjszakai fürdőzésre",
+        "bulletPointFive": "Parkolás",
+        "bulletPointSix": "Wifi",
+        "priceBold": "58 000,-Ft (14 500,-fő/éj)",
+        "priceWithBalcony": "Erkélyes szoba felár: 2 000,-Ft/éj",
+        "offerValidity": "Csomag érvényessége: 2023.02. 09- 12 és 2023. 02.16-19",
+        "tax": "Az ár nem tartalmazza az idegenforgalmi adót (580,-/fő/éj), mely a helyszínen fizetendő.",
+        "halfBoardTitle":"Félpanziós étkezési lehetőség:",
+        "halfBoardSubTitle":"Romantikus gyertyafényes 2 fogásos vacsora 2 fő részére Pipacs Éttermünkben:",
+        "halfBoardTextOne":"Tanyasi húsleves illatos füvekkel",
+        "halfBoardTextTwo":"Zsályás csirkemell habos burgonyapürével",
+        "halfBoardTextThree":"Pipacs somlói galuska",
+        "halfBoardTextFour":"Ajándék pohár pezsgő (hibiszkuszvirággal)",
+        "halfBoardPrice":"9 800,-Ft/ fő /alkalom",
+        "breakfastOptionsTitle": "Választható reggelik:",
+        "breakfastOptionOneLine1": "Omlett /tükörtojás/rántotta/ főtt tojás (2db)",
+        "breakfastOptionOneLine2": "Választható feltéttel: bacon, hagyma, kolbász",
+        "HomeMadeBread": "Házi kenyér",
+        "FruitDrinkExtended": "Gyümölcslé (Narancslé/őszilé/almalé)",
+        "breakfastOptionTwoLine1": "Bécsi virsli",
+        "breakfastOptionTwoLine3": "Mustár/ majonéz",
+        "FruitDrink": "Gyümölcslé",
+        "breakfastOptionThreeLine1": "Füstölt bacon, füstölt kolbász",
+        "Butter": "Vaj",
+        "breakfastOptionFourLine1": "Sajttál (gouda, füstöltajt, camembert)",
+        "jam": "Dzsem",
+        "vegetables": "Zöldségek"
+    },
+
 
     "eventHallPage": {
         "intoText": "Rendezvényterem bemutatása",

@@ -1,10 +1,10 @@
-import React from "react";
-import Footer from "../layout/Footer";
-import Header from "../layout/Header";
-import { useTranslation } from "react-i18next";
+import React from 'react'
+import Footer from '../layout/Footer'
+import Header from '../layout/Header'
+import { useTranslation } from 'react-i18next'
 
 const Rooms = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <div class="home page-template-default page page-id-3699 wpb-js-composer js-comp-ver-5.2.1 vc_responsive">
@@ -21,7 +21,7 @@ const Rooms = () => {
                   <div class="page-item-title">
                     <h1 class="text-center texttransform-none">
                       {/* Szobák */}
-                      {t("rooms")}
+                      {t('rooms')}
                     </h1>
                   </div>
                 </div>
@@ -46,20 +46,20 @@ const Rooms = () => {
                           {/* <p class="mgt-header-block-subtitle">{t("rooms")}</p> */}
                           <h2 class="mgt-header-block-title text-font-weight-default">
                             {/* A felejthetetlen pihenésért... */}
-                            {t("roomsPage.unforgettableRest")}
+                            {t('roomsPage.unforgettableRest')}
                           </h2>
                           <div class="mgt-header-line mgt-header-line-margin-large"></div>
                         </div>
                         <div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInDown fadeInDown text-size-medium">
                           <div class="wpb_wrapper">
-                            <p style={{ textAlign: "center" }}>
-                              <span style={{ color: "#999999" }}>
+                            <p style={{ textAlign: 'center' }}>
+                              <span style={{ color: '#999999' }}>
                                 {/* Ha megpihennél a csodás ételek és borok után, a
                                 Pipacs Étterem egyedi, klimatizált szobáiban
                                 erre is van lehetőség. A másnap reggelt pedig
                                 kezdd a séfünk által összeállított mennyei a’la
                                 carte reggelivel! */}
-                                {t("roomsPage.restAfterWines")}
+                                {t('roomsPage.restAfterWines')}
                               </span>
                             </p>
                           </div>
@@ -93,7 +93,7 @@ const Rooms = () => {
                                     class="portfolio-item-image"
                                     style={{
                                       backgroundImage:
-                                        "url(assets/img/pipacs-room.webp)",
+                                        'url(assets/img/pipacs-room.webp)',
                                     }}
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
@@ -103,11 +103,11 @@ const Rooms = () => {
                                       Dessert / Events / Meat
                                     </span> */}
                                     <h4 class="title">
-                                      Pipacs {t("roomsPage.room")}
+                                      Pipacs {t('roomsPage.room')}
                                     </h4>
                                     <div class="project-description">
-                                      20.000 Ft /{" "}
-                                      {t("roomsPage.roomSlashNight")}
+                                      20.000 Ft /{' '}
+                                      {t('roomsPage.roomSlashNight')}
                                     </div>
                                   </div>
                                 </a>
@@ -124,7 +124,7 @@ const Rooms = () => {
                                     class="portfolio-item-image"
                                     style={{
                                       backgroundImage:
-                                        "url(assets/img/about_us_pipacs_bed2.webp)",
+                                        'url(assets/img/about_us_pipacs_bed2.webp)',
                                     }}
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
@@ -134,11 +134,11 @@ const Rooms = () => {
                                       Dessert / Events / Fish / Meat
                                     </span> */}
                                     <h4 class="title">
-                                      Kövirózsa {t("roomsPage.room")}
+                                      Kövirózsa {t('roomsPage.room')}
                                     </h4>
                                     <div class="project-description">
-                                      22.000 Ft /{" "}
-                                      {t("roomsPage.roomSlashNight")}
+                                      22.000 Ft /{' '}
+                                      {t('roomsPage.roomSlashNight')}
                                     </div>
                                   </div>
                                 </a>
@@ -159,7 +159,7 @@ const Rooms = () => {
                                     class="portfolio-item-image"
                                     style={{
                                       backgroundImage:
-                                        "url(assets/img/rooms_pipacs_main.webp)",
+                                        'url(assets/img/rooms_pipacs_main.webp)',
                                     }}
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
@@ -167,11 +167,11 @@ const Rooms = () => {
                                   <div class="info">
                                     {/* <span class="sub-title">Fish</span> */}
                                     <h4 class="title">
-                                      Veronika {t("roomsPage.room")}
+                                      Veronika {t('roomsPage.room')}
                                     </h4>
                                     <div class="project-description">
-                                      20.000 Ft /{" "}
-                                      {t("roomsPage.roomSlashNight")}
+                                      20.000 Ft /{' '}
+                                      {t('roomsPage.roomSlashNight')}
                                     </div>
                                   </div>
                                 </a>
@@ -192,7 +192,7 @@ const Rooms = () => {
                                     class="portfolio-item-image"
                                     style={{
                                       backgroundImage:
-                                        "url(assets/img/rooms_sarga_napraforgo_main.webp)",
+                                        'url(assets/img/rooms_sarga_napraforgo_main.webp)',
                                     }}
                                   ></div>
                                   <div class="portfolio-item-bg"></div>
@@ -200,11 +200,11 @@ const Rooms = () => {
                                   <div class="info">
                                     {/* <span class="sub-title">Fish</span> */}
                                     <h4 class="title">
-                                      Napraforgó {t("roomsPage.familyRoom")}
+                                      Napraforgó {t('roomsPage.familyRoom')}
                                     </h4>
                                     <div class="project-description">
-                                      39.000 Ft /{" "}
-                                      {t("roomsPage.roomSlashNight")}
+                                      39.000 Ft /{' '}
+                                      {t('roomsPage.roomSlashNight')}
                                     </div>
                                   </div>
                                 </a>
@@ -234,21 +234,21 @@ const Rooms = () => {
                 >
                   <span>
                     {/* Az ár tartalmazza: */}
-                    {t("roomsPage.priceContains")}
+                    {t('roomsPage.priceContains')}
                   </span>
                   <ul>
                     <li>
                       {/* Szállás nemdohányzó, légkondicionált szobában */}
-                      {t("roomsPage.notSmoking")}
+                      {t('roomsPage.notSmoking')}
                     </li>
                     <li>
                       {/* Fürdőszobai felszerelés (szappan, tusfürdő, sampon,
                       zuhanysapka), törölközők */}
-                      {t("roomsPage.bathroomEquipments")}
+                      {t('roomsPage.bathroomEquipments')}
                     </li>
                     <li>
                       {/* Parkolás kamerával megfigyelt, nem őrzött parkolóban */}
-                      {t("roomsPage.parking")}
+                      {t('roomsPage.parking')}
                     </li>
                     <li>Wifi</li>
                   </ul>
@@ -256,45 +256,178 @@ const Rooms = () => {
                     {/* Szobáink reggelivel foglalhatóak, melyet a szobaár nem
                     tartalmaz, ezt a helyszínen lehet szabadon választani a’la
                     carte reggeli étlapunk alapján. */}
-                    {t("roomsPage.tax")}
+                    {t('roomsPage.tax')}
                   </p>
 
-                  <p>{t("roomsPage.eatingPossibilities")}</p>
+                  <p>{t('roomsPage.eatingPossibilities')}</p>
 
-                  <p>{t("roomsPage.breakfast")}</p>
+                  <p>{t('roomsPage.breakfast')}</p>
 
                   <p>
                     {/* Félpanziós felár: 2.000 Ft/fő/alkalom */}
-                    {t("roomsPage.halfBoard")}
+                    {t('roomsPage.halfBoard')}
                   </p>
 
                   <p>
                     {/* Háziállat nem hozható. */}
-                    {t("roomsPage.pet")}
+                    {t('roomsPage.pet')}
                   </p>
 
                   <p>
                     {/* További információk: */}
-                    {t("roomsPage.additionalInfo")}
+                    {t('roomsPage.additionalInfo')}
                     <br />
                     {/* check in: 15.00-tól */}
-                    {t("roomsPage.checkIn")}
+                    {t('roomsPage.checkIn')}
                     <br />
                     {/* check out: 11.00-ig */}
-                    {t("roomsPage.checkOut")}
+                    {t('roomsPage.checkOut')}
                   </p>
 
                   <p>
                     {/* Late check out felára */}
-                    {t("roomsPage.lateCheckOut")}
+                    {t('roomsPage.lateCheckOut')}
                     <br />
-                    5.000 Ft{t("roomsPage.proPerson")}
+                    5.000 Ft{t('roomsPage.proPerson')}
                     <br />
                     {/* Early check in felár */}
-                    {t("roomsPage.earlyCheckIn")}
+                    {t('roomsPage.earlyCheckIn')}
                     <br />
-                    5.000 Ft{t("roomsPage.proPerson")}
+                    5.000 Ft{t('roomsPage.proPerson')}
                   </p>
+
+                  <div
+                    className="container"
+                    style={{
+                      display: 'flex',
+                      justifyContent: 'center',
+                      marginBottom: '30px',
+                    
+                      boxSizing: 'border-box'
+                    }}
+                  >
+                    <div
+                      class="portfolio-item-block text-left"
+                      style={{ width: '100%', height: '100%' }}
+                    >
+                      <div
+                        class="portfolio-item-block-inside "
+                        style={{ width: '100%', height: '100%' }}
+                      >
+                        <a
+                          href="assets/img/rooms_valentine_day_main.jpg"
+                          target="_self"
+                          rel="lightbox"
+                        >
+                          <div
+                            class="portfolio-item-image"
+                            style={{
+                              backgroundImage:
+                                'url(assets/img/rooms_valentine_day_main.jpg)',
+                              width: '100%',
+                              height: '100%',
+                            }}
+                          ></div>
+                          <div class="portfolio-item-bg"></div>
+
+                          <div class="info">
+                            {/* <span class="sub-title">Fish</span> */}
+                            <h4 class="title">
+                            {t('roomsPage.valentineDay')}
+                            </h4>
+                            <div class="project-description">
+                              14 500 Ft {t('roomsPage.personPerNight')}
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div style={{ textAlign: 'center', listStylePosition: 'inside' }}>
+                    {/* Valentine napi ajánlat */}
+
+                    <h2>{t('valentineDay.title')}</h2>
+                    <p> {t('valentineDay.firstText')} </p>
+                    <span>{t('valentineDay.subTitle')}</span>
+                    <ul>
+                      <li>{t('valentineDay.bulletPointOne')}</li>
+                      <li> {t('valentineDay.bulletPointTwo')} </li>
+                      <li>{t('valentineDay.bulletPointThree')}</li>
+                      <li>{t('valentineDay.bulletPointFour')}</li>
+                      <li>{t('valentineDay.bulletPointFive')}</li>
+                      <li>{t('valentineDay.bulletPointSix')}</li>
+                    </ul>
+                    <span>
+                      <strong>{t('valentineDay.priceBold')}</strong>
+                    </span>
+                    <p>{t('valentineDay.priceWithBalcony')}</p>
+                    <p>{t('valentineDay.offerValidity')}</p>
+
+                    <span>
+                      <u>{t('valentineDay.halfBoardTitle')}</u>
+                    </span>
+                    <dl>
+                      <dd>
+                        <i>
+                          <strong>{t('valentineDay.halfBoardSubTitle')}</strong>
+                        </i>
+                      </dd>
+                      <dd>
+                        <i>{t('valentineDay.halfBoardTextOne')}</i>
+                      </dd>
+                      <dd>
+                        <i>{t('valentineDay.halfBoardTextTwo')}</i>
+                      </dd>
+                      <dd>
+                        <i>{t('valentineDay.halfBoardTextThree')}</i>
+                      </dd>
+                      <dd>
+                        <i>{t('valentineDay.halfBoardTextFour')}</i>
+                      </dd>
+                      <dd>
+                        <strong>{t('valentineDay.halfBoardPrice')}</strong>
+                      </dd>
+                    </dl>
+
+                    {/*Breakfast */}
+                    <span>
+                      <u>{t('valentineDay.breakfastOptionsTitle')}</u>
+                    </span>
+                    <ol>
+                      <li>
+                        <dl>
+                          <dd>{t('valentineDay.breakfastOptionOneLine1')}</dd>
+                          <dd>{t('valentineDay.breakfastOptionOneLine2')}</dd>
+                          <dd>{t('valentineDay.HomeMadeBread')}</dd>
+                          <dd>{t('valentineDay.FruitJuiceExtended')}</dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dd>{t('valentineDay.breakfastOptionTwoLine1')}</dd>
+                          <dd>{t('valentineDay.HomeMadeBread')}</dd>
+                          <dd>{t('valentineDay.breakfastOptionTwoLine3')}</dd>
+                          <dd>{t('valentineDay.FruitJuice')}</dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dd>{t('valentineDay.breakfastOptionThreeLine1')}</dd>
+                          <dd>{t('valentineDay.HomeMadeBread')}</dd>
+                          <dd>{t('valentineDay.Butter')}</dd>
+                          <dd>{t('valentineDay.FruitJuice')}</dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dd>{t('valentineDay.breakfastOptionFourLine1')}</dd>
+                          <dd>{t('valentineDay.Butter')}</dd>
+                          <dd>{t('valentineDay.jam')}</dd>
+                          <dd>{t('valentineDay.FruitJuice')}</dd>
+                        </dl>
+                      </li>
+                    </ol>
+                  </div>
                 </div>
               </div>
             </div>
@@ -304,7 +437,7 @@ const Rooms = () => {
 
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default Rooms;
+export default Rooms

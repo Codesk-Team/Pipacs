@@ -6137,6 +6137,7 @@ body #content .wpb_text_column .mgt-button:last-child {
     overflow: hidden;
     float: left;
 }
+
 .portfolio-list.portfolio-with-spaces .portfolio-item-block,
 .portfolio-list.portfolio-with-spaces .portfolio-item-block .portfolio-item-bg {
     border: 15px solid transparent;
@@ -6747,6 +6748,10 @@ body #content .wpb_text_column .mgt-button:last-child {
     height: 550px;
     padding-bottom: 0;
 }
+
+
+
+
 .portfolio-list.portfolio-grid-layout-4 {
     /* display: none; */
 }

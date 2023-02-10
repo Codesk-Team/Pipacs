@@ -113,8 +113,46 @@
         "checkOut": "check out: until 11.00 am",
         "lateCheckOut": "Late check out surcharge",
         "earlyCheckIn": "Early check in surcharge",
-        "proPerson": "/person"
+        "proPerson": "/person",
+        "personPerNight": "person / night",
+        "valentineDay": "Valentine's day room"
     },
+
+    "valentineDay": {
+        "title": "Valentine's Day at Pipacs",
+        "firstText": "Spend the most romantic day of the year at Pipacs Pension!",
+        "subTitle": "Package offer:" ,
+        "bulletPointOne": "Accommodation for 2 people for 2 nights in a Standard double room",
+        "bulletPointTwo": "Champagne and romantic flower petals in the room upon arrival",
+        "bulletPointThree": "Breakfast*",
+        "bulletPointFour": "Entry to the Demjén Thermal Bath for day or romantic night bathing",
+        "bulletPointFive": "Parking",
+        "bulletPointSix": "Wifi",
+        "priceBold": "HUF 58,000 (HUF 14,500/person/night)",
+        "priceWithBalcony": "Extra charge for a room with a balcony: HUF 2,000/night",
+        "offerValidity": "Package validity: February 09-12, 2023 and February 16-19, 2023",
+        "halfBoardTitle":"Half-board meal option:",
+        "halfBoardSubTitle":"A romantic candlelit 2-course dinner for 2 people in our Pipacs Restaurant:",
+        "halfBoardTextOne":"Farm chicken soup with herbs",
+        "halfBoardTextTwo":"Sage chicken breast with foamy mashed potatoes",
+        "halfBoardTextThree":"Pipacs Somloi Trifle",
+        "halfBoardTextFour":"Gift: glass of champagne (with hibiscus flower)",
+        "halfBoardPrice":"HUF 9,800/person",
+        "breakfastOptionsTitle": "Optional breakfasts:",
+        "breakfastOptionOneLine1": "Omelet / scrambled eggs /fried eggs / boiled eggs (2 pcs.)",
+        "breakfastOptionOneLine2": "Optional toppings: bacon, onion, sausage",
+        "HomeMadeBread": "Home made bread",
+        "FruitJuiceExtended": "Fruit juice (Orange juice/peach juice/apple juice)",
+        "breakfastOptionTwoLine1": "Vienna sausage",
+        "breakfastOptionTwoLine3": "Mustard/mayonnaise",
+        "FruitJuice": "Fruit juice",
+        "breakfastOptionThreeLine1": "Smoked bacon, smoked sausage",
+        "Butter": "Butter",
+        "breakfastOptionFourLine1": "Cheese platter (gouda, smoked cheese, Camembert)",
+        "jam": "Jam",
+        "vegetables": "Vegetables"
+    },
+
 
     "eventHallPage": {
         "intoText": "Presentation of the event hall",
