@@ -24,9 +24,6 @@ const Footer = () => {
                   <p> {t("contactUsPage.fridayOH")}</p>
                   <p> {t("contactUsPage.sundayOH")}</p>
                   <p> {t("contactUsPage.saturdayOH")}</p>
-                  <Link to="/contact-us">
-                    <p> {t("contactUsPage.clickToViewHolidayOpeningHours")}</p>
-                  </Link>
                   <p>
                     <span class="text-color-theme">
                       {t("footer.openEveryDay")}
@@ -86,9 +83,7 @@ const Footer = () => {
                       </a>
                     </span>
                   </p>
-                  <p>
-                    {t("contactUsPage.registrationNumber")}
-                  </p>
+                  <p>{t("contactUsPage.registrationNumber")}</p>
                   <div class="widget_barrel_social_icons shortcode_barrel_social_icons">
                     <div class="social-icons-wrapper">
                       <ul>
